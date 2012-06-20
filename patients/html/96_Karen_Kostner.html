@@ -1,0 +1,720 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html xmlns:n1="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!-- Do NOT edit this HTML directly: it was generated via an XSLT transformation from a CDA Release 2 XML document. --><title>Cypress C32 Patient Test Record: Karen Kostner</title>
+<style type="text/css">
+body {
+  color: #003366;
+  background-color: #FFFFFF;
+  font-family: Verdana, Tahoma, sans-serif;
+  font-size: 11px;
+}
+
+a {
+  color: #003366;
+  background-color: #FFFFFF;
+}
+
+h1 {
+  font-size: 12pt;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 11pt;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 10pt;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 8pt;
+  font-weight: bold;
+}
+
+div {
+  width: 80%;
+}
+
+table {
+  line-height: 10pt;
+  width: 80%;
+}
+
+tr {
+  background-color: #ccccff;
+}
+
+td {
+  padding: 0.1cm 0.2cm;
+  vertical-align: top;
+}
+
+.h1center {
+  font-size: 12pt;
+  font-weight: bold;
+  text-align: center;
+  width: 80%;
+}
+
+.header_table{
+  border: 1pt inset #00008b;
+}
+
+.narr_table {
+  width: 100%;
+}
+
+.narr_tr {
+  background-color: #ffffcc;
+}
+
+.narr_th {
+  background-color: #ffd700;
+}
+
+.td_label{
+  font-weight: bold;
+  color: white;
+}
+          </style>
+</head>
+<body>
+<h1 class="h1center">Cypress C32 Patient Test Record: Karen Kostner</h1>
+<table class="header_table"><tbody>
+<tr>
+<td width="20%" bgcolor="#3399ff"><span class="td_label">Patient</span></td>
+<td colspan="3">Karen Kostner</td>
+</tr>
+<tr>
+<td width="20%" bgcolor="#3399ff"><span class="td_label">Date of birth</span></td>
+<td width="30%">January 26, 1966, 05:00:00  </td>
+<td width="15%" bgcolor="#3399ff"><span class="td_label">Sex</span></td>
+<td>Female</td>
+</tr>
+<tr>
+<td width="20%" bgcolor="#3399ff"><span class="td_label">Race</span></td>
+<td width="30%">White</td>
+<td width="15%" bgcolor="#3399ff"><span class="td_label">Ethnicity</span></td>
+<td>Not Hispanic or Latino</td>
+</tr>
+<tr>
+<td bgcolor="#3399ff"><span class="td_label">Contact info</span></td>
+<td> Pirmary Home:<br>202 Burlington Rd.<br>Bedford, MA 01730<br>Tel:  +1-781-271-3000<br>
+</td>
+<td bgcolor="#3399ff"><span class="td_label">Patient IDs</span></td>
+<td>4fe1ecc4a9ffcc03cd000716 Cypress<br>
+</td>
+</tr>
+</tbody></table>
+<table class="header_table"><tbody>
+<tr>
+<td width="20%" bgcolor="#3399ff"><span class="td_label">Document Id</span></td>
+<td width="80%">HITSP_C32v2.5_Rev6_16Sections_Entries_MinimalErrors 2.16.840.1.113883.3.72</td>
+</tr>
+<tr>
+<td width="20%" bgcolor="#3399ff"><span class="td_label">Document Created:</span></td>
+<td width="80%">June 20, 2012, 15:31:16  </td>
+</tr>
+</tbody></table>
+<table class="header_table"><tbody>
+<tr>
+<td width="20%" bgcolor="#3399ff"><span class="td_label">Author</span></td>
+<td width="80%">Auto Generated</td>
+</tr>
+<tr>
+<td bgcolor="#3399ff"><span class="td_label">Contact info</span></td>
+<td>
+<br>Tel:  +1-781-271-3000<br>
+</td>
+</tr>
+</tbody></table>
+<table class="header_table"><tbody>
+<tr>
+<td width="20%" bgcolor="#3399ff"><span class="td_label">Document maintained by</span></td>
+<td width="80%">Cypress</td>
+</tr>
+<tr>
+<td bgcolor="#3399ff"><span class="td_label">Contact info</span></td>
+<td width="80%">202 Burlington Rd.<br>Bedford, MA 01730<br>Tel:  +1-781-271-3000<br>
+</td>
+</tr>
+</tbody></table>
+<h2><a name="toc">Table of Contents</a></h2>
+<ul>
+<li><a href="#idm364832">Allergies and Adverse Reactions</a></li>
+<li><a href="#idm338608">Medications - Prescription and Non-Prescription</a></li>
+<li><a href="#idp247952">Encounters</a></li>
+<li><a href="#idp302496">Problems</a></li>
+<li><a href="#idp351856">Vital Signs</a></li>
+<li><a href="#idm603392">Surgeries</a></li>
+<li><a href="#idm391328">Diagnostic Results</a></li>
+<li><a href="#idm587200">Plan of Care</a></li>
+<li><a href="#idm537744">Social History</a></li>
+</ul> 
+    <script language="javascript">
+    var cur_view = "section";
+      function toggle(id) {
+        var e = document.getElementById(id);
+        if (cur_view=="section"){
+          document.getElementById("patient_information_by_section").style.display = 'none';
+          document.getElementById("table_by_encounter").style.display = 'block';
+          document.getElementById('toggle_button').innerHTML="View By Section";
+          cur_view = "encounter";
+        }else{
+          document.getElementById("patient_information_by_section").style.display = 'block';
+          document.getElementById("table_by_encounter").style.display = 'none';
+          document.getElementById('toggle_button').innerHTML="View By Encounter";
+          cur_view = "section";
+        }         
+      }
+    </script><div>
+      <h3><a href="#" onclick="toggle('table_by_encounter');" id="toggle_button">View By Encounter</a></h3>
+     </div>
+     <div id="table_by_encounter" style="display:none">
+
+
+            <br><br><h3>Encounter 0</h3>
+            <table border="1" width="100%" class="narr_table"><tbody>
+<tr>
+<th class="narr_th">Description</th>
+                  <th class="narr_th">Codes</th>
+                  <th class="narr_th">Time</th>
+                 
+                    <th class="narr_th">Status</th>
+               
+                  
+                  
+                    <th class="narr_th">Value</th>
+                  
+                </tr>
+<tr class="narr_tr">
+<td id="encounters-desc-0">Encounter Outpatient</td>
+                        <td id="encounters-code-0">
+<b>CPT: 99213 ICD-9-CM: V70.0</b><br><i>C0374559:Office or other outpatient visit for the evaluation and management of an established patient, which requires at least 2 of these 3 key components: An expanded problem focused history; An expanded problem focused examination; Medical decision making of low complexity. Counseling and coordination of care with other providers or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of low to moderate severity. Physicians typically spend 15 minutes face-to-face with the patient and/or family.;</i>
+</td>
+                        <td>December 16th, 2010 05:00</td>
+                        <td> </td>   
+                        <td> </td>   
+                         
+                      </tr>
+<!-- Select Allergies for this Encounter --><!-- Select Car Goals for this Encounter --><!-- Select Vitals for this Encounter --><!-- Select lab results for this Encounter --><!-- Select conditions for this Encounter --><!-- Select procedures for this Encounter --><!-- Select Medications for this Encounter --><!-- Select Social History for this Encounter --><!-- Select immunizations for this Encounter --><!-- Select medical_equipment for this Encounter -->
+</tbody></table>
+<br><br><h3>Encounter -1</h3>
+            <table border="1" width="100%" class="narr_table"><tbody>
+<tr>
+<th class="narr_th">Description</th>
+                  <th class="narr_th">Codes</th>
+                  <th class="narr_th">Time</th>
+                 
+                    <th class="narr_th">Status</th>
+               
+                  
+                  
+                    <th class="narr_th">Value</th>
+                  
+                </tr>
+<tr class="narr_tr">
+<td id="encounters-desc-1">Encounter Outpatient</td>
+                        <td id="encounters-code-1">
+<b>CPT: 99213 ICD-9-CM: V70.0</b><br><i>C0374559:Office or other outpatient visit for the evaluation and management of an established patient, which requires at least 2 of these 3 key components: An expanded problem focused history; An expanded problem focused examination; Medical decision making of low complexity. Counseling and coordination of care with other providers or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of low to moderate severity. Physicians typically spend 15 minutes face-to-face with the patient and/or family.;</i>
+</td>
+                        <td>September 30th, 2010 04:00</td>
+                        <td> </td>   
+                        <td> </td>   
+                         
+                      </tr>
+<!-- Select Allergies for this Encounter --><!-- Select Car Goals for this Encounter --><tr class="narr_tr">
+<th class="narr_th" colspan="5">Care Goals</th>
+                        </tr>
+<tr class="narr_tr">
+<td id="care_goals-desc-0">follow-up plan_BMI management</td>
+                        <td id="care_goals-code-0">
+<b>CPT: 97804 HCPCS: S9470 SNOMED-CT: 305849009 ICD-9-CM: V65.3</b><br><i>C0260823:Encounter for dietary surveillance and counseling;</i>
+</td>
+                        <td>September 30th, 2010 04:00</td>   
+                        <td> </td>
+                        <td> </td>                     
+                      </tr>
+<!-- Select Vitals for this Encounter --><tr class="narr_tr">
+<th class="narr_th" colspan="5">Vital Signs</th>
+                        </tr>
+<tr class="narr_tr">
+<td id="vitals-desc-0">Systolic Blood Pressure</td>
+                        <td id="vitals-code-0">
+<b>SNOMED-CT: 271649006</b><br><i>C0871470:Systolic Pressure;</i>
+</td>
+                        <td>September 30th, 2010 04:00</td> 
+                        <td> </td>                          
+                        <td></td>   
+                                         
+                      </tr>
+<tr class="narr_tr">
+<td id="vitals-desc-1">Diastolic Blood Pressure</td>
+                        <td id="vitals-code-1">
+<b>SNOMED-CT: 271650006</b><br><i>C0428883:Diastolic blood pressure;</i>
+</td>
+                        <td>September 30th, 2010 04:00</td> 
+                        <td> </td>                          
+                        <td></td>   
+                                         
+                      </tr>
+<tr class="narr_tr">
+<td id="vitals-desc-2">Heart Rate</td>
+                        <td id="vitals-code-2">
+<b>SNOMED-CT: 364075005</b><br><i>C0018810:heart rate;</i>
+</td>
+                        <td>September 30th, 2010 04:00</td> 
+                        <td> </td>                          
+                        <td></td>   
+                                         
+                      </tr>
+<tr class="narr_tr">
+<td id="vitals-desc-6">BMI</td>
+                        <td id="vitals-code-6">
+<b>SNOMED-CT: 60621009 LOINC: 39156-5</b><br><i>C1542867:Body mass index:Relative Density:Point in time:^Patient:Quantitative;</i>
+</td>
+                        <td>September 30th, 2010 04:00</td> 
+                        <td> </td>                          
+                        <td></td>   
+                                         
+                      </tr>
+<!-- Select lab results for this Encounter --><!-- Select conditions for this Encounter --><!-- Select procedures for this Encounter --><tr class="narr_tr">
+<th class="narr_th" colspan="5">Procedures</th>
+                         </tr>
+<tr class="narr_tr">
+<td id="procedures-desc-0">counseling for nutrition</td>
+                        <td id="procedures-code-0">
+<b>CPT: 97802 ICD-9-CM: V65.3 HCPCS: S9470 ICD-10-CM: Z00.8</b><br><i>C2910467:Encounter for other general examination; C2910466:Encounter for health examination in population surveys;</i>
+</td>
+                        <td>September 30th, 2010 04:00</td>
+                        <td> </td>   
+                        <td> </td>                           
+                      </tr>
+<tr class="narr_tr">
+<td id="procedures-desc-1">counseling for physical activity</td>
+                        <td id="procedures-code-1">
+<b>ICD-9-CM: V65.41 HCPCS: S9451 ICD-10-CM: Z71.3</b><br><i>C0260823:Encounter for dietary surveillance and counseling;</i>
+</td>
+                        <td>September 30th, 2010 04:00</td>
+                        <td> </td>   
+                        <td> </td>                           
+                      </tr>
+<!-- Select Medications for this Encounter --><!-- Select Social History for this Encounter --><!-- Select immunizations for this Encounter --><!-- Select medical_equipment for this Encounter -->
+</tbody></table>
+<br><br><h3>Encounter -2</h3>
+            <table border="1" width="100%" class="narr_table"><tbody>
+<tr>
+<th class="narr_th">Description</th>
+                  <th class="narr_th">Codes</th>
+                  <th class="narr_th">Time</th>
+                 
+                    <th class="narr_th">Status</th>
+               
+                  
+                  
+                    <th class="narr_th">Value</th>
+                  
+                </tr>
+<tr class="narr_tr">
+<td id="encounters-desc-2">Encounter Outpatient</td>
+                        <td id="encounters-code-2">
+<b>CPT: 99213 ICD-9-CM: V70.0</b><br><i>C0374559:Office or other outpatient visit for the evaluation and management of an established patient, which requires at least 2 of these 3 key components: An expanded problem focused history; An expanded problem focused examination; Medical decision making of low complexity. Counseling and coordination of care with other providers or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of low to moderate severity. Physicians typically spend 15 minutes face-to-face with the patient and/or family.;</i>
+</td>
+                        <td>July 23rd, 2010 04:00</td>
+                        <td> </td>   
+                        <td> </td>   
+                         
+                      </tr>
+<!-- Select Allergies for this Encounter --><!-- Select Car Goals for this Encounter --><!-- Select Vitals for this Encounter --><!-- Select lab results for this Encounter --><tr class="narr_tr">
+<th class="narr_th" colspan="5">Lab Results</th>
+                        </tr>
+<tr class="narr_tr">
+<td id="results-desc-0">Pap Test</td>
+                        <td id="results-code-0">
+<b>ICD-9-CM: V72.32 ICD-10-CM: Z12.4 CPT: 88174 HCPCS: G0147 LOINC: 10524-7 SNOMED-CT: 440623000</b><br><i>C2585782:Microscopic examination of cervical Papanicolaou smear;</i>
+</td>
+                        <td>July 23rd, 2010 04:00</td>
+                        <td> </td>   
+                        <td></td>  
+                                      
+                      </tr>
+<!-- Select conditions for this Encounter --><!-- Select procedures for this Encounter --><!-- Select Medications for this Encounter --><!-- Select Social History for this Encounter --><!-- Select immunizations for this Encounter --><!-- Select medical_equipment for this Encounter -->
+</tbody></table>
+<br><br><h3>Encounter -3</h3>
+            <table border="1" width="100%" class="narr_table"><tbody>
+<tr>
+<th class="narr_th">Description</th>
+                  <th class="narr_th">Codes</th>
+                  <th class="narr_th">Time</th>
+                 
+                    <th class="narr_th">Status</th>
+               
+                  
+                  
+                    <th class="narr_th">Value</th>
+                  
+                </tr>
+<tr class="narr_tr">
+<td id="encounters-desc-3">Encounter Outpatient</td>
+                        <td id="encounters-code-3">
+<b>CPT: 99213 ICD-9-CM: V70.0</b><br><i>C0374559:Office or other outpatient visit for the evaluation and management of an established patient, which requires at least 2 of these 3 key components: An expanded problem focused history; An expanded problem focused examination; Medical decision making of low complexity. Counseling and coordination of care with other providers or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of low to moderate severity. Physicians typically spend 15 minutes face-to-face with the patient and/or family.;</i>
+</td>
+                        <td>April 6th, 2010 04:00</td>
+                        <td> </td>   
+                        <td> </td>   
+                         
+                      </tr>
+<!-- Select Allergies for this Encounter --><!-- Select Car Goals for this Encounter --><!-- Select Vitals for this Encounter --><tr class="narr_tr">
+<th class="narr_th" colspan="5">Vital Signs</th>
+                        </tr>
+<tr class="narr_tr">
+<td id="vitals-desc-3">Systolic Blood Pressure</td>
+                        <td id="vitals-code-3">
+<b>SNOMED-CT: 271649006</b><br><i>C0871470:Systolic Pressure;</i>
+</td>
+                        <td>April 6th, 2010 04:00</td> 
+                        <td> </td>                          
+                        <td></td>   
+                                         
+                      </tr>
+<tr class="narr_tr">
+<td id="vitals-desc-4">Diastolic Blood Pressure</td>
+                        <td id="vitals-code-4">
+<b>SNOMED-CT: 271650006</b><br><i>C0428883:Diastolic blood pressure;</i>
+</td>
+                        <td>April 6th, 2010 04:00</td> 
+                        <td> </td>                          
+                        <td></td>   
+                                         
+                      </tr>
+<tr class="narr_tr">
+<td id="vitals-desc-5">Heart Rate</td>
+                        <td id="vitals-code-5">
+<b>SNOMED-CT: 364075005</b><br><i>C0018810:heart rate;</i>
+</td>
+                        <td>April 6th, 2010 04:00</td> 
+                        <td> </td>                          
+                        <td></td>   
+                                         
+                      </tr>
+<!-- Select lab results for this Encounter --><!-- Select conditions for this Encounter --><tr class="narr_tr">
+<th class="narr_th" colspan="5">Problems</th>
+                          </tr>
+<tr class="narr_tr">
+<td id="conditions-desc-0">polycystic ovaries</td>
+                        <td id="conditions-code-0">
+<b>ICD-9-CM: 256.4 ICD-10-CM: E28.2 SNOMED-CT: 69878008</b><br><i></i>
+</td>
+                        <td>April 6th, 2010 04:00</td>                        
+                        <td>active</td>
+                        <td> </td>   
+                      </tr>
+<tr class="narr_tr">
+<td id="conditions-desc-1">Hypertension</td>
+                        <td id="conditions-code-1">
+<b>ICD-9-CM: 401.9 ICD-10-CM: I10 SNOMED-CT: 59621000</b><br><i>C2882073:hypertension (arterial) (benign) (essential) (malignant) (primary) (systemic); C0020538:Hypertensive disease; C0085580:Essential Hypertension;</i>
+</td>
+                        <td>April 6th, 2010 04:00</td>                        
+                        <td>active</td>
+                        <td> </td>   
+                      </tr>
+<!-- Select procedures for this Encounter --><!-- Select Medications for this Encounter --><tr class="narr_tr">
+<th class="narr_th" colspan="5">Medications</th>
+                        </tr>
+<tr class="narr_tr">
+<td id="medications-desc-0">Antidiabetic agents</td>
+                        <td id="medications-code-0">
+<b>RxNorm: 744863</b><br><i>C1635056:exenatide 0.25 MG/ML Injectable Solution;</i>
+</td>
+                        <td>April 6th, 2010 04:00</td>                        
+                        <td></td> 
+                        <td> </td>                          
+                      </tr>
+<tr class="narr_tr">
+<td id="medications-desc-1">Antihypertensive combinations</td>
+                        <td id="medications-code-1">
+<b>RxNorm: 858828</b><br><i>C0976596:Enalapril Maleate 10 MG / Hydrochlorothiazide 25 MG Oral Tablet;</i>
+</td>
+                        <td>April 6th, 2010 04:00</td>                        
+                        <td></td> 
+                        <td> </td>                          
+                      </tr>
+<!-- Select Social History for this Encounter --><tr class="narr_tr">
+<th class="narr_th" colspan="5">Social History</th>
+                          </tr>
+<tr class="narr_tr">
+<td id="social_history-desc-0">Tobacco Non-User</td>
+                        <td id="social_history-code-0">
+<b>SNOMED-CT: 160618006</b><br><i>C0425311:Current non-smoker;</i>
+</td>
+                        <td>April 6th, 2010 04:00</td> 
+                        <td> </td>   
+                        <td> </td>                           
+                      </tr>
+<!-- Select immunizations for this Encounter --><!-- Select medical_equipment for this Encounter -->
+</tbody></table>
+</div>
+   <hr align="left" color="teal" size="2" width="80%">
+<div id="patient_information_by_section" style="display:block">
+<h3><a name="idm364832" href="#toc">Allergies and Adverse Reactions</a></h3>
+<div>
+                <table class="narr_table" border="1" width="100%">
+<thead><tr class="narr_tr">
+<th class="narr_th">Description</th>                      
+                      <th class="narr_th">Code</th>                      
+                      <th class="narr_th">Time</th>
+                    </tr></thead>
+<tbody><tr class="narr_tr" id="noallergies_summary">
+<td id="noallergies">No Known allergies</td>
+                      <td>160244002</td>                                         
+                      <td>20120620153116</td>
+                    </tr></tbody>
+</table>
+</div>
+<h3><a name="idm338608" href="#toc">Medications - Prescription and Non-Prescription</a></h3>
+<div>
+  <table class="narr_table" border="1" width="100%">
+<thead><tr class="narr_tr">
+<th class="narr_th">Description</th>
+        <th class="narr_th">Codes</th>
+        <th class="narr_th">Time</th>
+        
+      </tr></thead>
+<tbody>
+<tr class="narr_tr">
+<td id="medications-desc-0">Antidiabetic agents</td>
+          <td id="medications-code-0">RxNorm: 744863<br>C1635056:exenatide 0.25 MG/ML Injectable Solution;</td>
+          <td>April 6th, 2010 04:00</td>
+           
+        </tr>
+<tr class="narr_tr">
+<td id="medications-desc-1">Antihypertensive combinations</td>
+          <td id="medications-code-1">RxNorm: 858828<br>C0976596:Enalapril Maleate 10 MG / Hydrochlorothiazide 25 MG Oral Tablet;</td>
+          <td>April 6th, 2010 04:00</td>
+           
+        </tr>
+</tbody>
+</table>
+</div>
+<h3><a name="idp247952" href="#toc">Encounters</a></h3>
+<div>
+  <table class="narr_table" border="1" width="100%">
+<thead><tr class="narr_tr">
+<th class="narr_th">Description</th>
+        <th class="narr_th">Codes</th>
+        <th class="narr_th">Time</th>
+        
+      </tr></thead>
+<tbody>
+<tr class="narr_tr">
+<td id="encounters-desc-0">Encounter Outpatient</td>
+          <td id="encounters-code-0">CPT: 99213 ICD-9-CM: V70.0<br>C0374559:Office or other outpatient visit for the evaluation and management of an established patient, which requires at least 2 of these 3 key components: An expanded problem focused history; An expanded problem focused examination; Medical decision making of low complexity. Counseling and coordination of care with other providers or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of low to moderate severity. Physicians typically spend 15 minutes face-to-face with the patient and/or family.;</td>
+          <td>December 16th, 2010 05:00</td>
+           
+        </tr>
+<tr class="narr_tr">
+<td id="encounters-desc-1">Encounter Outpatient</td>
+          <td id="encounters-code-1">CPT: 99213 ICD-9-CM: V70.0<br>C0374559:Office or other outpatient visit for the evaluation and management of an established patient, which requires at least 2 of these 3 key components: An expanded problem focused history; An expanded problem focused examination; Medical decision making of low complexity. Counseling and coordination of care with other providers or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of low to moderate severity. Physicians typically spend 15 minutes face-to-face with the patient and/or family.;</td>
+          <td>September 30th, 2010 04:00</td>
+           
+        </tr>
+<tr class="narr_tr">
+<td id="encounters-desc-2">Encounter Outpatient</td>
+          <td id="encounters-code-2">CPT: 99213 ICD-9-CM: V70.0<br>C0374559:Office or other outpatient visit for the evaluation and management of an established patient, which requires at least 2 of these 3 key components: An expanded problem focused history; An expanded problem focused examination; Medical decision making of low complexity. Counseling and coordination of care with other providers or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of low to moderate severity. Physicians typically spend 15 minutes face-to-face with the patient and/or family.;</td>
+          <td>July 23rd, 2010 04:00</td>
+           
+        </tr>
+<tr class="narr_tr">
+<td id="encounters-desc-3">Encounter Outpatient</td>
+          <td id="encounters-code-3">CPT: 99213 ICD-9-CM: V70.0<br>C0374559:Office or other outpatient visit for the evaluation and management of an established patient, which requires at least 2 of these 3 key components: An expanded problem focused history; An expanded problem focused examination; Medical decision making of low complexity. Counseling and coordination of care with other providers or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of low to moderate severity. Physicians typically spend 15 minutes face-to-face with the patient and/or family.;</td>
+          <td>April 6th, 2010 04:00</td>
+           
+        </tr>
+</tbody>
+</table>
+</div>
+<h3><a name="idp302496" href="#toc">Problems</a></h3>
+<div>
+  <table class="narr_table" border="1" width="100%">
+<thead><tr class="narr_tr">
+<th class="narr_th">Description</th>
+        <th class="narr_th">Codes</th>
+        <th class="narr_th">Time</th>
+          <th class="narr_th">Status</th>
+        
+      </tr></thead>
+<tbody>
+<tr class="narr_tr">
+<td id="conditions-desc-0">polycystic ovaries</td>
+          <td id="conditions-code-0">ICD-9-CM: 256.4 ICD-10-CM: E28.2 SNOMED-CT: 69878008<br>
+</td>
+          <td>April 6th, 2010 04:00</td>
+            <td>active</td>
+           
+        </tr>
+<tr class="narr_tr">
+<td id="conditions-desc-1">Hypertension</td>
+          <td id="conditions-code-1">ICD-9-CM: 401.9 ICD-10-CM: I10 SNOMED-CT: 59621000<br>C2882073:hypertension (arterial) (benign) (essential) (malignant) (primary) (systemic); C0020538:Hypertensive disease; C0085580:Essential Hypertension;</td>
+          <td>April 6th, 2010 04:00</td>
+            <td>active</td>
+           
+        </tr>
+</tbody>
+</table>
+</div>
+<h3><a name="idp351856" href="#toc">Vital Signs</a></h3>
+<div>
+  <table class="narr_table" border="1" width="100%">
+<thead><tr class="narr_tr">
+<th class="narr_th">Description</th>
+        <th class="narr_th">Codes</th>
+        <th class="narr_th">Time</th>
+        
+          <th class="narr_th">Value</th>
+      </tr></thead>
+<tbody>
+<tr class="narr_tr">
+<td id="vitals-desc-0">Systolic Blood Pressure</td>
+          <td id="vitals-code-0">SNOMED-CT: 271649006<br>C0871470:Systolic Pressure;</td>
+          <td>September 30th, 2010 04:00</td>
+           
+              <td></td>
+        </tr>
+<tr class="narr_tr">
+<td id="vitals-desc-1">Diastolic Blood Pressure</td>
+          <td id="vitals-code-1">SNOMED-CT: 271650006<br>C0428883:Diastolic blood pressure;</td>
+          <td>September 30th, 2010 04:00</td>
+           
+              <td></td>
+        </tr>
+<tr class="narr_tr">
+<td id="vitals-desc-2">Heart Rate</td>
+          <td id="vitals-code-2">SNOMED-CT: 364075005<br>C0018810:heart rate;</td>
+          <td>September 30th, 2010 04:00</td>
+           
+              <td></td>
+        </tr>
+<tr class="narr_tr">
+<td id="vitals-desc-3">Systolic Blood Pressure</td>
+          <td id="vitals-code-3">SNOMED-CT: 271649006<br>C0871470:Systolic Pressure;</td>
+          <td>April 6th, 2010 04:00</td>
+           
+              <td></td>
+        </tr>
+<tr class="narr_tr">
+<td id="vitals-desc-4">Diastolic Blood Pressure</td>
+          <td id="vitals-code-4">SNOMED-CT: 271650006<br>C0428883:Diastolic blood pressure;</td>
+          <td>April 6th, 2010 04:00</td>
+           
+              <td></td>
+        </tr>
+<tr class="narr_tr">
+<td id="vitals-desc-5">Heart Rate</td>
+          <td id="vitals-code-5">SNOMED-CT: 364075005<br>C0018810:heart rate;</td>
+          <td>April 6th, 2010 04:00</td>
+           
+              <td></td>
+        </tr>
+<tr class="narr_tr">
+<td id="vitals-desc-6">BMI</td>
+          <td id="vitals-code-6">SNOMED-CT: 60621009 LOINC: 39156-5<br>C1542867:Body mass index:Relative Density:Point in time:^Patient:Quantitative;</td>
+          <td>September 30th, 2010 04:00</td>
+           
+              <td></td>
+        </tr>
+</tbody>
+</table>
+</div>
+<h3><a name="idm603392" href="#toc">Surgeries</a></h3>
+<div>
+  <table class="narr_table" border="1" width="100%">
+<thead><tr class="narr_tr">
+<th class="narr_th">Description</th>
+        <th class="narr_th">Codes</th>
+        <th class="narr_th">Time</th>
+        
+      </tr></thead>
+<tbody>
+<tr class="narr_tr">
+<td id="procedures-desc-0">counseling for nutrition</td>
+          <td id="procedures-code-0">CPT: 97802 ICD-9-CM: V65.3 HCPCS: S9470 ICD-10-CM: Z00.8<br>C2910467:Encounter for other general examination; C2910466:Encounter for health examination in population surveys;</td>
+          <td>September 30th, 2010 04:00</td>
+           
+        </tr>
+<tr class="narr_tr">
+<td id="procedures-desc-1">counseling for physical activity</td>
+          <td id="procedures-code-1">ICD-9-CM: V65.41 HCPCS: S9451 ICD-10-CM: Z71.3<br>C0260823:Encounter for dietary surveillance and counseling;</td>
+          <td>September 30th, 2010 04:00</td>
+           
+        </tr>
+<tr class="narr_tr">
+<td id="procedures-desc-2">breast cancer screening</td>
+          <td id="procedures-code-2">CPT: 77057 HCPCS: G0202 ICD-9-CM: V76.12 ICD-10-CM: Z12.31 SNOMED-CT: 24623002<br>C0203028:Screening mammography;</td>
+          <td>October 16th, 2010 04:00</td>
+           
+        </tr>
+</tbody>
+</table>
+</div>
+<h3><a name="idm391328" href="#toc">Diagnostic Results</a></h3>
+<div>
+  <table class="narr_table" border="1" width="100%">
+<thead><tr class="narr_tr">
+<th class="narr_th">Description</th>
+        <th class="narr_th">Codes</th>
+        <th class="narr_th">Time</th>
+        
+          <th class="narr_th">Value</th>
+      </tr></thead>
+<tbody><tr class="narr_tr">
+<td id="results-desc-0">Pap Test</td>
+          <td id="results-code-0">ICD-9-CM: V72.32 ICD-10-CM: Z12.4 CPT: 88174 HCPCS: G0147 LOINC: 10524-7 SNOMED-CT: 440623000<br>C2585782:Microscopic examination of cervical Papanicolaou smear;</td>
+          <td>July 23rd, 2010 04:00</td>
+           
+              <td></td>
+        </tr></tbody>
+</table>
+</div>
+<h3><a name="idm587200" href="#toc">Plan of Care</a></h3>
+<div>
+  <table class="narr_table" border="1" width="100%">
+<thead><tr class="narr_tr">
+<th class="narr_th">Description</th>
+        <th class="narr_th">Codes</th>
+        <th class="narr_th">Time</th>
+        
+      </tr></thead>
+<tbody><tr class="narr_tr">
+<td id="plan_of_care-desc-0">follow-up plan_BMI management</td>
+          <td id="plan_of_care-code-0">CPT: 97804 HCPCS: S9470 SNOMED-CT: 305849009 ICD-9-CM: V65.3<br>C0260823:Encounter for dietary surveillance and counseling;</td>
+          <td>September 30th, 2010 04:00</td>
+           
+        </tr></tbody>
+</table>
+</div>
+<h3><a name="idm537744" href="#toc">Social History</a></h3>
+<div>
+  <table class="narr_table" border="1" width="100%">
+<thead><tr class="narr_tr">
+<th class="narr_th">Description</th>
+        <th class="narr_th">Codes</th>
+        <th class="narr_th">Time</th>
+        
+      </tr></thead>
+<tbody><tr class="narr_tr">
+<td id="social_history-desc-0">Tobacco Non-User</td>
+          <td id="social_history-code-0">SNOMED-CT: 160618006<br>C0425311:Current non-smoker;</td>
+          <td>April 6th, 2010 04:00</td>
+           
+        </tr></tbody>
+</table>
+</div>
+</div>
+<br><br>
+</body>
+</html>

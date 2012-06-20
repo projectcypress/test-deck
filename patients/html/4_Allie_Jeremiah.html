@@ -1,0 +1,1165 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html xmlns:n1="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!-- Do NOT edit this HTML directly: it was generated via an XSLT transformation from a CDA Release 2 XML document. --><title>Cypress C32 Patient Test Record: Allie Jeremiah</title>
+<style type="text/css">
+body {
+  color: #003366;
+  background-color: #FFFFFF;
+  font-family: Verdana, Tahoma, sans-serif;
+  font-size: 11px;
+}
+
+a {
+  color: #003366;
+  background-color: #FFFFFF;
+}
+
+h1 {
+  font-size: 12pt;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 11pt;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 10pt;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 8pt;
+  font-weight: bold;
+}
+
+div {
+  width: 80%;
+}
+
+table {
+  line-height: 10pt;
+  width: 80%;
+}
+
+tr {
+  background-color: #ccccff;
+}
+
+td {
+  padding: 0.1cm 0.2cm;
+  vertical-align: top;
+}
+
+.h1center {
+  font-size: 12pt;
+  font-weight: bold;
+  text-align: center;
+  width: 80%;
+}
+
+.header_table{
+  border: 1pt inset #00008b;
+}
+
+.narr_table {
+  width: 100%;
+}
+
+.narr_tr {
+  background-color: #ffffcc;
+}
+
+.narr_th {
+  background-color: #ffd700;
+}
+
+.td_label{
+  font-weight: bold;
+  color: white;
+}
+          </style>
+</head>
+<body>
+<h1 class="h1center">Cypress C32 Patient Test Record: Allie Jeremiah</h1>
+<table class="header_table"><tbody>
+<tr>
+<td width="20%" bgcolor="#3399ff"><span class="td_label">Patient</span></td>
+<td colspan="3">Allie Jeremiah</td>
+</tr>
+<tr>
+<td width="20%" bgcolor="#3399ff"><span class="td_label">Date of birth</span></td>
+<td width="30%">May 6, 1996, 04:00:00  </td>
+<td width="15%" bgcolor="#3399ff"><span class="td_label">Sex</span></td>
+<td>Female</td>
+</tr>
+<tr>
+<td width="20%" bgcolor="#3399ff"><span class="td_label">Race</span></td>
+<td width="30%">White</td>
+<td width="15%" bgcolor="#3399ff"><span class="td_label">Ethnicity</span></td>
+<td>Not Hispanic or Latino</td>
+</tr>
+<tr>
+<td bgcolor="#3399ff"><span class="td_label">Contact info</span></td>
+<td> Pirmary Home:<br>202 Burlington Rd.<br>Bedford, MA 01730<br>Tel:  +1-781-271-3000<br>
+</td>
+<td bgcolor="#3399ff"><span class="td_label">Patient IDs</span></td>
+<td>4fe1ecbba9ffcc03cd0004b9 Cypress<br>
+</td>
+</tr>
+</tbody></table>
+<table class="header_table"><tbody>
+<tr>
+<td width="20%" bgcolor="#3399ff"><span class="td_label">Document Id</span></td>
+<td width="80%">HITSP_C32v2.5_Rev6_16Sections_Entries_MinimalErrors 2.16.840.1.113883.3.72</td>
+</tr>
+<tr>
+<td width="20%" bgcolor="#3399ff"><span class="td_label">Document Created:</span></td>
+<td width="80%">June 20, 2012, 15:31:07  </td>
+</tr>
+</tbody></table>
+<table class="header_table"><tbody>
+<tr>
+<td width="20%" bgcolor="#3399ff"><span class="td_label">Author</span></td>
+<td width="80%">Auto Generated</td>
+</tr>
+<tr>
+<td bgcolor="#3399ff"><span class="td_label">Contact info</span></td>
+<td>
+<br>Tel:  +1-781-271-3000<br>
+</td>
+</tr>
+</tbody></table>
+<table class="header_table"><tbody>
+<tr>
+<td width="20%" bgcolor="#3399ff"><span class="td_label">Document maintained by</span></td>
+<td width="80%">Cypress</td>
+</tr>
+<tr>
+<td bgcolor="#3399ff"><span class="td_label">Contact info</span></td>
+<td width="80%">202 Burlington Rd.<br>Bedford, MA 01730<br>Tel:  +1-781-271-3000<br>
+</td>
+</tr>
+</tbody></table>
+<h2><a name="toc">Table of Contents</a></h2>
+<ul>
+<li><a href="#idm52128">Allergies and Adverse Reactions</a></li>
+<li><a href="#idm77584">Medications - Prescription and Non-Prescription</a></li>
+<li><a href="#idm157168">Encounters</a></li>
+<li><a href="#idm258048">Problems</a></li>
+<li><a href="#idm1280624">Vital Signs</a></li>
+<li><a href="#idm500112">Surgeries</a></li>
+<li><a href="#idm609584">Diagnostic Results</a></li>
+<li><a href="#idm634656">Social History</a></li>
+</ul> 
+    <script language="javascript">
+    var cur_view = "section";
+      function toggle(id) {
+        var e = document.getElementById(id);
+        if (cur_view=="section"){
+          document.getElementById("patient_information_by_section").style.display = 'none';
+          document.getElementById("table_by_encounter").style.display = 'block';
+          document.getElementById('toggle_button').innerHTML="View By Section";
+          cur_view = "encounter";
+        }else{
+          document.getElementById("patient_information_by_section").style.display = 'block';
+          document.getElementById("table_by_encounter").style.display = 'none';
+          document.getElementById('toggle_button').innerHTML="View By Encounter";
+          cur_view = "section";
+        }         
+      }
+    </script><div>
+      <h3><a href="#" onclick="toggle('table_by_encounter');" id="toggle_button">View By Encounter</a></h3>
+     </div>
+     <div id="table_by_encounter" style="display:none">
+
+
+            <br><br><h3>Encounter 0</h3>
+            <table border="1" width="100%" class="narr_table"><tbody>
+<tr>
+<th class="narr_th">Description</th>
+                  <th class="narr_th">Codes</th>
+                  <th class="narr_th">Time</th>
+                 
+                    <th class="narr_th">Status</th>
+               
+                  
+                  
+                    <th class="narr_th">Value</th>
+                  
+                </tr>
+<tr class="narr_tr">
+<td id="encounters-desc-0">Encounter Office &amp; Outpatient Consult</td>
+                        <td id="encounters-code-0">
+<b>CPT: 99241</b><br><i>C0199299:Office consultation for a new or established patient, which requires these 3 key components: A problem focused history; A problem focused examination; and Straightforward medical decision making. Counseling and/or coordination of care with other providers or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are self limited or minor. Physicians typically spend 15 minutes face-to-face with the patient and/or family.;</i>
+</td>
+                        <td>October 30th, 2010 04:00</td>
+                        <td> </td>   
+                        <td> </td>   
+                         
+                      </tr>
+<!-- Select Allergies for this Encounter --><!-- Select Car Goals for this Encounter --><!-- Select Vitals for this Encounter --><!-- Select lab results for this Encounter --><!-- Select conditions for this Encounter --><!-- Select procedures for this Encounter --><!-- Select Medications for this Encounter --><!-- Select Social History for this Encounter --><!-- Select immunizations for this Encounter --><!-- Select medical_equipment for this Encounter -->
+</tbody></table>
+<br><br><h3>Encounter -1</h3>
+            <table border="1" width="100%" class="narr_table"><tbody>
+<tr>
+<th class="narr_th">Description</th>
+                  <th class="narr_th">Codes</th>
+                  <th class="narr_th">Time</th>
+                 
+                    <th class="narr_th">Status</th>
+               
+                  
+                  
+                    <th class="narr_th">Value</th>
+                  
+                </tr>
+<tr class="narr_tr">
+<td id="encounters-desc-1">Encounter Outpatient</td>
+                        <td id="encounters-code-1">
+<b>CPT: 99213 ICD-9-CM: V70.0</b><br><i>C0374559:Office or other outpatient visit for the evaluation and management of an established patient, which requires at least 2 of these 3 key components: An expanded problem focused history; An expanded problem focused examination; Medical decision making of low complexity. Counseling and coordination of care with other providers or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of low to moderate severity. Physicians typically spend 15 minutes face-to-face with the patient and/or family.;</i>
+</td>
+                        <td>August 20th, 2010 04:00</td>
+                        <td> </td>   
+                        <td> </td>   
+                         
+                      </tr>
+<!-- Select Allergies for this Encounter --><!-- Select Car Goals for this Encounter --><!-- Select Vitals for this Encounter --><!-- Select lab results for this Encounter --><!-- Select conditions for this Encounter --><!-- Select procedures for this Encounter --><!-- Select Medications for this Encounter --><!-- Select Social History for this Encounter --><!-- Select immunizations for this Encounter --><!-- Select medical_equipment for this Encounter -->
+</tbody></table>
+<br><br><h3>Encounter -2</h3>
+            <table border="1" width="100%" class="narr_table"><tbody>
+<tr>
+<th class="narr_th">Description</th>
+                  <th class="narr_th">Codes</th>
+                  <th class="narr_th">Time</th>
+                 
+                    <th class="narr_th">Status</th>
+               
+                  
+                  
+                    <th class="narr_th">Value</th>
+                  
+                </tr>
+<tr class="narr_tr">
+<td id="encounters-desc-2">Encounter Office &amp; Outpatient Consult</td>
+                        <td id="encounters-code-2">
+<b>CPT: 99241</b><br><i>C0199299:Office consultation for a new or established patient, which requires these 3 key components: A problem focused history; A problem focused examination; and Straightforward medical decision making. Counseling and/or coordination of care with other providers or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are self limited or minor. Physicians typically spend 15 minutes face-to-face with the patient and/or family.;</i>
+</td>
+                        <td>July 30th, 2010 04:00</td>
+                        <td> </td>   
+                        <td> </td>   
+                         
+                      </tr>
+<!-- Select Allergies for this Encounter --><!-- Select Car Goals for this Encounter --><!-- Select Vitals for this Encounter --><tr class="narr_tr">
+<th class="narr_th" colspan="5">Vital Signs</th>
+                        </tr>
+<tr class="narr_tr">
+<td id="vitals-desc-0">Systolic Blood Pressure</td>
+                        <td id="vitals-code-0">
+<b>SNOMED-CT: 271649006</b><br><i>C0871470:Systolic Pressure;</i>
+</td>
+                        <td>July 30th, 2010 04:00</td> 
+                        <td> </td>                          
+                        <td></td>   
+                                         
+                      </tr>
+<tr class="narr_tr">
+<td id="vitals-desc-1">Diastolic Blood Pressure</td>
+                        <td id="vitals-code-1">
+<b>SNOMED-CT: 271650006</b><br><i>C0428883:Diastolic blood pressure;</i>
+</td>
+                        <td>July 30th, 2010 04:00</td> 
+                        <td> </td>                          
+                        <td></td>   
+                                         
+                      </tr>
+<tr class="narr_tr">
+<td id="vitals-desc-12">BMI</td>
+                        <td id="vitals-code-12">
+<b>SNOMED-CT: 60621009 LOINC: 39156-5</b><br><i>C1542867:Body mass index:Relative Density:Point in time:^Patient:Quantitative;</i>
+</td>
+                        <td>July 30th, 2010 04:00</td> 
+                        <td> </td>                          
+                        <td></td>   
+                                         
+                      </tr>
+<!-- Select lab results for this Encounter --><!-- Select conditions for this Encounter --><tr class="narr_tr">
+<th class="narr_th" colspan="5">Problems</th>
+                          </tr>
+<tr class="narr_tr">
+<td id="conditions-desc-2">Asthma Daytime Symptoms</td>
+                        <td id="conditions-code-2">
+<b>SNOMED-CT: 373899003</b><br><i>C1276804:Asthma daytime symptoms;</i>
+</td>
+                        <td>July 30th, 2010 04:00</td>                        
+                        <td></td>
+                        <td> </td>   
+                      </tr>
+<tr class="narr_tr">
+<td id="conditions-desc-3">Asthma Nighttime Symptoms</td>
+                        <td id="conditions-code-3">
+<b>SNOMED-CT: 395022009</b><br><i>C1273489:Asthma night-time symptoms;</i>
+</td>
+                        <td>July 30th, 2010 04:00</td>                        
+                        <td></td>
+                        <td> </td>   
+                      </tr>
+<!-- Select procedures for this Encounter --><tr class="narr_tr">
+<th class="narr_th" colspan="5">Procedures</th>
+                         </tr>
+<tr class="narr_tr">
+<td id="procedures-desc-0">counseling for nutrition</td>
+                        <td id="procedures-code-0">
+<b>CPT: 97802 ICD-9-CM: V65.3 HCPCS: S9470 ICD-10-CM: Z00.8</b><br><i>C2910467:Encounter for other general examination; C2910466:Encounter for health examination in population surveys;</i>
+</td>
+                        <td>July 30th, 2010 04:00</td>
+                        <td> </td>   
+                        <td> </td>                           
+                      </tr>
+<tr class="narr_tr">
+<td id="procedures-desc-1">counseling for physical activity</td>
+                        <td id="procedures-code-1">
+<b>ICD-9-CM: V65.41 HCPCS: S9451 ICD-10-CM: Z71.3</b><br><i>C0260823:Encounter for dietary surveillance and counseling;</i>
+</td>
+                        <td>July 30th, 2010 04:00</td>
+                        <td> </td>   
+                        <td> </td>                           
+                      </tr>
+<!-- Select Medications for this Encounter --><tr class="narr_tr">
+<th class="narr_th" colspan="5">Medications</th>
+                        </tr>
+<tr class="narr_tr">
+<td id="medications-desc-0">Short acting beta 2 agonist</td>
+                        <td id="medications-code-0">
+<b>RxNorm: 630208</b><br><i>C1696556:Albuterol 0.83 MG/ML Inhalant Solution;</i>
+</td>
+                        <td>July 30th, 2010 04:00</td>                        
+                        <td></td> 
+                        <td> </td>                          
+                      </tr>
+<!-- Select Social History for this Encounter --><tr class="narr_tr">
+<th class="narr_th" colspan="5">Social History</th>
+                          </tr>
+<tr class="narr_tr">
+<td id="social_history-desc-0">Tobacco Non-User</td>
+                        <td id="social_history-code-0">
+<b>SNOMED-CT: 160618006</b><br><i>C0425311:Current non-smoker;</i>
+</td>
+                        <td>July 30th, 2010 04:00</td> 
+                        <td> </td>   
+                        <td> </td>                           
+                      </tr>
+<!-- Select immunizations for this Encounter --><!-- Select medical_equipment for this Encounter -->
+</tbody></table>
+<br><br><h3>Encounter -3</h3>
+            <table border="1" width="100%" class="narr_table"><tbody>
+<tr>
+<th class="narr_th">Description</th>
+                  <th class="narr_th">Codes</th>
+                  <th class="narr_th">Time</th>
+                 
+                    <th class="narr_th">Status</th>
+               
+                  
+                  
+                    <th class="narr_th">Value</th>
+                  
+                </tr>
+<tr class="narr_tr">
+<td id="encounters-desc-3">Encounter Outpatient</td>
+                        <td id="encounters-code-3">
+<b>CPT: 99213 ICD-9-CM: V70.0</b><br><i>C0374559:Office or other outpatient visit for the evaluation and management of an established patient, which requires at least 2 of these 3 key components: An expanded problem focused history; An expanded problem focused examination; Medical decision making of low complexity. Counseling and coordination of care with other providers or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of low to moderate severity. Physicians typically spend 15 minutes face-to-face with the patient and/or family.;</i>
+</td>
+                        <td>March 31st, 2010 04:00</td>
+                        <td> </td>   
+                        <td> </td>   
+                         
+                      </tr>
+<!-- Select Allergies for this Encounter --><!-- Select Car Goals for this Encounter --><!-- Select Vitals for this Encounter --><tr class="narr_tr">
+<th class="narr_th" colspan="5">Vital Signs</th>
+                        </tr>
+<tr class="narr_tr">
+<td id="vitals-desc-2">Systolic Blood Pressure</td>
+                        <td id="vitals-code-2">
+<b>SNOMED-CT: 271649006</b><br><i>C0871470:Systolic Pressure;</i>
+</td>
+                        <td>March 31st, 2010 04:00</td> 
+                        <td> </td>                          
+                        <td></td>   
+                                         
+                      </tr>
+<tr class="narr_tr">
+<td id="vitals-desc-3">Diastolic Blood Pressure</td>
+                        <td id="vitals-code-3">
+<b>SNOMED-CT: 271650006</b><br><i>C0428883:Diastolic blood pressure;</i>
+</td>
+                        <td>March 31st, 2010 04:00</td> 
+                        <td> </td>                          
+                        <td></td>   
+                                         
+                      </tr>
+<!-- Select lab results for this Encounter --><tr class="narr_tr">
+<th class="narr_th" colspan="5">Lab Results</th>
+                        </tr>
+<tr class="narr_tr">
+<td id="results-desc-0">Group A Streptococcus Test</td>
+                        <td id="results-code-0">
+<b>CPT: 87430 LOINC: 31971-5 SNOMED-CT: 122245007</b><br><i>C1294564:Measurement of Streptococcus pyogenes enzyme antibody;</i>
+</td>
+                        <td>March 31st, 2010 04:00</td>
+                        <td> </td>   
+                        <td></td>  
+                                      
+                      </tr>
+<!-- Select conditions for this Encounter --><tr class="narr_tr">
+<th class="narr_th" colspan="5">Problems</th>
+                          </tr>
+<tr class="narr_tr">
+<td id="conditions-desc-1">pharyngitis</td>
+                        <td id="conditions-code-1">
+<b>ICD-10-CM: J02 SNOMED-CT: 363746003 ICD-9-CM: 462</b><br><i>C0001344:Acute pharyngitis;</i>
+</td>
+                        <td>March 31st, 2010 04:00</td>                        
+                        <td>active</td>
+                        <td> </td>   
+                      </tr>
+<!-- Select procedures for this Encounter --><!-- Select Medications for this Encounter --><tr class="narr_tr">
+<th class="narr_th" colspan="5">Medications</th>
+                        </tr>
+<tr class="narr_tr">
+<td id="medications-desc-2">Second generation cephalosporins</td>
+                        <td id="medications-code-2">
+<b>RxNorm: 309097</b><br><i>C0975418:Cefuroxime 250 MG Oral Tablet;</i>
+</td>
+                        <td>March 31st, 2010 04:00</td>                        
+                        <td></td> 
+                        <td> </td>                          
+                      </tr>
+<!-- Select Social History for this Encounter --><!-- Select immunizations for this Encounter --><!-- Select medical_equipment for this Encounter -->
+</tbody></table>
+<br><br><h3>Encounter -4</h3>
+            <table border="1" width="100%" class="narr_table"><tbody>
+<tr>
+<th class="narr_th">Description</th>
+                  <th class="narr_th">Codes</th>
+                  <th class="narr_th">Time</th>
+                 
+                    <th class="narr_th">Status</th>
+               
+                  
+                  
+                    <th class="narr_th">Value</th>
+                  
+                </tr>
+<tr class="narr_tr">
+<td id="encounters-desc-4">Encounter Outpatient</td>
+                        <td id="encounters-code-4">
+<b>CPT: 99213 ICD-9-CM: V70.0</b><br><i>C0374559:Office or other outpatient visit for the evaluation and management of an established patient, which requires at least 2 of these 3 key components: An expanded problem focused history; An expanded problem focused examination; Medical decision making of low complexity. Counseling and coordination of care with other providers or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of low to moderate severity. Physicians typically spend 15 minutes face-to-face with the patient and/or family.;</i>
+</td>
+                        <td>August 10th, 2009 04:00</td>
+                        <td> </td>   
+                        <td> </td>   
+                         
+                      </tr>
+<!-- Select Allergies for this Encounter --><!-- Select Car Goals for this Encounter --><!-- Select Vitals for this Encounter --><tr class="narr_tr">
+<th class="narr_th" colspan="5">Vital Signs</th>
+                        </tr>
+<tr class="narr_tr">
+<td id="vitals-desc-4">Systolic Blood Pressure</td>
+                        <td id="vitals-code-4">
+<b>SNOMED-CT: 271649006</b><br><i>C0871470:Systolic Pressure;</i>
+</td>
+                        <td>August 10th, 2009 04:00</td> 
+                        <td> </td>                          
+                        <td></td>   
+                                         
+                      </tr>
+<tr class="narr_tr">
+<td id="vitals-desc-5">Diastolic Blood Pressure</td>
+                        <td id="vitals-code-5">
+<b>SNOMED-CT: 271650006</b><br><i>C0428883:Diastolic blood pressure;</i>
+</td>
+                        <td>August 10th, 2009 04:00</td> 
+                        <td> </td>                          
+                        <td></td>   
+                                         
+                      </tr>
+<tr class="narr_tr">
+<td id="vitals-desc-13">BMI</td>
+                        <td id="vitals-code-13">
+<b>SNOMED-CT: 60621009 LOINC: 39156-5</b><br><i>C1542867:Body mass index:Relative Density:Point in time:^Patient:Quantitative;</i>
+</td>
+                        <td>August 10th, 2009 04:00</td> 
+                        <td> </td>                          
+                        <td></td>   
+                                         
+                      </tr>
+<!-- Select lab results for this Encounter --><!-- Select conditions for this Encounter --><tr class="narr_tr">
+<th class="narr_th" colspan="5">Problems</th>
+                          </tr>
+<tr class="narr_tr">
+<td id="conditions-desc-4">Asthma Daytime Symptoms</td>
+                        <td id="conditions-code-4">
+<b>SNOMED-CT: 373899003</b><br><i>C1276804:Asthma daytime symptoms;</i>
+</td>
+                        <td>August 10th, 2009 04:00</td>                        
+                        <td></td>
+                        <td> </td>   
+                      </tr>
+<tr class="narr_tr">
+<td id="conditions-desc-5">Asthma Nighttime Symptoms</td>
+                        <td id="conditions-code-5">
+<b>SNOMED-CT: 395022009</b><br><i>C1273489:Asthma night-time symptoms;</i>
+</td>
+                        <td>August 10th, 2009 04:00</td>                        
+                        <td></td>
+                        <td> </td>   
+                      </tr>
+<!-- Select procedures for this Encounter --><!-- Select Medications for this Encounter --><tr class="narr_tr">
+<th class="narr_th" colspan="5">Medications</th>
+                        </tr>
+<tr class="narr_tr">
+<td id="medications-desc-1">Short acting beta 2 agonist</td>
+                        <td id="medications-code-1">
+<b>RxNorm: 630208</b><br><i>C1696556:Albuterol 0.83 MG/ML Inhalant Solution;</i>
+</td>
+                        <td>August 10th, 2009 04:00</td>                        
+                        <td></td> 
+                        <td> </td>                          
+                      </tr>
+<!-- Select Social History for this Encounter --><!-- Select immunizations for this Encounter --><!-- Select medical_equipment for this Encounter -->
+</tbody></table>
+<br><br><h3>Encounter -5</h3>
+            <table border="1" width="100%" class="narr_table"><tbody>
+<tr>
+<th class="narr_th">Description</th>
+                  <th class="narr_th">Codes</th>
+                  <th class="narr_th">Time</th>
+                 
+                    <th class="narr_th">Status</th>
+               
+                  
+                  
+                    <th class="narr_th">Value</th>
+                  
+                </tr>
+<tr class="narr_tr">
+<td id="encounters-desc-5">Encounter Outpatient</td>
+                        <td id="encounters-code-5">
+<b>CPT: 99213 ICD-9-CM: V70.0</b><br><i>C0374559:Office or other outpatient visit for the evaluation and management of an established patient, which requires at least 2 of these 3 key components: An expanded problem focused history; An expanded problem focused examination; Medical decision making of low complexity. Counseling and coordination of care with other providers or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of low to moderate severity. Physicians typically spend 15 minutes face-to-face with the patient and/or family.;</i>
+</td>
+                        <td>August 2nd, 2008 04:00</td>
+                        <td> </td>   
+                        <td> </td>   
+                         
+                      </tr>
+<!-- Select Allergies for this Encounter --><!-- Select Car Goals for this Encounter --><!-- Select Vitals for this Encounter --><tr class="narr_tr">
+<th class="narr_th" colspan="5">Vital Signs</th>
+                        </tr>
+<tr class="narr_tr">
+<td id="vitals-desc-14">BMI</td>
+                        <td id="vitals-code-14">
+<b>SNOMED-CT: 60621009 LOINC: 39156-5</b><br><i>C1542867:Body mass index:Relative Density:Point in time:^Patient:Quantitative;</i>
+</td>
+                        <td>August 2nd, 2008 04:00</td> 
+                        <td> </td>                          
+                        <td></td>   
+                                         
+                      </tr>
+<!-- Select lab results for this Encounter --><!-- Select conditions for this Encounter --><!-- Select procedures for this Encounter --><!-- Select Medications for this Encounter --><!-- Select Social History for this Encounter --><!-- Select immunizations for this Encounter --><!-- Select medical_equipment for this Encounter -->
+</tbody></table>
+<br><br><h3>Encounter -6</h3>
+            <table border="1" width="100%" class="narr_table"><tbody>
+<tr>
+<th class="narr_th">Description</th>
+                  <th class="narr_th">Codes</th>
+                  <th class="narr_th">Time</th>
+                 
+                    <th class="narr_th">Status</th>
+               
+                  
+                  
+                    <th class="narr_th">Value</th>
+                  
+                </tr>
+<tr class="narr_tr">
+<td id="encounters-desc-6">Encounter Office Visit</td>
+                        <td id="encounters-code-6">
+<b>CPT: 99212</b><br><i>C0374558:Office or other outpatient visit for the evaluation and management of an established patient, which requires at least 2 of these 3 key components: A problem focused history; A problem focused examination; Straightforward medical decision making. Counseling and/or coordination of care with other providers or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are self limited or minor. Physicians typically spend 10 minutes face-to-face with the patient and/or family.;</i>
+</td>
+                        <td>July 19th, 2007 04:00</td>
+                        <td> </td>   
+                        <td> </td>   
+                         
+                      </tr>
+<!-- Select Allergies for this Encounter --><!-- Select Car Goals for this Encounter --><!-- Select Vitals for this Encounter --><tr class="narr_tr">
+<th class="narr_th" colspan="5">Vital Signs</th>
+                        </tr>
+<tr class="narr_tr">
+<td id="vitals-desc-8">Systolic Blood Pressure</td>
+                        <td id="vitals-code-8">
+<b>SNOMED-CT: 271649006</b><br><i>C0871470:Systolic Pressure;</i>
+</td>
+                        <td>July 19th, 2007 04:00</td> 
+                        <td> </td>                          
+                        <td></td>   
+                                         
+                      </tr>
+<tr class="narr_tr">
+<td id="vitals-desc-9">Diastolic Blood Pressure</td>
+                        <td id="vitals-code-9">
+<b>SNOMED-CT: 271650006</b><br><i>C0428883:Diastolic blood pressure;</i>
+</td>
+                        <td>July 19th, 2007 04:00</td> 
+                        <td> </td>                          
+                        <td></td>   
+                                         
+                      </tr>
+<!-- Select lab results for this Encounter --><!-- Select conditions for this Encounter --><!-- Select procedures for this Encounter --><!-- Select Medications for this Encounter --><!-- Select Social History for this Encounter --><!-- Select immunizations for this Encounter --><!-- Select medical_equipment for this Encounter -->
+</tbody></table>
+<br><br><h3>Encounter -7</h3>
+            <table border="1" width="100%" class="narr_table"><tbody>
+<tr>
+<th class="narr_th">Description</th>
+                  <th class="narr_th">Codes</th>
+                  <th class="narr_th">Time</th>
+                 
+                    <th class="narr_th">Status</th>
+               
+                  
+                  
+                    <th class="narr_th">Value</th>
+                  
+                </tr>
+<tr class="narr_tr">
+<td id="encounters-desc-7">encounter ED</td>
+                        <td id="encounters-code-7">
+<b>CPT: 99281</b><br><i>C0374582:Emergency department visit for the evaluation and management of a patient, which requires these 3 key components: A problem focused history; A problem focused examination; and Straightforward medical decision making. Counseling and/or coordination of care with other providers or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are self limited or minor.;</i>
+</td>
+                        <td>November 13th, 2006 05:00</td>
+                        <td> </td>   
+                        <td> </td>   
+                         
+                      </tr>
+<!-- Select Allergies for this Encounter --><!-- Select Car Goals for this Encounter --><!-- Select Vitals for this Encounter --><tr class="narr_tr">
+<th class="narr_th" colspan="5">Vital Signs</th>
+                        </tr>
+<tr class="narr_tr">
+<td id="vitals-desc-10">Systolic Blood Pressure</td>
+                        <td id="vitals-code-10">
+<b>SNOMED-CT: 271649006</b><br><i>C0871470:Systolic Pressure;</i>
+</td>
+                        <td>November 13th, 2006 05:00</td> 
+                        <td> </td>                          
+                        <td></td>   
+                                         
+                      </tr>
+<tr class="narr_tr">
+<td id="vitals-desc-11">Diastolic Blood Pressure</td>
+                        <td id="vitals-code-11">
+<b>SNOMED-CT: 271650006</b><br><i>C0428883:Diastolic blood pressure;</i>
+</td>
+                        <td>November 13th, 2006 05:00</td> 
+                        <td> </td>                          
+                        <td></td>   
+                                         
+                      </tr>
+<!-- Select lab results for this Encounter --><!-- Select conditions for this Encounter --><!-- Select procedures for this Encounter --><tr class="narr_tr">
+<th class="narr_th" colspan="5">Procedures</th>
+                         </tr>
+<tr class="narr_tr">
+<td id="procedures-desc-3">Asthma Symptom Assessment Tool</td>
+                        <td id="procedures-code-3">
+<b>SNOMED-CT: 401011001</b><br><i>C1276011:Peak expiratory flow rate monitoring using diary;</i>
+</td>
+                        <td>November 13th, 2006 05:00</td>
+                        <td> </td>   
+                        <td> </td>                           
+                      </tr>
+<!-- Select Medications for this Encounter --><!-- Select Social History for this Encounter --><!-- Select immunizations for this Encounter --><!-- Select medical_equipment for this Encounter -->
+</tbody></table>
+<br><br><h3>Encounter -8</h3>
+            <table border="1" width="100%" class="narr_table"><tbody>
+<tr>
+<th class="narr_th">Description</th>
+                  <th class="narr_th">Codes</th>
+                  <th class="narr_th">Time</th>
+                 
+                    <th class="narr_th">Status</th>
+               
+                  
+                  
+                    <th class="narr_th">Value</th>
+                  
+                </tr>
+<tr class="narr_tr">
+<td id="encounters-desc-8">Encounter Office Visit</td>
+                        <td id="encounters-code-8">
+<b>CPT: 99212</b><br><i>C0374558:Office or other outpatient visit for the evaluation and management of an established patient, which requires at least 2 of these 3 key components: A problem focused history; A problem focused examination; Straightforward medical decision making. Counseling and/or coordination of care with other providers or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are self limited or minor. Physicians typically spend 10 minutes face-to-face with the patient and/or family.;</i>
+</td>
+                        <td>August 1st, 2006 04:00</td>
+                        <td> </td>   
+                        <td> </td>   
+                         
+                      </tr>
+<!-- Select Allergies for this Encounter --><!-- Select Car Goals for this Encounter --><!-- Select Vitals for this Encounter --><!-- Select lab results for this Encounter --><!-- Select conditions for this Encounter --><!-- Select procedures for this Encounter --><!-- Select Medications for this Encounter --><!-- Select Social History for this Encounter --><!-- Select immunizations for this Encounter --><!-- Select medical_equipment for this Encounter -->
+</tbody></table>
+<br><br><h3>Encounter -9</h3>
+            <table border="1" width="100%" class="narr_table"><tbody>
+<tr>
+<th class="narr_th">Description</th>
+                  <th class="narr_th">Codes</th>
+                  <th class="narr_th">Time</th>
+                 
+                    <th class="narr_th">Status</th>
+               
+                  
+                  
+                    <th class="narr_th">Value</th>
+                  
+                </tr>
+<tr class="narr_tr">
+<td id="encounters-desc-9">Encounter Office Visit</td>
+                        <td id="encounters-code-9">
+<b>CPT: 99212</b><br><i>C0374558:Office or other outpatient visit for the evaluation and management of an established patient, which requires at least 2 of these 3 key components: A problem focused history; A problem focused examination; Straightforward medical decision making. Counseling and/or coordination of care with other providers or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are self limited or minor. Physicians typically spend 10 minutes face-to-face with the patient and/or family.;</i>
+</td>
+                        <td>July 26th, 2005 04:00</td>
+                        <td> </td>   
+                        <td> </td>   
+                         
+                      </tr>
+<!-- Select Allergies for this Encounter --><!-- Select Car Goals for this Encounter --><!-- Select Vitals for this Encounter --><!-- Select lab results for this Encounter --><!-- Select conditions for this Encounter --><!-- Select procedures for this Encounter --><!-- Select Medications for this Encounter --><!-- Select Social History for this Encounter --><!-- Select immunizations for this Encounter --><!-- Select medical_equipment for this Encounter -->
+</tbody></table>
+<br><br><h3>Encounter -10</h3>
+            <table border="1" width="100%" class="narr_table"><tbody>
+<tr>
+<th class="narr_th">Description</th>
+                  <th class="narr_th">Codes</th>
+                  <th class="narr_th">Time</th>
+                 
+                    <th class="narr_th">Status</th>
+               
+                  
+                  
+                    <th class="narr_th">Value</th>
+                  
+                </tr>
+<tr class="narr_tr">
+<td id="encounters-desc-10">encounter ED</td>
+                        <td id="encounters-code-10">
+<b>CPT: 99281</b><br><i>C0374582:Emergency department visit for the evaluation and management of a patient, which requires these 3 key components: A problem focused history; A problem focused examination; and Straightforward medical decision making. Counseling and/or coordination of care with other providers or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are self limited or minor.;</i>
+</td>
+                        <td>February 9th, 2005 05:00</td>
+                        <td> </td>   
+                        <td> </td>   
+                         
+                      </tr>
+<!-- Select Allergies for this Encounter --><!-- Select Car Goals for this Encounter --><!-- Select Vitals for this Encounter --><!-- Select lab results for this Encounter --><!-- Select conditions for this Encounter --><tr class="narr_tr">
+<th class="narr_th" colspan="5">Problems</th>
+                          </tr>
+<tr class="narr_tr">
+<td id="conditions-desc-0">Asthma</td>
+                        <td id="conditions-code-0">
+<b>ICD-9-CM: 493.92 ICD-10-CM: J45 SNOMED-CT: 195979001</b><br><i>C0340062:Hyperreactive airway disease; C0004096:Asthma;</i>
+</td>
+                        <td>February 9th, 2005 05:00</td>                        
+                        <td>active</td>
+                        <td> </td>   
+                      </tr>
+<!-- Select procedures for this Encounter --><tr class="narr_tr">
+<th class="narr_th" colspan="5">Procedures</th>
+                         </tr>
+<tr class="narr_tr">
+<td id="procedures-desc-2">Asthma Symptom Assessment Tool</td>
+                        <td id="procedures-code-2">
+<b>SNOMED-CT: 401011001</b><br><i>C1276011:Peak expiratory flow rate monitoring using diary;</i>
+</td>
+                        <td>February 9th, 2005 05:00</td>
+                        <td> </td>   
+                        <td> </td>                           
+                      </tr>
+<!-- Select Medications for this Encounter --><!-- Select Social History for this Encounter --><!-- Select immunizations for this Encounter --><!-- Select medical_equipment for this Encounter -->
+</tbody></table>
+</div>
+   <hr align="left" color="teal" size="2" width="80%">
+<div id="patient_information_by_section" style="display:block">
+<h3><a name="idm52128" href="#toc">Allergies and Adverse Reactions</a></h3>
+<div>
+                <table class="narr_table" border="1" width="100%">
+<thead><tr class="narr_tr">
+<th class="narr_th">Description</th>                      
+                      <th class="narr_th">Code</th>                      
+                      <th class="narr_th">Time</th>
+                    </tr></thead>
+<tbody><tr class="narr_tr" id="noallergies_summary">
+<td id="noallergies">No Known allergies</td>
+                      <td>160244002</td>                                         
+                      <td>20120620153107</td>
+                    </tr></tbody>
+</table>
+</div>
+<h3><a name="idm77584" href="#toc">Medications - Prescription and Non-Prescription</a></h3>
+<div>
+  <table class="narr_table" border="1" width="100%">
+<thead><tr class="narr_tr">
+<th class="narr_th">Description</th>
+        <th class="narr_th">Codes</th>
+        <th class="narr_th">Time</th>
+        
+      </tr></thead>
+<tbody>
+<tr class="narr_tr">
+<td id="medications-desc-0">Short acting beta 2 agonist</td>
+          <td id="medications-code-0">RxNorm: 630208<br>C1696556:Albuterol 0.83 MG/ML Inhalant Solution;</td>
+          <td>July 30th, 2010 04:00</td>
+           
+        </tr>
+<tr class="narr_tr">
+<td id="medications-desc-1">Short acting beta 2 agonist</td>
+          <td id="medications-code-1">RxNorm: 630208<br>C1696556:Albuterol 0.83 MG/ML Inhalant Solution;</td>
+          <td>August 10th, 2009 04:00</td>
+           
+        </tr>
+<tr class="narr_tr">
+<td id="medications-desc-2">Second generation cephalosporins</td>
+          <td id="medications-code-2">RxNorm: 309097<br>C0975418:Cefuroxime 250 MG Oral Tablet;</td>
+          <td>March 31st, 2010 04:00</td>
+           
+        </tr>
+</tbody>
+</table>
+</div>
+<h3><a name="idm157168" href="#toc">Encounters</a></h3>
+<div>
+  <table class="narr_table" border="1" width="100%">
+<thead><tr class="narr_tr">
+<th class="narr_th">Description</th>
+        <th class="narr_th">Codes</th>
+        <th class="narr_th">Time</th>
+        
+      </tr></thead>
+<tbody>
+<tr class="narr_tr">
+<td id="encounters-desc-0">Encounter Office &amp; Outpatient Consult</td>
+          <td id="encounters-code-0">CPT: 99241<br>C0199299:Office consultation for a new or established patient, which requires these 3 key components: A problem focused history; A problem focused examination; and Straightforward medical decision making. Counseling and/or coordination of care with other providers or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are self limited or minor. Physicians typically spend 15 minutes face-to-face with the patient and/or family.;</td>
+          <td>October 30th, 2010 04:00</td>
+           
+        </tr>
+<tr class="narr_tr">
+<td id="encounters-desc-1">Encounter Outpatient</td>
+          <td id="encounters-code-1">CPT: 99213 ICD-9-CM: V70.0<br>C0374559:Office or other outpatient visit for the evaluation and management of an established patient, which requires at least 2 of these 3 key components: An expanded problem focused history; An expanded problem focused examination; Medical decision making of low complexity. Counseling and coordination of care with other providers or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of low to moderate severity. Physicians typically spend 15 minutes face-to-face with the patient and/or family.;</td>
+          <td>August 20th, 2010 04:00</td>
+           
+        </tr>
+<tr class="narr_tr">
+<td id="encounters-desc-2">Encounter Office &amp; Outpatient Consult</td>
+          <td id="encounters-code-2">CPT: 99241<br>C0199299:Office consultation for a new or established patient, which requires these 3 key components: A problem focused history; A problem focused examination; and Straightforward medical decision making. Counseling and/or coordination of care with other providers or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are self limited or minor. Physicians typically spend 15 minutes face-to-face with the patient and/or family.;</td>
+          <td>July 30th, 2010 04:00</td>
+           
+        </tr>
+<tr class="narr_tr">
+<td id="encounters-desc-3">Encounter Outpatient</td>
+          <td id="encounters-code-3">CPT: 99213 ICD-9-CM: V70.0<br>C0374559:Office or other outpatient visit for the evaluation and management of an established patient, which requires at least 2 of these 3 key components: An expanded problem focused history; An expanded problem focused examination; Medical decision making of low complexity. Counseling and coordination of care with other providers or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of low to moderate severity. Physicians typically spend 15 minutes face-to-face with the patient and/or family.;</td>
+          <td>March 31st, 2010 04:00</td>
+           
+        </tr>
+<tr class="narr_tr">
+<td id="encounters-desc-4">Encounter Outpatient</td>
+          <td id="encounters-code-4">CPT: 99213 ICD-9-CM: V70.0<br>C0374559:Office or other outpatient visit for the evaluation and management of an established patient, which requires at least 2 of these 3 key components: An expanded problem focused history; An expanded problem focused examination; Medical decision making of low complexity. Counseling and coordination of care with other providers or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of low to moderate severity. Physicians typically spend 15 minutes face-to-face with the patient and/or family.;</td>
+          <td>August 10th, 2009 04:00</td>
+           
+        </tr>
+<tr class="narr_tr">
+<td id="encounters-desc-5">Encounter Outpatient</td>
+          <td id="encounters-code-5">CPT: 99213 ICD-9-CM: V70.0<br>C0374559:Office or other outpatient visit for the evaluation and management of an established patient, which requires at least 2 of these 3 key components: An expanded problem focused history; An expanded problem focused examination; Medical decision making of low complexity. Counseling and coordination of care with other providers or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of low to moderate severity. Physicians typically spend 15 minutes face-to-face with the patient and/or family.;</td>
+          <td>August 2nd, 2008 04:00</td>
+           
+        </tr>
+<tr class="narr_tr">
+<td id="encounters-desc-6">Encounter Office Visit</td>
+          <td id="encounters-code-6">CPT: 99212<br>C0374558:Office or other outpatient visit for the evaluation and management of an established patient, which requires at least 2 of these 3 key components: A problem focused history; A problem focused examination; Straightforward medical decision making. Counseling and/or coordination of care with other providers or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are self limited or minor. Physicians typically spend 10 minutes face-to-face with the patient and/or family.;</td>
+          <td>July 19th, 2007 04:00</td>
+           
+        </tr>
+<tr class="narr_tr">
+<td id="encounters-desc-7">encounter ED</td>
+          <td id="encounters-code-7">CPT: 99281<br>C0374582:Emergency department visit for the evaluation and management of a patient, which requires these 3 key components: A problem focused history; A problem focused examination; and Straightforward medical decision making. Counseling and/or coordination of care with other providers or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are self limited or minor.;</td>
+          <td>November 13th, 2006 05:00</td>
+           
+        </tr>
+<tr class="narr_tr">
+<td id="encounters-desc-8">Encounter Office Visit</td>
+          <td id="encounters-code-8">CPT: 99212<br>C0374558:Office or other outpatient visit for the evaluation and management of an established patient, which requires at least 2 of these 3 key components: A problem focused history; A problem focused examination; Straightforward medical decision making. Counseling and/or coordination of care with other providers or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are self limited or minor. Physicians typically spend 10 minutes face-to-face with the patient and/or family.;</td>
+          <td>August 1st, 2006 04:00</td>
+           
+        </tr>
+<tr class="narr_tr">
+<td id="encounters-desc-9">Encounter Office Visit</td>
+          <td id="encounters-code-9">CPT: 99212<br>C0374558:Office or other outpatient visit for the evaluation and management of an established patient, which requires at least 2 of these 3 key components: A problem focused history; A problem focused examination; Straightforward medical decision making. Counseling and/or coordination of care with other providers or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are self limited or minor. Physicians typically spend 10 minutes face-to-face with the patient and/or family.;</td>
+          <td>July 26th, 2005 04:00</td>
+           
+        </tr>
+<tr class="narr_tr">
+<td id="encounters-desc-10">encounter ED</td>
+          <td id="encounters-code-10">CPT: 99281<br>C0374582:Emergency department visit for the evaluation and management of a patient, which requires these 3 key components: A problem focused history; A problem focused examination; and Straightforward medical decision making. Counseling and/or coordination of care with other providers or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are self limited or minor.;</td>
+          <td>February 9th, 2005 05:00</td>
+           
+        </tr>
+</tbody>
+</table>
+</div>
+<h3><a name="idm258048" href="#toc">Problems</a></h3>
+<div>
+  <table class="narr_table" border="1" width="100%">
+<thead><tr class="narr_tr">
+<th class="narr_th">Description</th>
+        <th class="narr_th">Codes</th>
+        <th class="narr_th">Time</th>
+          <th class="narr_th">Status</th>
+        
+      </tr></thead>
+<tbody>
+<tr class="narr_tr">
+<td id="conditions-desc-0">Asthma</td>
+          <td id="conditions-code-0">ICD-9-CM: 493.92 ICD-10-CM: J45 SNOMED-CT: 195979001<br>C0340062:Hyperreactive airway disease; C0004096:Asthma;</td>
+          <td>February 9th, 2005 05:00</td>
+            <td>active</td>
+           
+        </tr>
+<tr class="narr_tr">
+<td id="conditions-desc-1">pharyngitis</td>
+          <td id="conditions-code-1">ICD-10-CM: J02 SNOMED-CT: 363746003 ICD-9-CM: 462<br>C0001344:Acute pharyngitis;</td>
+          <td>March 31st, 2010 04:00</td>
+            <td>active</td>
+           
+        </tr>
+<tr class="narr_tr">
+<td id="conditions-desc-2">Asthma Daytime Symptoms</td>
+          <td id="conditions-code-2">SNOMED-CT: 373899003<br>C1276804:Asthma daytime symptoms;</td>
+          <td>July 30th, 2010 04:00</td>
+            <td></td>
+           
+        </tr>
+<tr class="narr_tr">
+<td id="conditions-desc-3">Asthma Nighttime Symptoms</td>
+          <td id="conditions-code-3">SNOMED-CT: 395022009<br>C1273489:Asthma night-time symptoms;</td>
+          <td>July 30th, 2010 04:00</td>
+            <td></td>
+           
+        </tr>
+<tr class="narr_tr">
+<td id="conditions-desc-4">Asthma Daytime Symptoms</td>
+          <td id="conditions-code-4">SNOMED-CT: 373899003<br>C1276804:Asthma daytime symptoms;</td>
+          <td>August 10th, 2009 04:00</td>
+            <td></td>
+           
+        </tr>
+<tr class="narr_tr">
+<td id="conditions-desc-5">Asthma Nighttime Symptoms</td>
+          <td id="conditions-code-5">SNOMED-CT: 395022009<br>C1273489:Asthma night-time symptoms;</td>
+          <td>August 10th, 2009 04:00</td>
+            <td></td>
+           
+        </tr>
+</tbody>
+</table>
+</div>
+<h3><a name="idm1280624" href="#toc">Vital Signs</a></h3>
+<div>
+  <table class="narr_table" border="1" width="100%">
+<thead><tr class="narr_tr">
+<th class="narr_th">Description</th>
+        <th class="narr_th">Codes</th>
+        <th class="narr_th">Time</th>
+        
+          <th class="narr_th">Value</th>
+      </tr></thead>
+<tbody>
+<tr class="narr_tr">
+<td id="vitals-desc-0">Systolic Blood Pressure</td>
+          <td id="vitals-code-0">SNOMED-CT: 271649006<br>C0871470:Systolic Pressure;</td>
+          <td>July 30th, 2010 04:00</td>
+           
+              <td></td>
+        </tr>
+<tr class="narr_tr">
+<td id="vitals-desc-1">Diastolic Blood Pressure</td>
+          <td id="vitals-code-1">SNOMED-CT: 271650006<br>C0428883:Diastolic blood pressure;</td>
+          <td>July 30th, 2010 04:00</td>
+           
+              <td></td>
+        </tr>
+<tr class="narr_tr">
+<td id="vitals-desc-2">Systolic Blood Pressure</td>
+          <td id="vitals-code-2">SNOMED-CT: 271649006<br>C0871470:Systolic Pressure;</td>
+          <td>March 31st, 2010 04:00</td>
+           
+              <td></td>
+        </tr>
+<tr class="narr_tr">
+<td id="vitals-desc-3">Diastolic Blood Pressure</td>
+          <td id="vitals-code-3">SNOMED-CT: 271650006<br>C0428883:Diastolic blood pressure;</td>
+          <td>March 31st, 2010 04:00</td>
+           
+              <td></td>
+        </tr>
+<tr class="narr_tr">
+<td id="vitals-desc-4">Systolic Blood Pressure</td>
+          <td id="vitals-code-4">SNOMED-CT: 271649006<br>C0871470:Systolic Pressure;</td>
+          <td>August 10th, 2009 04:00</td>
+           
+              <td></td>
+        </tr>
+<tr class="narr_tr">
+<td id="vitals-desc-5">Diastolic Blood Pressure</td>
+          <td id="vitals-code-5">SNOMED-CT: 271650006<br>C0428883:Diastolic blood pressure;</td>
+          <td>August 10th, 2009 04:00</td>
+           
+              <td></td>
+        </tr>
+<tr class="narr_tr">
+<td id="vitals-desc-6">Systolic Blood Pressure</td>
+          <td id="vitals-code-6">SNOMED-CT: 271649006<br>C0871470:Systolic Pressure;</td>
+          <td>August 2nd, 2009 04:00</td>
+           
+              <td></td>
+        </tr>
+<tr class="narr_tr">
+<td id="vitals-desc-7">Diastolic Blood Pressure</td>
+          <td id="vitals-code-7">SNOMED-CT: 271650006<br>C0428883:Diastolic blood pressure;</td>
+          <td>August 2nd, 2009 04:00</td>
+           
+              <td></td>
+        </tr>
+<tr class="narr_tr">
+<td id="vitals-desc-8">Systolic Blood Pressure</td>
+          <td id="vitals-code-8">SNOMED-CT: 271649006<br>C0871470:Systolic Pressure;</td>
+          <td>July 19th, 2007 04:00</td>
+           
+              <td></td>
+        </tr>
+<tr class="narr_tr">
+<td id="vitals-desc-9">Diastolic Blood Pressure</td>
+          <td id="vitals-code-9">SNOMED-CT: 271650006<br>C0428883:Diastolic blood pressure;</td>
+          <td>July 19th, 2007 04:00</td>
+           
+              <td></td>
+        </tr>
+<tr class="narr_tr">
+<td id="vitals-desc-10">Systolic Blood Pressure</td>
+          <td id="vitals-code-10">SNOMED-CT: 271649006<br>C0871470:Systolic Pressure;</td>
+          <td>November 13th, 2006 05:00</td>
+           
+              <td></td>
+        </tr>
+<tr class="narr_tr">
+<td id="vitals-desc-11">Diastolic Blood Pressure</td>
+          <td id="vitals-code-11">SNOMED-CT: 271650006<br>C0428883:Diastolic blood pressure;</td>
+          <td>November 13th, 2006 05:00</td>
+           
+              <td></td>
+        </tr>
+<tr class="narr_tr">
+<td id="vitals-desc-12">BMI</td>
+          <td id="vitals-code-12">SNOMED-CT: 60621009 LOINC: 39156-5<br>C1542867:Body mass index:Relative Density:Point in time:^Patient:Quantitative;</td>
+          <td>July 30th, 2010 04:00</td>
+           
+              <td></td>
+        </tr>
+<tr class="narr_tr">
+<td id="vitals-desc-13">BMI</td>
+          <td id="vitals-code-13">SNOMED-CT: 60621009 LOINC: 39156-5<br>C1542867:Body mass index:Relative Density:Point in time:^Patient:Quantitative;</td>
+          <td>August 10th, 2009 04:00</td>
+           
+              <td></td>
+        </tr>
+<tr class="narr_tr">
+<td id="vitals-desc-14">BMI</td>
+          <td id="vitals-code-14">SNOMED-CT: 60621009 LOINC: 39156-5<br>C1542867:Body mass index:Relative Density:Point in time:^Patient:Quantitative;</td>
+          <td>August 2nd, 2008 04:00</td>
+           
+              <td></td>
+        </tr>
+</tbody>
+</table>
+</div>
+<h3><a name="idm500112" href="#toc">Surgeries</a></h3>
+<div>
+  <table class="narr_table" border="1" width="100%">
+<thead><tr class="narr_tr">
+<th class="narr_th">Description</th>
+        <th class="narr_th">Codes</th>
+        <th class="narr_th">Time</th>
+        
+      </tr></thead>
+<tbody>
+<tr class="narr_tr">
+<td id="procedures-desc-0">counseling for nutrition</td>
+          <td id="procedures-code-0">CPT: 97802 ICD-9-CM: V65.3 HCPCS: S9470 ICD-10-CM: Z00.8<br>C2910467:Encounter for other general examination; C2910466:Encounter for health examination in population surveys;</td>
+          <td>July 30th, 2010 04:00</td>
+           
+        </tr>
+<tr class="narr_tr">
+<td id="procedures-desc-1">counseling for physical activity</td>
+          <td id="procedures-code-1">ICD-9-CM: V65.41 HCPCS: S9451 ICD-10-CM: Z71.3<br>C0260823:Encounter for dietary surveillance and counseling;</td>
+          <td>July 30th, 2010 04:00</td>
+           
+        </tr>
+<tr class="narr_tr">
+<td id="procedures-desc-2">Asthma Symptom Assessment Tool</td>
+          <td id="procedures-code-2">SNOMED-CT: 401011001<br>C1276011:Peak expiratory flow rate monitoring using diary;</td>
+          <td>February 9th, 2005 05:00</td>
+           
+        </tr>
+<tr class="narr_tr">
+<td id="procedures-desc-3">Asthma Symptom Assessment Tool</td>
+          <td id="procedures-code-3">SNOMED-CT: 401011001<br>C1276011:Peak expiratory flow rate monitoring using diary;</td>
+          <td>November 13th, 2006 05:00</td>
+           
+        </tr>
+</tbody>
+</table>
+</div>
+<h3><a name="idm609584" href="#toc">Diagnostic Results</a></h3>
+<div>
+  <table class="narr_table" border="1" width="100%">
+<thead><tr class="narr_tr">
+<th class="narr_th">Description</th>
+        <th class="narr_th">Codes</th>
+        <th class="narr_th">Time</th>
+        
+          <th class="narr_th">Value</th>
+      </tr></thead>
+<tbody><tr class="narr_tr">
+<td id="results-desc-0">Group A Streptococcus Test</td>
+          <td id="results-code-0">CPT: 87430 LOINC: 31971-5 SNOMED-CT: 122245007<br>C1294564:Measurement of Streptococcus pyogenes enzyme antibody;</td>
+          <td>March 31st, 2010 04:00</td>
+           
+              <td></td>
+        </tr></tbody>
+</table>
+</div>
+<h3><a name="idm634656" href="#toc">Social History</a></h3>
+<div>
+  <table class="narr_table" border="1" width="100%">
+<thead><tr class="narr_tr">
+<th class="narr_th">Description</th>
+        <th class="narr_th">Codes</th>
+        <th class="narr_th">Time</th>
+        
+      </tr></thead>
+<tbody><tr class="narr_tr">
+<td id="social_history-desc-0">Tobacco Non-User</td>
+          <td id="social_history-code-0">SNOMED-CT: 160618006<br>C0425311:Current non-smoker;</td>
+          <td>July 30th, 2010 04:00</td>
+           
+        </tr></tbody>
+</table>
+</div>
+</div>
+<br><br>
+</body>
+</html>

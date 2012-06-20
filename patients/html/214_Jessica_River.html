@@ -1,0 +1,630 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html xmlns:n1="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!-- Do NOT edit this HTML directly: it was generated via an XSLT transformation from a CDA Release 2 XML document. --><title>Cypress C32 Patient Test Record: Jessica River</title>
+<style type="text/css">
+body {
+  color: #003366;
+  background-color: #FFFFFF;
+  font-family: Verdana, Tahoma, sans-serif;
+  font-size: 11px;
+}
+
+a {
+  color: #003366;
+  background-color: #FFFFFF;
+}
+
+h1 {
+  font-size: 12pt;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 11pt;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 10pt;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 8pt;
+  font-weight: bold;
+}
+
+div {
+  width: 80%;
+}
+
+table {
+  line-height: 10pt;
+  width: 80%;
+}
+
+tr {
+  background-color: #ccccff;
+}
+
+td {
+  padding: 0.1cm 0.2cm;
+  vertical-align: top;
+}
+
+.h1center {
+  font-size: 12pt;
+  font-weight: bold;
+  text-align: center;
+  width: 80%;
+}
+
+.header_table{
+  border: 1pt inset #00008b;
+}
+
+.narr_table {
+  width: 100%;
+}
+
+.narr_tr {
+  background-color: #ffffcc;
+}
+
+.narr_th {
+  background-color: #ffd700;
+}
+
+.td_label{
+  font-weight: bold;
+  color: white;
+}
+          </style>
+</head>
+<body>
+<h1 class="h1center">Cypress C32 Patient Test Record: Jessica River</h1>
+<table class="header_table"><tbody>
+<tr>
+<td width="20%" bgcolor="#3399ff"><span class="td_label">Patient</span></td>
+<td colspan="3">Jessica River</td>
+</tr>
+<tr>
+<td width="20%" bgcolor="#3399ff"><span class="td_label">Date of birth</span></td>
+<td width="30%">June 12, 1942, 04:00:00  </td>
+<td width="15%" bgcolor="#3399ff"><span class="td_label">Sex</span></td>
+<td>Female</td>
+</tr>
+<tr>
+<td width="20%" bgcolor="#3399ff"><span class="td_label">Race</span></td>
+<td width="30%">White</td>
+<td width="15%" bgcolor="#3399ff"><span class="td_label">Ethnicity</span></td>
+<td>Not Hispanic or Latino</td>
+</tr>
+<tr>
+<td bgcolor="#3399ff"><span class="td_label">Contact info</span></td>
+<td> Pirmary Home:<br>202 Burlington Rd.<br>Bedford, MA 01730<br>Tel:  +1-781-271-3000<br>
+</td>
+<td bgcolor="#3399ff"><span class="td_label">Patient IDs</span></td>
+<td>4fe1ed0ca9ffcc03cd001a69 Cypress<br>
+</td>
+</tr>
+</tbody></table>
+<table class="header_table"><tbody>
+<tr>
+<td width="20%" bgcolor="#3399ff"><span class="td_label">Document Id</span></td>
+<td width="80%">HITSP_C32v2.5_Rev6_16Sections_Entries_MinimalErrors 2.16.840.1.113883.3.72</td>
+</tr>
+<tr>
+<td width="20%" bgcolor="#3399ff"><span class="td_label">Document Created:</span></td>
+<td width="80%">June 20, 2012, 15:32:29  </td>
+</tr>
+</tbody></table>
+<table class="header_table"><tbody>
+<tr>
+<td width="20%" bgcolor="#3399ff"><span class="td_label">Author</span></td>
+<td width="80%">Auto Generated</td>
+</tr>
+<tr>
+<td bgcolor="#3399ff"><span class="td_label">Contact info</span></td>
+<td>
+<br>Tel:  +1-781-271-3000<br>
+</td>
+</tr>
+</tbody></table>
+<table class="header_table"><tbody>
+<tr>
+<td width="20%" bgcolor="#3399ff"><span class="td_label">Document maintained by</span></td>
+<td width="80%">Cypress</td>
+</tr>
+<tr>
+<td bgcolor="#3399ff"><span class="td_label">Contact info</span></td>
+<td width="80%">202 Burlington Rd.<br>Bedford, MA 01730<br>Tel:  +1-781-271-3000<br>
+</td>
+</tr>
+</tbody></table>
+<h2><a name="toc">Table of Contents</a></h2>
+<ul>
+<li><a href="#idp15120192">Allergies and Adverse Reactions</a></li>
+<li><a href="#idp15027520">Medications - Prescription and Non-Prescription</a></li>
+<li><a href="#idp11780848">Encounters</a></li>
+<li><a href="#idp11781296">Problems</a></li>
+<li><a href="#idp1146736">Vital Signs</a></li>
+<li><a href="#idp5265248">Surgeries</a></li>
+<li><a href="#idp11540064">Diagnostic Results</a></li>
+<li><a href="#idp11569568">Social History</a></li>
+</ul> 
+    <script language="javascript">
+    var cur_view = "section";
+      function toggle(id) {
+        var e = document.getElementById(id);
+        if (cur_view=="section"){
+          document.getElementById("patient_information_by_section").style.display = 'none';
+          document.getElementById("table_by_encounter").style.display = 'block';
+          document.getElementById('toggle_button').innerHTML="View By Section";
+          cur_view = "encounter";
+        }else{
+          document.getElementById("patient_information_by_section").style.display = 'block';
+          document.getElementById("table_by_encounter").style.display = 'none';
+          document.getElementById('toggle_button').innerHTML="View By Encounter";
+          cur_view = "section";
+        }         
+      }
+    </script><div>
+      <h3><a href="#" onclick="toggle('table_by_encounter');" id="toggle_button">View By Encounter</a></h3>
+     </div>
+     <div id="table_by_encounter" style="display:none">
+
+
+            <br><br><h3>Encounter 0</h3>
+            <table border="1" width="100%" class="narr_table"><tbody>
+<tr>
+<th class="narr_th">Description</th>
+                  <th class="narr_th">Codes</th>
+                  <th class="narr_th">Time</th>
+                 
+                    <th class="narr_th">Status</th>
+               
+                  
+                  
+                    <th class="narr_th">Value</th>
+                  
+                </tr>
+<tr class="narr_tr">
+<td id="encounters-desc-0">Encounter Outpatient</td>
+                        <td id="encounters-code-0">
+<b>CPT: 99213 ICD-9-CM: V70.0</b><br><i>C0374559:Office or other outpatient visit for the evaluation and management of an established patient, which requires at least 2 of these 3 key components: An expanded problem focused history; An expanded problem focused examination; Medical decision making of low complexity. Counseling and coordination of care with other providers or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of low to moderate severity. Physicians typically spend 15 minutes face-to-face with the patient and/or family.;</i>
+</td>
+                        <td>June 7th, 2010 04:00</td>
+                        <td> </td>   
+                        <td> </td>   
+                         
+                      </tr>
+<!-- Select Allergies for this Encounter --><!-- Select Car Goals for this Encounter --><!-- Select Vitals for this Encounter --><tr class="narr_tr">
+<th class="narr_th" colspan="5">Vital Signs</th>
+                        </tr>
+<tr class="narr_tr">
+<td id="vitals-desc-0">Systolic Blood Pressure</td>
+                        <td id="vitals-code-0">
+<b>SNOMED-CT: 271649006</b><br><i>C0871470:Systolic Pressure;</i>
+</td>
+                        <td>June 7th, 2010 04:00</td> 
+                        <td> </td>                          
+                        <td></td>   
+                                         
+                      </tr>
+<tr class="narr_tr">
+<td id="vitals-desc-1">Diastolic Blood Pressure</td>
+                        <td id="vitals-code-1">
+<b>SNOMED-CT: 271650006</b><br><i>C0428883:Diastolic blood pressure;</i>
+</td>
+                        <td>June 7th, 2010 04:00</td> 
+                        <td> </td>                          
+                        <td></td>   
+                                         
+                      </tr>
+<tr class="narr_tr">
+<td id="vitals-desc-2">Heart Rate</td>
+                        <td id="vitals-code-2">
+<b>SNOMED-CT: 364075005</b><br><i>C0018810:heart rate;</i>
+</td>
+                        <td>June 7th, 2010 04:00</td> 
+                        <td> </td>                          
+                        <td></td>   
+                                         
+                      </tr>
+<!-- Select lab results for this Encounter --><!-- Select conditions for this Encounter --><!-- Select procedures for this Encounter --><!-- Select Medications for this Encounter --><!-- Select Social History for this Encounter --><!-- Select immunizations for this Encounter --><!-- Select medical_equipment for this Encounter -->
+</tbody></table>
+<br><br><h3>Encounter -1</h3>
+            <table border="1" width="100%" class="narr_table"><tbody>
+<tr>
+<th class="narr_th">Description</th>
+                  <th class="narr_th">Codes</th>
+                  <th class="narr_th">Time</th>
+                 
+                    <th class="narr_th">Status</th>
+               
+                  
+                  
+                    <th class="narr_th">Value</th>
+                  
+                </tr>
+<tr class="narr_tr">
+<td id="encounters-desc-1">Encounter Outpatient</td>
+                        <td id="encounters-code-1">
+<b>CPT: 99213 ICD-9-CM: V70.0</b><br><i>C0374559:Office or other outpatient visit for the evaluation and management of an established patient, which requires at least 2 of these 3 key components: An expanded problem focused history; An expanded problem focused examination; Medical decision making of low complexity. Counseling and coordination of care with other providers or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of low to moderate severity. Physicians typically spend 15 minutes face-to-face with the patient and/or family.;</i>
+</td>
+                        <td>May 8th, 2010 04:00</td>
+                        <td> </td>   
+                        <td> </td>   
+                         
+                      </tr>
+<!-- Select Allergies for this Encounter --><!-- Select Car Goals for this Encounter --><!-- Select Vitals for this Encounter --><tr class="narr_tr">
+<th class="narr_th" colspan="5">Vital Signs</th>
+                        </tr>
+<tr class="narr_tr">
+<td id="vitals-desc-3">Systolic Blood Pressure</td>
+                        <td id="vitals-code-3">
+<b>SNOMED-CT: 271649006</b><br><i>C0871470:Systolic Pressure;</i>
+</td>
+                        <td>May 8th, 2010 04:00</td> 
+                        <td> </td>                          
+                        <td></td>   
+                                         
+                      </tr>
+<tr class="narr_tr">
+<td id="vitals-desc-4">Diastolic Blood Pressure</td>
+                        <td id="vitals-code-4">
+<b>SNOMED-CT: 271650006</b><br><i>C0428883:Diastolic blood pressure;</i>
+</td>
+                        <td>May 8th, 2010 04:00</td> 
+                        <td> </td>                          
+                        <td></td>   
+                                         
+                      </tr>
+<tr class="narr_tr">
+<td id="vitals-desc-5">Heart Rate</td>
+                        <td id="vitals-code-5">
+<b>SNOMED-CT: 364075005</b><br><i>C0018810:heart rate;</i>
+</td>
+                        <td>May 8th, 2010 04:00</td> 
+                        <td> </td>                          
+                        <td></td>   
+                                         
+                      </tr>
+<!-- Select lab results for this Encounter --><tr class="narr_tr">
+<th class="narr_th" colspan="5">Lab Results</th>
+                        </tr>
+<tr class="narr_tr">
+<td id="results-desc-0">Ejection Fraction</td>
+                        <td id="results-code-0">
+<b>SNOMED-CT: 70822001</b><br><i>C0232174:Cardiac ejection fraction;</i>
+</td>
+                        <td>May 8th, 2010 04:00</td>
+                        <td> </td>   
+                        <td></td>  
+                                      
+                      </tr>
+<!-- Select conditions for this Encounter --><tr class="narr_tr">
+<th class="narr_th" colspan="5">Problems</th>
+                          </tr>
+<tr class="narr_tr">
+<td id="conditions-desc-0">Atrial Fibrillation</td>
+                        <td id="conditions-code-0">
+<b>ICD-9-CM: 427.31 ICD-10-CM: I48.0 SNOMED-CT: 49436004</b><br><i>C0004238:Atrial Fibrillation;</i>
+</td>
+                        <td>May 8th, 2010 04:00</td>                        
+                        <td>active</td>
+                        <td> </td>   
+                      </tr>
+<tr class="narr_tr">
+<td id="conditions-desc-1">Heart Failure</td>
+                        <td id="conditions-code-1">
+<b>ICD-9-CM: 428.9 ICD-10-CM: I50.9 SNOMED-CT: 84114007</b><br><i>C0018801:Heart failure; C1959583:Myocardial Failure;</i>
+</td>
+                        <td>May 8th, 2010 04:00</td>                        
+                        <td>active</td>
+                        <td> </td>   
+                      </tr>
+<tr class="narr_tr">
+<td id="conditions-desc-2">Hypertension</td>
+                        <td id="conditions-code-2">
+<b>ICD-9-CM: 401.9 ICD-10-CM: I10 SNOMED-CT: 59621000</b><br><i>C2882073:hypertension (arterial) (benign) (essential) (malignant) (primary) (systemic); C0020538:Hypertensive disease; C0085580:Essential Hypertension;</i>
+</td>
+                        <td>May 8th, 2010 04:00</td>                        
+                        <td>active</td>
+                        <td> </td>   
+                      </tr>
+<!-- Select procedures for this Encounter --><tr class="narr_tr">
+<th class="narr_th" colspan="5">Procedures</th>
+                         </tr>
+<tr class="narr_tr">
+<td id="procedures-desc-0">tobacco use cessation counseling</td>
+                        <td id="procedures-code-0">
+<b>SNOMED-CT: 384742004 CPT: 99406</b><br><i>C1692317:Smoking cessation assistance;</i>
+</td>
+                        <td>May 8th, 2010 04:00</td>
+                        <td> </td>   
+                        <td> </td>                           
+                      </tr>
+<!-- Select Medications for this Encounter --><tr class="narr_tr">
+<th class="narr_th" colspan="5">Medications</th>
+                        </tr>
+<tr class="narr_tr">
+<td id="medications-desc-0">Warfarin Therapy</td>
+                        <td id="medications-code-0">
+<b>RxNorm: 855326</b><br><i>C0710785:Warfarin Sodium 4 MG Oral Tablet [Coumadin];</i>
+</td>
+                        <td>May 8th, 2010 04:00</td>                        
+                        <td></td> 
+                        <td> </td>                          
+                      </tr>
+<tr class="narr_tr">
+<td id="medications-desc-1">ACE inhibitor or ARB</td>
+                        <td id="medications-code-1">
+<b>RxNorm: 314076</b><br><i>C0981555:Lisinopril 10 MG Oral Tablet;</i>
+</td>
+                        <td>May 8th, 2010 04:00</td>                        
+                        <td></td> 
+                        <td> </td>                          
+                      </tr>
+<tr class="narr_tr">
+<td id="medications-desc-2">Beta Blocker Therapy</td>
+                        <td id="medications-code-2">
+<b>RxNorm: 866924</b><br><i>C1359886:Metoprolol Tartrate 25 MG Oral Tablet;</i>
+</td>
+                        <td>May 8th, 2010 04:00</td>                        
+                        <td></td> 
+                        <td> </td>                          
+                      </tr>
+<!-- Select Social History for this Encounter --><tr class="narr_tr">
+<th class="narr_th" colspan="5">Social History</th>
+                          </tr>
+<tr class="narr_tr">
+<td id="social_history-desc-0">Tobacco User</td>
+                        <td id="social_history-code-0">
+<b>SNOMED-CT: 230062009</b><br><i>C0459846:Moderate cigarette smoker;</i>
+</td>
+                        <td>May 8th, 2010 04:00</td> 
+                        <td> </td>   
+                        <td> </td>                           
+                      </tr>
+<!-- Select immunizations for this Encounter --><!-- Select medical_equipment for this Encounter -->
+</tbody></table>
+</div>
+   <hr align="left" color="teal" size="2" width="80%">
+<div id="patient_information_by_section" style="display:block">
+<h3><a name="idp15120192" href="#toc">Allergies and Adverse Reactions</a></h3>
+<div>
+                <table class="narr_table" border="1" width="100%">
+<thead><tr class="narr_tr">
+<th class="narr_th">Description</th>                      
+                      <th class="narr_th">Code</th>                      
+                      <th class="narr_th">Time</th>
+                    </tr></thead>
+<tbody><tr class="narr_tr" id="noallergies_summary">
+<td id="noallergies">No Known allergies</td>
+                      <td>160244002</td>                                         
+                      <td>20120620153229</td>
+                    </tr></tbody>
+</table>
+</div>
+<h3><a name="idp15027520" href="#toc">Medications - Prescription and Non-Prescription</a></h3>
+<div>
+  <table class="narr_table" border="1" width="100%">
+<thead><tr class="narr_tr">
+<th class="narr_th">Description</th>
+        <th class="narr_th">Codes</th>
+        <th class="narr_th">Time</th>
+        
+      </tr></thead>
+<tbody>
+<tr class="narr_tr">
+<td id="medications-desc-0">Warfarin Therapy</td>
+          <td id="medications-code-0">RxNorm: 855326<br>C0710785:Warfarin Sodium 4 MG Oral Tablet [Coumadin];</td>
+          <td>May 8th, 2010 04:00</td>
+           
+        </tr>
+<tr class="narr_tr">
+<td id="medications-desc-1">ACE inhibitor or ARB</td>
+          <td id="medications-code-1">RxNorm: 314076<br>C0981555:Lisinopril 10 MG Oral Tablet;</td>
+          <td>May 8th, 2010 04:00</td>
+           
+        </tr>
+<tr class="narr_tr">
+<td id="medications-desc-2">Beta Blocker Therapy</td>
+          <td id="medications-code-2">RxNorm: 866924<br>C1359886:Metoprolol Tartrate 25 MG Oral Tablet;</td>
+          <td>May 8th, 2010 04:00</td>
+           
+        </tr>
+</tbody>
+</table>
+</div>
+<h3><a name="idp11780848" href="#toc">Encounters</a></h3>
+<div>
+  <table class="narr_table" border="1" width="100%">
+<thead><tr class="narr_tr">
+<th class="narr_th">Description</th>
+        <th class="narr_th">Codes</th>
+        <th class="narr_th">Time</th>
+        
+      </tr></thead>
+<tbody>
+<tr class="narr_tr">
+<td id="encounters-desc-0">Encounter Outpatient</td>
+          <td id="encounters-code-0">CPT: 99213 ICD-9-CM: V70.0<br>C0374559:Office or other outpatient visit for the evaluation and management of an established patient, which requires at least 2 of these 3 key components: An expanded problem focused history; An expanded problem focused examination; Medical decision making of low complexity. Counseling and coordination of care with other providers or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of low to moderate severity. Physicians typically spend 15 minutes face-to-face with the patient and/or family.;</td>
+          <td>June 7th, 2010 04:00</td>
+           
+        </tr>
+<tr class="narr_tr">
+<td id="encounters-desc-1">Encounter Outpatient</td>
+          <td id="encounters-code-1">CPT: 99213 ICD-9-CM: V70.0<br>C0374559:Office or other outpatient visit for the evaluation and management of an established patient, which requires at least 2 of these 3 key components: An expanded problem focused history; An expanded problem focused examination; Medical decision making of low complexity. Counseling and coordination of care with other providers or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of low to moderate severity. Physicians typically spend 15 minutes face-to-face with the patient and/or family.;</td>
+          <td>May 8th, 2010 04:00</td>
+           
+        </tr>
+</tbody>
+</table>
+</div>
+<h3><a name="idp11781296" href="#toc">Problems</a></h3>
+<div>
+  <table class="narr_table" border="1" width="100%">
+<thead><tr class="narr_tr">
+<th class="narr_th">Description</th>
+        <th class="narr_th">Codes</th>
+        <th class="narr_th">Time</th>
+          <th class="narr_th">Status</th>
+        
+      </tr></thead>
+<tbody>
+<tr class="narr_tr">
+<td id="conditions-desc-0">Atrial Fibrillation</td>
+          <td id="conditions-code-0">ICD-9-CM: 427.31 ICD-10-CM: I48.0 SNOMED-CT: 49436004<br>C0004238:Atrial Fibrillation;</td>
+          <td>May 8th, 2010 04:00</td>
+            <td>active</td>
+           
+        </tr>
+<tr class="narr_tr">
+<td id="conditions-desc-1">Heart Failure</td>
+          <td id="conditions-code-1">ICD-9-CM: 428.9 ICD-10-CM: I50.9 SNOMED-CT: 84114007<br>C0018801:Heart failure; C1959583:Myocardial Failure;</td>
+          <td>May 8th, 2010 04:00</td>
+            <td>active</td>
+           
+        </tr>
+<tr class="narr_tr">
+<td id="conditions-desc-2">Hypertension</td>
+          <td id="conditions-code-2">ICD-9-CM: 401.9 ICD-10-CM: I10 SNOMED-CT: 59621000<br>C2882073:hypertension (arterial) (benign) (essential) (malignant) (primary) (systemic); C0020538:Hypertensive disease; C0085580:Essential Hypertension;</td>
+          <td>May 8th, 2010 04:00</td>
+            <td>active</td>
+           
+        </tr>
+</tbody>
+</table>
+</div>
+<h3><a name="idp1146736" href="#toc">Vital Signs</a></h3>
+<div>
+  <table class="narr_table" border="1" width="100%">
+<thead><tr class="narr_tr">
+<th class="narr_th">Description</th>
+        <th class="narr_th">Codes</th>
+        <th class="narr_th">Time</th>
+        
+          <th class="narr_th">Value</th>
+      </tr></thead>
+<tbody>
+<tr class="narr_tr">
+<td id="vitals-desc-0">Systolic Blood Pressure</td>
+          <td id="vitals-code-0">SNOMED-CT: 271649006<br>C0871470:Systolic Pressure;</td>
+          <td>June 7th, 2010 04:00</td>
+           
+              <td></td>
+        </tr>
+<tr class="narr_tr">
+<td id="vitals-desc-1">Diastolic Blood Pressure</td>
+          <td id="vitals-code-1">SNOMED-CT: 271650006<br>C0428883:Diastolic blood pressure;</td>
+          <td>June 7th, 2010 04:00</td>
+           
+              <td></td>
+        </tr>
+<tr class="narr_tr">
+<td id="vitals-desc-2">Heart Rate</td>
+          <td id="vitals-code-2">SNOMED-CT: 364075005<br>C0018810:heart rate;</td>
+          <td>June 7th, 2010 04:00</td>
+           
+              <td></td>
+        </tr>
+<tr class="narr_tr">
+<td id="vitals-desc-3">Systolic Blood Pressure</td>
+          <td id="vitals-code-3">SNOMED-CT: 271649006<br>C0871470:Systolic Pressure;</td>
+          <td>May 8th, 2010 04:00</td>
+           
+              <td></td>
+        </tr>
+<tr class="narr_tr">
+<td id="vitals-desc-4">Diastolic Blood Pressure</td>
+          <td id="vitals-code-4">SNOMED-CT: 271650006<br>C0428883:Diastolic blood pressure;</td>
+          <td>May 8th, 2010 04:00</td>
+           
+              <td></td>
+        </tr>
+<tr class="narr_tr">
+<td id="vitals-desc-5">Heart Rate</td>
+          <td id="vitals-code-5">SNOMED-CT: 364075005<br>C0018810:heart rate;</td>
+          <td>May 8th, 2010 04:00</td>
+           
+              <td></td>
+        </tr>
+<tr class="narr_tr">
+<td id="vitals-desc-6">BMI</td>
+          <td id="vitals-code-6">SNOMED-CT: 60621009 LOINC: 39156-5<br>C1542867:Body mass index:Relative Density:Point in time:^Patient:Quantitative;</td>
+          <td>February 8th, 2010 05:00</td>
+           
+              <td></td>
+        </tr>
+<tr class="narr_tr">
+<td id="vitals-desc-7">BMI</td>
+          <td id="vitals-code-7">SNOMED-CT: 60621009 LOINC: 39156-5<br>C1542867:Body mass index:Relative Density:Point in time:^Patient:Quantitative;</td>
+          <td>March 7th, 2010 05:00</td>
+           
+              <td></td>
+        </tr>
+</tbody>
+</table>
+</div>
+<h3><a name="idp5265248" href="#toc">Surgeries</a></h3>
+<div>
+  <table class="narr_table" border="1" width="100%">
+<thead><tr class="narr_tr">
+<th class="narr_th">Description</th>
+        <th class="narr_th">Codes</th>
+        <th class="narr_th">Time</th>
+        
+      </tr></thead>
+<tbody><tr class="narr_tr">
+<td id="procedures-desc-0">tobacco use cessation counseling</td>
+          <td id="procedures-code-0">SNOMED-CT: 384742004 CPT: 99406<br>C1692317:Smoking cessation assistance;</td>
+          <td>May 8th, 2010 04:00</td>
+           
+        </tr></tbody>
+</table>
+</div>
+<h3><a name="idp11540064" href="#toc">Diagnostic Results</a></h3>
+<div>
+  <table class="narr_table" border="1" width="100%">
+<thead><tr class="narr_tr">
+<th class="narr_th">Description</th>
+        <th class="narr_th">Codes</th>
+        <th class="narr_th">Time</th>
+        
+          <th class="narr_th">Value</th>
+      </tr></thead>
+<tbody><tr class="narr_tr">
+<td id="results-desc-0">Ejection Fraction</td>
+          <td id="results-code-0">SNOMED-CT: 70822001<br>C0232174:Cardiac ejection fraction;</td>
+          <td>May 8th, 2010 04:00</td>
+           
+              <td></td>
+        </tr></tbody>
+</table>
+</div>
+<h3><a name="idp11569568" href="#toc">Social History</a></h3>
+<div>
+  <table class="narr_table" border="1" width="100%">
+<thead><tr class="narr_tr">
+<th class="narr_th">Description</th>
+        <th class="narr_th">Codes</th>
+        <th class="narr_th">Time</th>
+        
+      </tr></thead>
+<tbody><tr class="narr_tr">
+<td id="social_history-desc-0">Tobacco User</td>
+          <td id="social_history-code-0">SNOMED-CT: 230062009<br>C0459846:Moderate cigarette smoker;</td>
+          <td>May 8th, 2010 04:00</td>
+           
+        </tr></tbody>
+</table>
+</div>
+</div>
+<br><br>
+</body>
+</html>

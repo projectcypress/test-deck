@@ -1,0 +1,855 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html xmlns:n1="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!-- Do NOT edit this HTML directly: it was generated via an XSLT transformation from a CDA Release 2 XML document. --><title>Cypress C32 Patient Test Record: Martin Nguyen</title>
+<style type="text/css">
+body {
+  color: #003366;
+  background-color: #FFFFFF;
+  font-family: Verdana, Tahoma, sans-serif;
+  font-size: 11px;
+}
+
+a {
+  color: #003366;
+  background-color: #FFFFFF;
+}
+
+h1 {
+  font-size: 12pt;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 11pt;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 10pt;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 8pt;
+  font-weight: bold;
+}
+
+div {
+  width: 80%;
+}
+
+table {
+  line-height: 10pt;
+  width: 80%;
+}
+
+tr {
+  background-color: #ccccff;
+}
+
+td {
+  padding: 0.1cm 0.2cm;
+  vertical-align: top;
+}
+
+.h1center {
+  font-size: 12pt;
+  font-weight: bold;
+  text-align: center;
+  width: 80%;
+}
+
+.header_table{
+  border: 1pt inset #00008b;
+}
+
+.narr_table {
+  width: 100%;
+}
+
+.narr_tr {
+  background-color: #ffffcc;
+}
+
+.narr_th {
+  background-color: #ffd700;
+}
+
+.td_label{
+  font-weight: bold;
+  color: white;
+}
+          </style>
+</head>
+<body>
+<h1 class="h1center">Cypress C32 Patient Test Record: Martin Nguyen</h1>
+<table class="header_table"><tbody>
+<tr>
+<td width="20%" bgcolor="#3399ff"><span class="td_label">Patient</span></td>
+<td colspan="3">Martin Nguyen</td>
+</tr>
+<tr>
+<td width="20%" bgcolor="#3399ff"><span class="td_label">Date of birth</span></td>
+<td width="30%">March 17, 2009, 04:00:00  </td>
+<td width="15%" bgcolor="#3399ff"><span class="td_label">Sex</span></td>
+<td>Male</td>
+</tr>
+<tr>
+<td width="20%" bgcolor="#3399ff"><span class="td_label">Race</span></td>
+<td width="30%">Asian</td>
+<td width="15%" bgcolor="#3399ff"><span class="td_label">Ethnicity</span></td>
+<td>Not Hispanic or Latino</td>
+</tr>
+<tr>
+<td bgcolor="#3399ff"><span class="td_label">Contact info</span></td>
+<td> Pirmary Home:<br>202 Burlington Rd.<br>Bedford, MA 01730<br>Tel:  +1-781-271-3000<br>
+</td>
+<td bgcolor="#3399ff"><span class="td_label">Patient IDs</span></td>
+<td>4fe1eccea9ffcc03cd0009a2 Cypress<br>
+</td>
+</tr>
+</tbody></table>
+<table class="header_table"><tbody>
+<tr>
+<td width="20%" bgcolor="#3399ff"><span class="td_label">Document Id</span></td>
+<td width="80%">HITSP_C32v2.5_Rev6_16Sections_Entries_MinimalErrors 2.16.840.1.113883.3.72</td>
+</tr>
+<tr>
+<td width="20%" bgcolor="#3399ff"><span class="td_label">Document Created:</span></td>
+<td width="80%">June 20, 2012, 15:31:26  </td>
+</tr>
+</tbody></table>
+<table class="header_table"><tbody>
+<tr>
+<td width="20%" bgcolor="#3399ff"><span class="td_label">Author</span></td>
+<td width="80%">Auto Generated</td>
+</tr>
+<tr>
+<td bgcolor="#3399ff"><span class="td_label">Contact info</span></td>
+<td>
+<br>Tel:  +1-781-271-3000<br>
+</td>
+</tr>
+</tbody></table>
+<table class="header_table"><tbody>
+<tr>
+<td width="20%" bgcolor="#3399ff"><span class="td_label">Document maintained by</span></td>
+<td width="80%">Cypress</td>
+</tr>
+<tr>
+<td bgcolor="#3399ff"><span class="td_label">Contact info</span></td>
+<td width="80%">202 Burlington Rd.<br>Bedford, MA 01730<br>Tel:  +1-781-271-3000<br>
+</td>
+</tr>
+</tbody></table>
+<h2><a name="toc">Table of Contents</a></h2>
+<ul>
+<li><a href="#idm53008">Allergies and Adverse Reactions</a></li>
+<li><a href="#idm68032">Medications - Prescription and Non-Prescription</a></li>
+<li><a href="#idm722224">Encounters</a></li>
+<li><a href="#idm849344">Problems</a></li>
+<li><a href="#idm897344">Vital Signs</a></li>
+</ul> 
+    <script language="javascript">
+    var cur_view = "section";
+      function toggle(id) {
+        var e = document.getElementById(id);
+        if (cur_view=="section"){
+          document.getElementById("patient_information_by_section").style.display = 'none';
+          document.getElementById("table_by_encounter").style.display = 'block';
+          document.getElementById('toggle_button').innerHTML="View By Section";
+          cur_view = "encounter";
+        }else{
+          document.getElementById("patient_information_by_section").style.display = 'block';
+          document.getElementById("table_by_encounter").style.display = 'none';
+          document.getElementById('toggle_button').innerHTML="View By Encounter";
+          cur_view = "section";
+        }         
+      }
+    </script><div>
+      <h3><a href="#" onclick="toggle('table_by_encounter');" id="toggle_button">View By Encounter</a></h3>
+     </div>
+     <div id="table_by_encounter" style="display:none">
+
+
+            <br><br><h3>Encounter 0</h3>
+            <table border="1" width="100%" class="narr_table"><tbody>
+<tr>
+<th class="narr_th">Description</th>
+                  <th class="narr_th">Codes</th>
+                  <th class="narr_th">Time</th>
+                 
+                    <th class="narr_th">Status</th>
+               
+                  
+                  
+                    <th class="narr_th">Value</th>
+                  
+                </tr>
+<tr class="narr_tr">
+<td id="encounters-desc-0">encounter outpatient-children</td>
+                        <td id="encounters-code-0">
+<b>ICD-10-CM: Z00.1</b><br><i>C2910449:Encounter for newborn, infant and child health examinations;</i>
+</td>
+                        <td>March 24th, 2011 04:00</td>
+                        <td> </td>   
+                        <td> </td>   
+                         
+                      </tr>
+<!-- Select Allergies for this Encounter --><!-- Select Car Goals for this Encounter --><!-- Select Vitals for this Encounter --><!-- Select lab results for this Encounter --><!-- Select conditions for this Encounter --><!-- Select procedures for this Encounter --><!-- Select Medications for this Encounter --><tr class="narr_tr">
+<th class="narr_th" colspan="5">Medications</th>
+                        </tr>
+<tr class="narr_tr">
+<td id="medications-desc-0">Hepatitis A Vaccine</td>
+                        <td id="medications-code-0">
+<b>RxNorm: 798481</b><br><i>C0995082:0.5 ML Hepatitis A Vaccine (Inactivated) Strain HM175 1440 UNT/ML Prefilled Syringe;</i>
+</td>
+                        <td>March 24th, 2011 04:00</td>                        
+                        <td></td> 
+                        <td> </td>                          
+                      </tr>
+<!-- Select Social History for this Encounter --><!-- Select immunizations for this Encounter --><!-- Select medical_equipment for this Encounter -->
+</tbody></table>
+<br><br><h3>Encounter -1</h3>
+            <table border="1" width="100%" class="narr_table"><tbody>
+<tr>
+<th class="narr_th">Description</th>
+                  <th class="narr_th">Codes</th>
+                  <th class="narr_th">Time</th>
+                 
+                    <th class="narr_th">Status</th>
+               
+                  
+                  
+                    <th class="narr_th">Value</th>
+                  
+                </tr>
+<tr class="narr_tr">
+<td id="encounters-desc-1">encounter outpatient-children</td>
+                        <td id="encounters-code-1">
+<b>ICD-10-CM: Z00.1</b><br><i>C2910449:Encounter for newborn, infant and child health examinations;</i>
+</td>
+                        <td>September 18th, 2010 04:00</td>
+                        <td> </td>   
+                        <td> </td>   
+                         
+                      </tr>
+<!-- Select Allergies for this Encounter --><!-- Select Car Goals for this Encounter --><!-- Select Vitals for this Encounter --><!-- Select lab results for this Encounter --><!-- Select conditions for this Encounter --><!-- Select procedures for this Encounter --><!-- Select Medications for this Encounter --><tr class="narr_tr">
+<th class="narr_th" colspan="5">Medications</th>
+                        </tr>
+<tr class="narr_tr">
+<td id="medications-desc-1">DTAP Vaccine</td>
+                        <td id="medications-code-1">
+<b>RxNorm: 795926</b><br><i>C1697230:Diphtheria Toxoid Vaccine 13.4 UNT/ML / Tetanus Toxoid Vaccine 10 UNT/ML Injectable Solution;</i>
+</td>
+                        <td>September 18th, 2010 04:00</td>                        
+                        <td></td> 
+                        <td> </td>                          
+                      </tr>
+<tr class="narr_tr">
+<td id="medications-desc-2">IPV Vaccination</td>
+                        <td id="medications-code-2">
+<b>CPT: 90713 CVX: 10</b><br><i></i>
+</td>
+                        <td>September 18th, 2010 04:00</td>                        
+                        <td></td> 
+                        <td> </td>                          
+                      </tr>
+<!-- Select Social History for this Encounter --><!-- Select immunizations for this Encounter --><!-- Select medical_equipment for this Encounter -->
+</tbody></table>
+<br><br><h3>Encounter -2</h3>
+            <table border="1" width="100%" class="narr_table"><tbody>
+<tr>
+<th class="narr_th">Description</th>
+                  <th class="narr_th">Codes</th>
+                  <th class="narr_th">Time</th>
+                 
+                    <th class="narr_th">Status</th>
+               
+                  
+                  
+                    <th class="narr_th">Value</th>
+                  
+                </tr>
+<tr class="narr_tr">
+<td id="encounters-desc-2">encounter outpatient-children</td>
+                        <td id="encounters-code-2">
+<b>ICD-10-CM: Z00.1</b><br><i>C2910449:Encounter for newborn, infant and child health examinations;</i>
+</td>
+                        <td>June 17th, 2010 04:00</td>
+                        <td> </td>   
+                        <td> </td>   
+                         
+                      </tr>
+<!-- Select Allergies for this Encounter --><!-- Select Car Goals for this Encounter --><!-- Select Vitals for this Encounter --><!-- Select lab results for this Encounter --><!-- Select conditions for this Encounter --><!-- Select procedures for this Encounter --><!-- Select Medications for this Encounter --><tr class="narr_tr">
+<th class="narr_th" colspan="5">Medications</th>
+                        </tr>
+<tr class="narr_tr">
+<td id="medications-desc-3">MMR Vaccine</td>
+                        <td id="medications-code-3">
+<b>RxNorm: 804186</b><br><i>C0710716:Measles Virus Vaccine Live, Enders' attenuated Edmonston strain 2000 UNT/ML / Mumps Virus Vaccine Live, Jeryl Lynn Strain 25000 UNT/ML / Rubella Virus Vaccine Live (Wistar RA 27-3 Strain) 2000 UNT/ML Injectable Solution [M-M-R II];</i>
+</td>
+                        <td>June 17th, 2010 04:00</td>                        
+                        <td></td> 
+                        <td> </td>                          
+                      </tr>
+<tr class="narr_tr">
+<td id="medications-desc-4">VZV Vaccine</td>
+                        <td id="medications-code-4">
+<b>RxNorm: 759609</b><br><i>C1814392:Varicella Virus Vaccine Live (Oka-Merck) strain 29800 UNT/ML Injectable Suspension [Zostavax];</i>
+</td>
+                        <td>June 17th, 2010 04:00</td>                        
+                        <td></td> 
+                        <td> </td>                          
+                      </tr>
+<tr class="narr_tr">
+<td id="medications-desc-5">Hepatitis A Vaccine</td>
+                        <td id="medications-code-5">
+<b>RxNorm: 798481</b><br><i>C0995082:0.5 ML Hepatitis A Vaccine (Inactivated) Strain HM175 1440 UNT/ML Prefilled Syringe;</i>
+</td>
+                        <td>June 17th, 2010 04:00</td>                        
+                        <td></td> 
+                        <td> </td>                          
+                      </tr>
+<!-- Select Social History for this Encounter --><!-- Select immunizations for this Encounter --><!-- Select medical_equipment for this Encounter -->
+</tbody></table>
+<br><br><h3>Encounter -3</h3>
+            <table border="1" width="100%" class="narr_table"><tbody>
+<tr>
+<th class="narr_th">Description</th>
+                  <th class="narr_th">Codes</th>
+                  <th class="narr_th">Time</th>
+                 
+                    <th class="narr_th">Status</th>
+               
+                  
+                  
+                    <th class="narr_th">Value</th>
+                  
+                </tr>
+<tr class="narr_tr">
+<td id="encounters-desc-3">encounter outpatient-children</td>
+                        <td id="encounters-code-3">
+<b>ICD-10-CM: Z00.1</b><br><i>C2910449:Encounter for newborn, infant and child health examinations;</i>
+</td>
+                        <td>March 17th, 2010 04:00</td>
+                        <td> </td>   
+                        <td> </td>   
+                         
+                      </tr>
+<!-- Select Allergies for this Encounter --><!-- Select Car Goals for this Encounter --><!-- Select Vitals for this Encounter --><!-- Select lab results for this Encounter --><!-- Select conditions for this Encounter --><!-- Select procedures for this Encounter --><!-- Select Medications for this Encounter --><tr class="narr_tr">
+<th class="narr_th" colspan="5">Medications</th>
+                        </tr>
+<tr class="narr_tr">
+<td id="medications-desc-6">Pneumococcal Vaccine</td>
+                        <td id="medications-code-6">
+<b>RxNorm: 854969</b><br><i>C2709773:pneumococcal capsular polysaccharide type 7F vaccine 0.05 MG/ML;</i>
+</td>
+                        <td>March 17th, 2010 04:00</td>                        
+                        <td></td> 
+                        <td> </td>                          
+                      </tr>
+<tr class="narr_tr">
+<td id="medications-desc-7">Influenza Vaccine</td>
+                        <td id="medications-code-7">
+<b>RxNorm: 857942</b><br><i>C2718407:Influenza Virus Vaccine, Inactivated A-Brisbane-59-2007, IVR-148 (H1N1) strain 0.03 MG/ML / Influenza Virus Vaccine, Inactivated A-Uruguay-716-2007, NYMC X-175C (H3N2) strain 0.03 MG/ML / Influenza Virus Vaccine, Inactivated B-Brisbane-60-2008 strain 0.03 MG/ML Injectable Suspension;</i>
+</td>
+                        <td>March 17th, 2010 04:00</td>                        
+                        <td></td> 
+                        <td> </td>                          
+                      </tr>
+<!-- Select Social History for this Encounter --><!-- Select immunizations for this Encounter --><!-- Select medical_equipment for this Encounter -->
+</tbody></table>
+<br><br><h3>Encounter -4</h3>
+            <table border="1" width="100%" class="narr_table"><tbody>
+<tr>
+<th class="narr_th">Description</th>
+                  <th class="narr_th">Codes</th>
+                  <th class="narr_th">Time</th>
+                 
+                    <th class="narr_th">Status</th>
+               
+                  
+                  
+                    <th class="narr_th">Value</th>
+                  
+                </tr>
+<tr class="narr_tr">
+<td id="encounters-desc-4">encounter outpatient-children</td>
+                        <td id="encounters-code-4">
+<b>ICD-10-CM: Z00.1</b><br><i>C2910449:Encounter for newborn, infant and child health examinations;</i>
+</td>
+                        <td>September 23rd, 2010 04:00</td>
+                        <td> </td>   
+                        <td> </td>   
+                         
+                      </tr>
+<!-- Select Allergies for this Encounter --><!-- Select Car Goals for this Encounter --><!-- Select Vitals for this Encounter --><!-- Select lab results for this Encounter --><!-- Select conditions for this Encounter --><!-- Select procedures for this Encounter --><!-- Select Medications for this Encounter --><!-- Select Social History for this Encounter --><!-- Select immunizations for this Encounter --><!-- Select medical_equipment for this Encounter -->
+</tbody></table>
+<br><br><h3>Encounter -5</h3>
+            <table border="1" width="100%" class="narr_table"><tbody>
+<tr>
+<th class="narr_th">Description</th>
+                  <th class="narr_th">Codes</th>
+                  <th class="narr_th">Time</th>
+                 
+                    <th class="narr_th">Status</th>
+               
+                  
+                  
+                    <th class="narr_th">Value</th>
+                  
+                </tr>
+<tr class="narr_tr">
+<td id="encounters-desc-5">encounter outpatient-children</td>
+                        <td id="encounters-code-5">
+<b>ICD-10-CM: Z00.1</b><br><i>C2910449:Encounter for newborn, infant and child health examinations;</i>
+</td>
+                        <td>July 21st, 2009 04:00</td>
+                        <td> </td>   
+                        <td> </td>   
+                         
+                      </tr>
+<!-- Select Allergies for this Encounter --><!-- Select Car Goals for this Encounter --><!-- Select Vitals for this Encounter --><!-- Select lab results for this Encounter --><!-- Select conditions for this Encounter --><!-- Select procedures for this Encounter --><!-- Select Medications for this Encounter --><tr class="narr_tr">
+<th class="narr_th" colspan="5">Medications</th>
+                        </tr>
+<tr class="narr_tr">
+<td id="medications-desc-12">Rotavirus Vaccine</td>
+                        <td id="medications-code-12">
+<b>RxNorm: 805576</b><br><i>C2344479:Rotavirus Vaccine, Live Attenuated, G1P[8] Human 89-12 strain 1000000 UNT/ML Oral Suspension;</i>
+</td>
+                        <td>July 21st, 2009 04:00</td>                        
+                        <td></td> 
+                        <td> </td>                          
+                      </tr>
+<tr class="narr_tr">
+<td id="medications-desc-13">DTAP Vaccine</td>
+                        <td id="medications-code-13">
+<b>RxNorm: 795926</b><br><i>C1697230:Diphtheria Toxoid Vaccine 13.4 UNT/ML / Tetanus Toxoid Vaccine 10 UNT/ML Injectable Solution;</i>
+</td>
+                        <td>July 21st, 2009 04:00</td>                        
+                        <td></td> 
+                        <td> </td>                          
+                      </tr>
+<tr class="narr_tr">
+<td id="medications-desc-14">HiB Vaccine</td>
+                        <td id="medications-code-14">
+<b>CPT: 90721 CVX: 51</b><br><i></i>
+</td>
+                        <td>July 21st, 2009 04:00</td>                        
+                        <td></td> 
+                        <td> </td>                          
+                      </tr>
+<tr class="narr_tr">
+<td id="medications-desc-15">Pneumococcal Vaccine</td>
+                        <td id="medications-code-15">
+<b>RxNorm: 854969</b><br><i>C2709773:pneumococcal capsular polysaccharide type 7F vaccine 0.05 MG/ML;</i>
+</td>
+                        <td>July 21st, 2009 04:00</td>                        
+                        <td></td> 
+                        <td> </td>                          
+                      </tr>
+<tr class="narr_tr">
+<td id="medications-desc-16">IPV Vaccination</td>
+                        <td id="medications-code-16">
+<b>CPT: 90713 CVX: 10</b><br><i></i>
+</td>
+                        <td>July 21st, 2009 04:00</td>                        
+                        <td></td> 
+                        <td> </td>                          
+                      </tr>
+<!-- Select Social History for this Encounter --><!-- Select immunizations for this Encounter --><!-- Select medical_equipment for this Encounter -->
+</tbody></table>
+<br><br><h3>Encounter -6</h3>
+            <table border="1" width="100%" class="narr_table"><tbody>
+<tr>
+<th class="narr_th">Description</th>
+                  <th class="narr_th">Codes</th>
+                  <th class="narr_th">Time</th>
+                 
+                    <th class="narr_th">Status</th>
+               
+                  
+                  
+                    <th class="narr_th">Value</th>
+                  
+                </tr>
+<tr class="narr_tr">
+<td id="encounters-desc-6">encounter outpatient-children</td>
+                        <td id="encounters-code-6">
+<b>ICD-10-CM: Z00.1</b><br><i>C2910449:Encounter for newborn, infant and child health examinations;</i>
+</td>
+                        <td>May 19th, 2009 04:00</td>
+                        <td> </td>   
+                        <td> </td>   
+                         
+                      </tr>
+<!-- Select Allergies for this Encounter --><!-- Select Car Goals for this Encounter --><!-- Select Vitals for this Encounter --><!-- Select lab results for this Encounter --><!-- Select conditions for this Encounter --><!-- Select procedures for this Encounter --><!-- Select Medications for this Encounter --><tr class="narr_tr">
+<th class="narr_th" colspan="5">Medications</th>
+                        </tr>
+<tr class="narr_tr">
+<td id="medications-desc-17">Rotavirus Vaccine</td>
+                        <td id="medications-code-17">
+<b>RxNorm: 805576</b><br><i>C2344479:Rotavirus Vaccine, Live Attenuated, G1P[8] Human 89-12 strain 1000000 UNT/ML Oral Suspension;</i>
+</td>
+                        <td>May 19th, 2009 04:00</td>                        
+                        <td></td> 
+                        <td> </td>                          
+                      </tr>
+<tr class="narr_tr">
+<td id="medications-desc-18">DTAP Vaccine</td>
+                        <td id="medications-code-18">
+<b>RxNorm: 795926</b><br><i>C1697230:Diphtheria Toxoid Vaccine 13.4 UNT/ML / Tetanus Toxoid Vaccine 10 UNT/ML Injectable Solution;</i>
+</td>
+                        <td>May 19th, 2009 04:00</td>                        
+                        <td></td> 
+                        <td> </td>                          
+                      </tr>
+<tr class="narr_tr">
+<td id="medications-desc-19">HiB Vaccine</td>
+                        <td id="medications-code-19">
+<b>CPT: 90721 CVX: 51</b><br><i></i>
+</td>
+                        <td>May 19th, 2009 04:00</td>                        
+                        <td></td> 
+                        <td> </td>                          
+                      </tr>
+<tr class="narr_tr">
+<td id="medications-desc-20">Pneumococcal Vaccine</td>
+                        <td id="medications-code-20">
+<b>RxNorm: 854969</b><br><i>C2709773:pneumococcal capsular polysaccharide type 7F vaccine 0.05 MG/ML;</i>
+</td>
+                        <td>May 19th, 2009 04:00</td>                        
+                        <td></td> 
+                        <td> </td>                          
+                      </tr>
+<tr class="narr_tr">
+<td id="medications-desc-21">IPV Vaccination</td>
+                        <td id="medications-code-21">
+<b>CPT: 90713 CVX: 10</b><br><i></i>
+</td>
+                        <td>May 19th, 2009 04:00</td>                        
+                        <td></td> 
+                        <td> </td>                          
+                      </tr>
+<!-- Select Social History for this Encounter --><!-- Select immunizations for this Encounter --><!-- Select medical_equipment for this Encounter -->
+</tbody></table>
+<br><br><h3>Encounter -7</h3>
+            <table border="1" width="100%" class="narr_table"><tbody>
+<tr>
+<th class="narr_th">Description</th>
+                  <th class="narr_th">Codes</th>
+                  <th class="narr_th">Time</th>
+                 
+                    <th class="narr_th">Status</th>
+               
+                  
+                  
+                    <th class="narr_th">Value</th>
+                  
+                </tr>
+<tr class="narr_tr">
+<td id="encounters-desc-7">encounter outpatient-children</td>
+                        <td id="encounters-code-7">
+<b>ICD-10-CM: Z00.1</b><br><i>C2910449:Encounter for newborn, infant and child health examinations;</i>
+</td>
+                        <td>April 17th, 2009 04:00</td>
+                        <td> </td>   
+                        <td> </td>   
+                         
+                      </tr>
+<!-- Select Allergies for this Encounter --><!-- Select Car Goals for this Encounter --><!-- Select Vitals for this Encounter --><!-- Select lab results for this Encounter --><!-- Select conditions for this Encounter --><!-- Select procedures for this Encounter --><!-- Select Medications for this Encounter --><tr class="narr_tr">
+<th class="narr_th" colspan="5">Medications</th>
+                        </tr>
+<tr class="narr_tr">
+<td id="medications-desc-22">Hepatitis B Vaccine</td>
+                        <td id="medications-code-22">
+<b>RxNorm: 763313</b><br><i>C1302891:0.5 ML Hepatitis B Vaccine 0.02 MG/ML Prefilled Syringe;</i>
+</td>
+                        <td>April 17th, 2009 04:00</td>                        
+                        <td></td> 
+                        <td> </td>                          
+                      </tr>
+<!-- Select Social History for this Encounter --><!-- Select immunizations for this Encounter --><!-- Select medical_equipment for this Encounter -->
+</tbody></table>
+</div>
+   <hr align="left" color="teal" size="2" width="80%">
+<div id="patient_information_by_section" style="display:block">
+<h3><a name="idm53008" href="#toc">Allergies and Adverse Reactions</a></h3>
+<div>
+                <table class="narr_table" border="1" width="100%">
+<thead><tr class="narr_tr">
+<th class="narr_th">Description</th>                      
+                      <th class="narr_th">Code</th>                      
+                      <th class="narr_th">Time</th>
+                    </tr></thead>
+<tbody><tr class="narr_tr" id="noallergies_summary">
+<td id="noallergies">No Known allergies</td>
+                      <td>160244002</td>                                         
+                      <td>20120620153126</td>
+                    </tr></tbody>
+</table>
+</div>
+<h3><a name="idm68032" href="#toc">Medications - Prescription and Non-Prescription</a></h3>
+<div>
+  <table class="narr_table" border="1" width="100%">
+<thead><tr class="narr_tr">
+<th class="narr_th">Description</th>
+        <th class="narr_th">Codes</th>
+        <th class="narr_th">Time</th>
+        
+      </tr></thead>
+<tbody>
+<tr class="narr_tr">
+<td id="medications-desc-0">Hepatitis A Vaccine</td>
+          <td id="medications-code-0">RxNorm: 798481<br>C0995082:0.5 ML Hepatitis A Vaccine (Inactivated) Strain HM175 1440 UNT/ML Prefilled Syringe;</td>
+          <td>March 24th, 2011 04:00</td>
+           
+        </tr>
+<tr class="narr_tr">
+<td id="medications-desc-1">DTAP Vaccine</td>
+          <td id="medications-code-1">RxNorm: 795926<br>C1697230:Diphtheria Toxoid Vaccine 13.4 UNT/ML / Tetanus Toxoid Vaccine 10 UNT/ML Injectable Solution;</td>
+          <td>September 18th, 2010 04:00</td>
+           
+        </tr>
+<tr class="narr_tr">
+<td id="medications-desc-2">IPV Vaccination</td>
+          <td id="medications-code-2">CPT: 90713 CVX: 10<br>
+</td>
+          <td>September 18th, 2010 04:00</td>
+           
+        </tr>
+<tr class="narr_tr">
+<td id="medications-desc-3">MMR Vaccine</td>
+          <td id="medications-code-3">RxNorm: 804186<br>C0710716:Measles Virus Vaccine Live, Enders' attenuated Edmonston strain 2000 UNT/ML / Mumps Virus Vaccine Live, Jeryl Lynn Strain 25000 UNT/ML / Rubella Virus Vaccine Live (Wistar RA 27-3 Strain) 2000 UNT/ML Injectable Solution [M-M-R II];</td>
+          <td>June 17th, 2010 04:00</td>
+           
+        </tr>
+<tr class="narr_tr">
+<td id="medications-desc-4">VZV Vaccine</td>
+          <td id="medications-code-4">RxNorm: 759609<br>C1814392:Varicella Virus Vaccine Live (Oka-Merck) strain 29800 UNT/ML Injectable Suspension [Zostavax];</td>
+          <td>June 17th, 2010 04:00</td>
+           
+        </tr>
+<tr class="narr_tr">
+<td id="medications-desc-5">Hepatitis A Vaccine</td>
+          <td id="medications-code-5">RxNorm: 798481<br>C0995082:0.5 ML Hepatitis A Vaccine (Inactivated) Strain HM175 1440 UNT/ML Prefilled Syringe;</td>
+          <td>June 17th, 2010 04:00</td>
+           
+        </tr>
+<tr class="narr_tr">
+<td id="medications-desc-6">Pneumococcal Vaccine</td>
+          <td id="medications-code-6">RxNorm: 854969<br>C2709773:pneumococcal capsular polysaccharide type 7F vaccine 0.05 MG/ML;</td>
+          <td>March 17th, 2010 04:00</td>
+           
+        </tr>
+<tr class="narr_tr">
+<td id="medications-desc-7">Influenza Vaccine</td>
+          <td id="medications-code-7">RxNorm: 857942<br>C2718407:Influenza Virus Vaccine, Inactivated A-Brisbane-59-2007, IVR-148 (H1N1) strain 0.03 MG/ML / Influenza Virus Vaccine, Inactivated A-Uruguay-716-2007, NYMC X-175C (H3N2) strain 0.03 MG/ML / Influenza Virus Vaccine, Inactivated B-Brisbane-60-2008 strain 0.03 MG/ML Injectable Suspension;</td>
+          <td>March 17th, 2010 04:00</td>
+           
+        </tr>
+<tr class="narr_tr">
+<td id="medications-desc-8">Hepatitis B Vaccine</td>
+          <td id="medications-code-8">RxNorm: 763313<br>C1302891:0.5 ML Hepatitis B Vaccine 0.02 MG/ML Prefilled Syringe;</td>
+          <td>September 23rd, 2009 04:00</td>
+           
+        </tr>
+<tr class="narr_tr">
+<td id="medications-desc-9">DTAP Vaccine</td>
+          <td id="medications-code-9">RxNorm: 795926<br>C1697230:Diphtheria Toxoid Vaccine 13.4 UNT/ML / Tetanus Toxoid Vaccine 10 UNT/ML Injectable Solution;</td>
+          <td>September 23rd, 2009 04:00</td>
+           
+        </tr>
+<tr class="narr_tr">
+<td id="medications-desc-10">Pneumococcal Vaccine</td>
+          <td id="medications-code-10">RxNorm: 854969<br>C2709773:pneumococcal capsular polysaccharide type 7F vaccine 0.05 MG/ML;</td>
+          <td>September 23rd, 2009 04:00</td>
+           
+        </tr>
+<tr class="narr_tr">
+<td id="medications-desc-11">Influenza Vaccine</td>
+          <td id="medications-code-11">RxNorm: 857942<br>C2718407:Influenza Virus Vaccine, Inactivated A-Brisbane-59-2007, IVR-148 (H1N1) strain 0.03 MG/ML / Influenza Virus Vaccine, Inactivated A-Uruguay-716-2007, NYMC X-175C (H3N2) strain 0.03 MG/ML / Influenza Virus Vaccine, Inactivated B-Brisbane-60-2008 strain 0.03 MG/ML Injectable Suspension;</td>
+          <td>September 23rd, 2009 04:00</td>
+           
+        </tr>
+<tr class="narr_tr">
+<td id="medications-desc-12">Rotavirus Vaccine</td>
+          <td id="medications-code-12">RxNorm: 805576<br>C2344479:Rotavirus Vaccine, Live Attenuated, G1P[8] Human 89-12 strain 1000000 UNT/ML Oral Suspension;</td>
+          <td>July 21st, 2009 04:00</td>
+           
+        </tr>
+<tr class="narr_tr">
+<td id="medications-desc-13">DTAP Vaccine</td>
+          <td id="medications-code-13">RxNorm: 795926<br>C1697230:Diphtheria Toxoid Vaccine 13.4 UNT/ML / Tetanus Toxoid Vaccine 10 UNT/ML Injectable Solution;</td>
+          <td>July 21st, 2009 04:00</td>
+           
+        </tr>
+<tr class="narr_tr">
+<td id="medications-desc-14">HiB Vaccine</td>
+          <td id="medications-code-14">CPT: 90721 CVX: 51<br>
+</td>
+          <td>July 21st, 2009 04:00</td>
+           
+        </tr>
+<tr class="narr_tr">
+<td id="medications-desc-15">Pneumococcal Vaccine</td>
+          <td id="medications-code-15">RxNorm: 854969<br>C2709773:pneumococcal capsular polysaccharide type 7F vaccine 0.05 MG/ML;</td>
+          <td>July 21st, 2009 04:00</td>
+           
+        </tr>
+<tr class="narr_tr">
+<td id="medications-desc-16">IPV Vaccination</td>
+          <td id="medications-code-16">CPT: 90713 CVX: 10<br>
+</td>
+          <td>July 21st, 2009 04:00</td>
+           
+        </tr>
+<tr class="narr_tr">
+<td id="medications-desc-17">Rotavirus Vaccine</td>
+          <td id="medications-code-17">RxNorm: 805576<br>C2344479:Rotavirus Vaccine, Live Attenuated, G1P[8] Human 89-12 strain 1000000 UNT/ML Oral Suspension;</td>
+          <td>May 19th, 2009 04:00</td>
+           
+        </tr>
+<tr class="narr_tr">
+<td id="medications-desc-18">DTAP Vaccine</td>
+          <td id="medications-code-18">RxNorm: 795926<br>C1697230:Diphtheria Toxoid Vaccine 13.4 UNT/ML / Tetanus Toxoid Vaccine 10 UNT/ML Injectable Solution;</td>
+          <td>May 19th, 2009 04:00</td>
+           
+        </tr>
+<tr class="narr_tr">
+<td id="medications-desc-19">HiB Vaccine</td>
+          <td id="medications-code-19">CPT: 90721 CVX: 51<br>
+</td>
+          <td>May 19th, 2009 04:00</td>
+           
+        </tr>
+<tr class="narr_tr">
+<td id="medications-desc-20">Pneumococcal Vaccine</td>
+          <td id="medications-code-20">RxNorm: 854969<br>C2709773:pneumococcal capsular polysaccharide type 7F vaccine 0.05 MG/ML;</td>
+          <td>May 19th, 2009 04:00</td>
+           
+        </tr>
+<tr class="narr_tr">
+<td id="medications-desc-21">IPV Vaccination</td>
+          <td id="medications-code-21">CPT: 90713 CVX: 10<br>
+</td>
+          <td>May 19th, 2009 04:00</td>
+           
+        </tr>
+<tr class="narr_tr">
+<td id="medications-desc-22">Hepatitis B Vaccine</td>
+          <td id="medications-code-22">RxNorm: 763313<br>C1302891:0.5 ML Hepatitis B Vaccine 0.02 MG/ML Prefilled Syringe;</td>
+          <td>April 17th, 2009 04:00</td>
+           
+        </tr>
+<tr class="narr_tr">
+<td id="medications-desc-23">Hepatitis B Vaccine</td>
+          <td id="medications-code-23">RxNorm: 763313<br>C1302891:0.5 ML Hepatitis B Vaccine 0.02 MG/ML Prefilled Syringe;</td>
+          <td>March 15th, 2009 04:00</td>
+           
+        </tr>
+</tbody>
+</table>
+</div>
+<h3><a name="idm722224" href="#toc">Encounters</a></h3>
+<div>
+  <table class="narr_table" border="1" width="100%">
+<thead><tr class="narr_tr">
+<th class="narr_th">Description</th>
+        <th class="narr_th">Codes</th>
+        <th class="narr_th">Time</th>
+        
+      </tr></thead>
+<tbody>
+<tr class="narr_tr">
+<td id="encounters-desc-0">encounter outpatient-children</td>
+          <td id="encounters-code-0">ICD-10-CM: Z00.1<br>C2910449:Encounter for newborn, infant and child health examinations;</td>
+          <td>March 24th, 2011 04:00</td>
+           
+        </tr>
+<tr class="narr_tr">
+<td id="encounters-desc-1">encounter outpatient-children</td>
+          <td id="encounters-code-1">ICD-10-CM: Z00.1<br>C2910449:Encounter for newborn, infant and child health examinations;</td>
+          <td>September 18th, 2010 04:00</td>
+           
+        </tr>
+<tr class="narr_tr">
+<td id="encounters-desc-2">encounter outpatient-children</td>
+          <td id="encounters-code-2">ICD-10-CM: Z00.1<br>C2910449:Encounter for newborn, infant and child health examinations;</td>
+          <td>June 17th, 2010 04:00</td>
+           
+        </tr>
+<tr class="narr_tr">
+<td id="encounters-desc-3">encounter outpatient-children</td>
+          <td id="encounters-code-3">ICD-10-CM: Z00.1<br>C2910449:Encounter for newborn, infant and child health examinations;</td>
+          <td>March 17th, 2010 04:00</td>
+           
+        </tr>
+<tr class="narr_tr">
+<td id="encounters-desc-4">encounter outpatient-children</td>
+          <td id="encounters-code-4">ICD-10-CM: Z00.1<br>C2910449:Encounter for newborn, infant and child health examinations;</td>
+          <td>September 23rd, 2010 04:00</td>
+           
+        </tr>
+<tr class="narr_tr">
+<td id="encounters-desc-5">encounter outpatient-children</td>
+          <td id="encounters-code-5">ICD-10-CM: Z00.1<br>C2910449:Encounter for newborn, infant and child health examinations;</td>
+          <td>July 21st, 2009 04:00</td>
+           
+        </tr>
+<tr class="narr_tr">
+<td id="encounters-desc-6">encounter outpatient-children</td>
+          <td id="encounters-code-6">ICD-10-CM: Z00.1<br>C2910449:Encounter for newborn, infant and child health examinations;</td>
+          <td>May 19th, 2009 04:00</td>
+           
+        </tr>
+<tr class="narr_tr">
+<td id="encounters-desc-7">encounter outpatient-children</td>
+          <td id="encounters-code-7">ICD-10-CM: Z00.1<br>C2910449:Encounter for newborn, infant and child health examinations;</td>
+          <td>April 17th, 2009 04:00</td>
+           
+        </tr>
+</tbody>
+</table>
+</div>
+<h3><a name="idm849344" href="#toc">Problems</a></h3>
+<div>
+                <table class="narr_table" border="1" width="100%">
+<thead><tr class="narr_tr">
+<th class="narr_th">Description</th>                      
+                      <th class="narr_th">Code</th>                      
+                      <th class="narr_th">Time</th>
+                    </tr></thead>
+<tbody><tr class="narr_tr" id="PROBSUMMARY_1">
+<td id="PROBKIND_1">No current problems or disability</td> 
+                      <td>160245001</td>                                        
+                      <td>20120620153126</td>
+                    </tr></tbody>
+</table>
+</div>
+<h3><a name="idm897344" href="#toc">Vital Signs</a></h3>
+<div>
+  <table class="narr_table" border="1" width="100%">
+<thead><tr class="narr_tr">
+<th class="narr_th">Description</th>
+        <th class="narr_th">Codes</th>
+        <th class="narr_th">Time</th>
+        
+          <th class="narr_th">Value</th>
+      </tr></thead>
+<tbody><tr class="narr_tr">
+<td id="vitals-desc-0">BMI</td>
+          <td id="vitals-code-0">SNOMED-CT: 60621009 LOINC: 39156-5<br>C1542867:Body mass index:Relative Density:Point in time:^Patient:Quantitative;</td>
+          <td>March 24th, 2010 04:00</td>
+           
+              <td></td>
+        </tr></tbody>
+</table>
+</div>
+</div>
+<br><br>
+</body>
+</html>
