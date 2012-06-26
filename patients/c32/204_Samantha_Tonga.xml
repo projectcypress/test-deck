@@ -9,12 +9,12 @@
   <id root="2.16.840.1.113883.3.72" extension="HITSP_C32v2.5_Rev6_16Sections_Entries_MinimalErrors" assigningAuthorityName="NIST Healthcare Project"/>
   <code code="34133-9" displayName="Summarization of episode note" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
   <title>Cypress C32 Patient Test Record: Samantha Tonga</title>
-  <effectiveTime value="20120626214005"/>
+  <effectiveTime value="20120626222708"/>
   <confidentialityCode code="N"/>
   <languageCode code="nn-CC"/>
   <recordTarget>
     <patientRole>
-      <id root="Cypress" extension="4fea2c35a9ffcc9b5b0002b9"/>
+      <id root="Cypress" extension="4fea373ba9ffccb4290002b9"/>
       <addr use="HP">
         <streetAddressLine>202 Burlington Rd.</streetAddressLine>
         <city>Bedford</city>
@@ -40,7 +40,7 @@
     </patientRole>
   </recordTarget>
   <author>
-    <time value="20120626214005"/>
+    <time value="20120626222708"/>
     <assignedAuthor>
       <id/>
       <addr/>
@@ -103,7 +103,7 @@
         <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.5.3"/>
         <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.5.1"/>
         <!--Allergy act template -->
-        <id root="6af1b960-a205-012f-4648-001f5b3b7a48"/>
+        <id root="fd300ba0-a20b-012f-464a-001f5b3b7a48"/>
         <code nullFlavor="NA"/>
         <statusCode code="active"/>
         <effectiveTime>
@@ -115,7 +115,7 @@
             <templateId root="2.16.840.1.113883.10.20.1.28"/>
             <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.6"/>
             <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.5"/>
-            <id root="6af1bb80-a205-012f-4648-001f5b3b7a48"/>
+            <id root="fd300db0-a20b-012f-464a-001f5b3b7a48"/>
             <code code="416098002" codeSystem="2.16.840.1.113883.6.96" displayName="drug allergy" codeSystemName="SNOMED CT">
               <originalText><reference value="#allergies-desc-0"/></originalText>
             </code>
@@ -186,7 +186,7 @@
         <templateId root="2.16.840.1.113883.3.88.11.83.8"/>
         <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.7"/>
         <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.7.1"/>
-        <id root="6af1f790-a205-012f-4648-001f5b3b7a48"/>
+        <id root="fd304be0-a20b-012f-464a-001f5b3b7a48"/>
         <statusCode code="completed"/>
         <effectiveTime xsi:type="IVL_TS">
           <low value='20100331040000'/>
@@ -216,7 +216,7 @@
         <templateId root="2.16.840.1.113883.3.88.11.83.8"/>
         <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.7"/>
         <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.7.1"/>
-        <id root="6af20b80-a205-012f-4648-001f5b3b7a48"/>
+        <id root="fd305ff0-a20b-012f-464a-001f5b3b7a48"/>
         <statusCode code="completed"/>
         <effectiveTime xsi:type="IVL_TS">
           <low value='20100331040000'/>
@@ -324,7 +324,7 @@
         <templateId root="2.16.840.1.113883.10.20.1.21" assigningAuthorityName="CCD"/>
         <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.14" assigningAuthorityName="IHE PCC"/>
         <!-- Encounter activity template -->
-        <id root="6af25680-a205-012f-4648-001f5b3b7a48"/>
+        <id root="fd30abd0-a20b-012f-464a-001f5b3b7a48"/>
         <code code="99251" codeSystem="2.16.840.1.113883.6.12" displayName="encounter acute inpt">
   <originalText><reference value="#encounters-desc-0"/></originalText>
 </code>
@@ -341,7 +341,7 @@
         <templateId root="2.16.840.1.113883.10.20.1.21" assigningAuthorityName="CCD"/>
         <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.14" assigningAuthorityName="IHE PCC"/>
         <!-- Encounter activity template -->
-        <id root="6af269b0-a205-012f-4648-001f5b3b7a48"/>
+        <id root="fd30c030-a20b-012f-464a-001f5b3b7a48"/>
         <code nullFlavor="UNK">
   <originalText><reference value="#encounters-desc-1"/></originalText>
   <translation code="Z34.9" codeSystem="2.16.840.1.113883.6.90" />
@@ -361,7 +361,7 @@
         <templateId root="2.16.840.1.113883.10.20.1.21" assigningAuthorityName="CCD"/>
         <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.14" assigningAuthorityName="IHE PCC"/>
         <!-- Encounter activity template -->
-        <id root="6af27e30-a205-012f-4648-001f5b3b7a48"/>
+        <id root="fd30d620-a20b-012f-464a-001f5b3b7a48"/>
         <code nullFlavor="UNK">
   <originalText><reference value="#encounters-desc-2"/></originalText>
   <translation code="Z34.9" codeSystem="2.16.840.1.113883.6.90" />
@@ -381,7 +381,7 @@
         <templateId root="2.16.840.1.113883.10.20.1.21" assigningAuthorityName="CCD"/>
         <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.14" assigningAuthorityName="IHE PCC"/>
         <!-- Encounter activity template -->
-        <id root="6af29240-a205-012f-4648-001f5b3b7a48"/>
+        <id root="fd30eb00-a20b-012f-464a-001f5b3b7a48"/>
         <code nullFlavor="UNK">
   <originalText><reference value="#encounters-desc-3"/></originalText>
   <translation code="Z34.9" codeSystem="2.16.840.1.113883.6.90" />
@@ -401,7 +401,7 @@
         <templateId root="2.16.840.1.113883.10.20.1.21" assigningAuthorityName="CCD"/>
         <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.14" assigningAuthorityName="IHE PCC"/>
         <!-- Encounter activity template -->
-        <id root="6af2a670-a205-012f-4648-001f5b3b7a48"/>
+        <id root="fd30ff30-a20b-012f-464a-001f5b3b7a48"/>
         <code nullFlavor="UNK">
   <originalText><reference value="#encounters-desc-4"/></originalText>
   <translation code="Z34.9" codeSystem="2.16.840.1.113883.6.90" />
@@ -421,7 +421,7 @@
         <templateId root="2.16.840.1.113883.10.20.1.21" assigningAuthorityName="CCD"/>
         <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.14" assigningAuthorityName="IHE PCC"/>
         <!-- Encounter activity template -->
-        <id root="6af2ba70-a205-012f-4648-001f5b3b7a48"/>
+        <id root="fd3113a0-a20b-012f-464a-001f5b3b7a48"/>
         <code nullFlavor="UNK">
   <originalText><reference value="#encounters-desc-5"/></originalText>
   <translation code="Z34.9" codeSystem="2.16.840.1.113883.6.90" />
@@ -441,7 +441,7 @@
         <templateId root="2.16.840.1.113883.10.20.1.21" assigningAuthorityName="CCD"/>
         <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.14" assigningAuthorityName="IHE PCC"/>
         <!-- Encounter activity template -->
-        <id root="6af2cea0-a205-012f-4648-001f5b3b7a48"/>
+        <id root="fd312800-a20b-012f-464a-001f5b3b7a48"/>
         <code nullFlavor="UNK">
   <originalText><reference value="#encounters-desc-6"/></originalText>
   <translation code="Z34.9" codeSystem="2.16.840.1.113883.6.90" />
@@ -461,7 +461,7 @@
         <templateId root="2.16.840.1.113883.10.20.1.21" assigningAuthorityName="CCD"/>
         <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.14" assigningAuthorityName="IHE PCC"/>
         <!-- Encounter activity template -->
-        <id root="6af2e370-a205-012f-4648-001f5b3b7a48"/>
+        <id root="fd313c70-a20b-012f-464a-001f5b3b7a48"/>
         <code code="99213" codeSystem="2.16.840.1.113883.6.12" displayName="Encounter Outpatient">
   <originalText><reference value="#encounters-desc-7"/></originalText>
   <translation code="V70.0" codeSystem="2.16.840.1.113883.6.104" />
@@ -479,7 +479,7 @@
         <templateId root="2.16.840.1.113883.10.20.1.21" assigningAuthorityName="CCD"/>
         <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.14" assigningAuthorityName="IHE PCC"/>
         <!-- Encounter activity template -->
-        <id root="6af2f740-a205-012f-4648-001f5b3b7a48"/>
+        <id root="fd315120-a20b-012f-464a-001f5b3b7a48"/>
         <code code="99213" codeSystem="2.16.840.1.113883.6.12" displayName="Encounter Outpatient">
   <originalText><reference value="#encounters-desc-8"/></originalText>
   <translation code="V70.0" codeSystem="2.16.840.1.113883.6.104" />
@@ -566,7 +566,7 @@
         <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.5.1" assigningAuthorityName="IHE PCC"/>
         <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.5.2" assigningAuthorityName="IHE PCC"/>
         <!-- Problem act template -->
-        <id root="6af347e0-a205-012f-4648-001f5b3b7a48"/>
+        <id root="fd31a0d0-a20b-012f-464a-001f5b3b7a48"/>
         <code nullFlavor="NA"/>
         <statusCode code="active"/>
         <effectiveTime>
@@ -577,7 +577,7 @@
             <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.5" assigningAuthorityName="IHE PCC"/>
             <templateId root="2.16.840.1.113883.10.20.1.28" assigningAuthorityName="CCD"/>
             <!--Problem observation template - NOT episode template-->
-            <id root="6af34980-a205-012f-4648-001f5b3b7a48"/>
+            <id root="fd31a270-a20b-012f-464a-001f5b3b7a48"/>
             <code code="64572001" displayName="Condition" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT"/>
             <text>
               <reference value="#conditions-desc-0"/>
@@ -610,7 +610,7 @@
         <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.5.1" assigningAuthorityName="IHE PCC"/>
         <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.5.2" assigningAuthorityName="IHE PCC"/>
         <!-- Problem act template -->
-        <id root="6af35140-a205-012f-4648-001f5b3b7a48"/>
+        <id root="fd31a980-a20b-012f-464a-001f5b3b7a48"/>
         <code nullFlavor="NA"/>
         <statusCode code="active"/>
         <effectiveTime>
@@ -621,7 +621,7 @@
             <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.5" assigningAuthorityName="IHE PCC"/>
             <templateId root="2.16.840.1.113883.10.20.1.28" assigningAuthorityName="CCD"/>
             <!--Problem observation template - NOT episode template-->
-            <id root="6af352f0-a205-012f-4648-001f5b3b7a48"/>
+            <id root="fd31aaf0-a20b-012f-464a-001f5b3b7a48"/>
             <code code="64572001" displayName="Condition" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT"/>
             <text>
               <reference value="#conditions-desc-1"/>
@@ -654,7 +654,7 @@
         <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.5.1" assigningAuthorityName="IHE PCC"/>
         <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.5.2" assigningAuthorityName="IHE PCC"/>
         <!-- Problem act template -->
-        <id root="6af357f0-a205-012f-4648-001f5b3b7a48"/>
+        <id root="fd31b000-a20b-012f-464a-001f5b3b7a48"/>
         <code nullFlavor="NA"/>
         <statusCode code="active"/>
         <effectiveTime>
@@ -665,7 +665,7 @@
             <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.5" assigningAuthorityName="IHE PCC"/>
             <templateId root="2.16.840.1.113883.10.20.1.28" assigningAuthorityName="CCD"/>
             <!--Problem observation template - NOT episode template-->
-            <id root="6af35950-a205-012f-4648-001f5b3b7a48"/>
+            <id root="fd31b160-a20b-012f-464a-001f5b3b7a48"/>
             <code code="64572001" displayName="Condition" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT"/>
             <text>
               <reference value="#conditions-desc-2"/>
@@ -698,7 +698,7 @@
         <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.5.1" assigningAuthorityName="IHE PCC"/>
         <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.5.2" assigningAuthorityName="IHE PCC"/>
         <!-- Problem act template -->
-        <id root="6af35e10-a205-012f-4648-001f5b3b7a48"/>
+        <id root="fd31b630-a20b-012f-464a-001f5b3b7a48"/>
         <code nullFlavor="NA"/>
         <statusCode code="active"/>
         <effectiveTime>
@@ -709,7 +709,7 @@
             <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.5" assigningAuthorityName="IHE PCC"/>
             <templateId root="2.16.840.1.113883.10.20.1.28" assigningAuthorityName="CCD"/>
             <!--Problem observation template - NOT episode template-->
-            <id root="6af35f80-a205-012f-4648-001f5b3b7a48"/>
+            <id root="fd31b7a0-a20b-012f-464a-001f5b3b7a48"/>
             <code code="64572001" displayName="Condition" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT"/>
             <text>
               <reference value="#conditions-desc-3"/>
@@ -730,7 +730,7 @@
         <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.5.1" assigningAuthorityName="IHE PCC"/>
         <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.5.2" assigningAuthorityName="IHE PCC"/>
         <!-- Problem act template -->
-        <id root="6af363b0-a205-012f-4648-001f5b3b7a48"/>
+        <id root="fd31bbe0-a20b-012f-464a-001f5b3b7a48"/>
         <code nullFlavor="NA"/>
         <statusCode code="active"/>
         <effectiveTime>
@@ -741,7 +741,7 @@
             <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.5" assigningAuthorityName="IHE PCC"/>
             <templateId root="2.16.840.1.113883.10.20.1.28" assigningAuthorityName="CCD"/>
             <!--Problem observation template - NOT episode template-->
-            <id root="6af36500-a205-012f-4648-001f5b3b7a48"/>
+            <id root="fd31bd90-a20b-012f-464a-001f5b3b7a48"/>
             <code code="64572001" displayName="Condition" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT"/>
             <text>
               <reference value="#conditions-desc-4"/>
@@ -762,7 +762,7 @@
         <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.5.1" assigningAuthorityName="IHE PCC"/>
         <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.5.2" assigningAuthorityName="IHE PCC"/>
         <!-- Problem act template -->
-        <id root="6af36940-a205-012f-4648-001f5b3b7a48"/>
+        <id root="fd31c1b0-a20b-012f-464a-001f5b3b7a48"/>
         <code nullFlavor="NA"/>
         <statusCode code="active"/>
         <effectiveTime>
@@ -773,7 +773,7 @@
             <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.5" assigningAuthorityName="IHE PCC"/>
             <templateId root="2.16.840.1.113883.10.20.1.28" assigningAuthorityName="CCD"/>
             <!--Problem observation template - NOT episode template-->
-            <id root="6af36aa0-a205-012f-4648-001f5b3b7a48"/>
+            <id root="fd31c330-a20b-012f-464a-001f5b3b7a48"/>
             <code code="64572001" displayName="Condition" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT"/>
             <text>
               <reference value="#conditions-desc-5"/>
@@ -905,7 +905,7 @@
         <templateId root="2.16.840.1.113883.10.20.1.35" assigningAuthorityName="CCD"/>
         <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.13.1" assigningAuthorityName="IHE PCC"/>
         <!-- Vital signs organizer template -->
-        <id root="6af3b450-a205-012f-4648-001f5b3b7a48"/>
+        <id root="fd321020-a20b-012f-464a-001f5b3b7a48"/>
         <code code="46680005" codeSystem="2.16.840.1.113883.6.96" displayName="Vital signs" codeSystemName="SNOMED CT"/>
         <statusCode code="completed"/>
         <effectiveTime value="19991114"/>
@@ -916,7 +916,7 @@
             <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.13.2" assigningAuthorityName="IHE PCC"/>
             <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.13" assigningAuthorityName="IHE PCC"/>
             <!-- Result observation template -->
-            <id root="6af3b530-a205-012f-4648-001f5b3b7a48"/>
+            <id root="fd321110-a20b-012f-464a-001f5b3b7a48"/>
             <code nullFlavor="UNK" ><originalText>Systolic Blood Pressure</originalText><translation code="271649006" codeSystem="2.16.840.1.113883.6.96"/>
 </code>
             <text>
@@ -934,7 +934,7 @@
             <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.13.2" assigningAuthorityName="IHE PCC"/>
             <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.13" assigningAuthorityName="IHE PCC"/>
             <!-- Result observation template -->
-            <id root="6af3ba10-a205-012f-4648-001f5b3b7a48"/>
+            <id root="fd3215f0-a20b-012f-464a-001f5b3b7a48"/>
             <code nullFlavor="UNK" ><originalText>Diastolic Blood Pressure</originalText><translation code="271650006" codeSystem="2.16.840.1.113883.6.96"/>
 </code>
             <text>
@@ -952,7 +952,7 @@
             <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.13.2" assigningAuthorityName="IHE PCC"/>
             <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.13" assigningAuthorityName="IHE PCC"/>
             <!-- Result observation template -->
-            <id root="6af3be50-a205-012f-4648-001f5b3b7a48"/>
+            <id root="fd321a50-a20b-012f-464a-001f5b3b7a48"/>
             <code nullFlavor="UNK" ><originalText>Systolic Blood Pressure</originalText><translation code="271649006" codeSystem="2.16.840.1.113883.6.96"/>
 </code>
             <text>
@@ -970,7 +970,7 @@
             <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.13.2" assigningAuthorityName="IHE PCC"/>
             <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.13" assigningAuthorityName="IHE PCC"/>
             <!-- Result observation template -->
-            <id root="6af3c270-a205-012f-4648-001f5b3b7a48"/>
+            <id root="fd321ea0-a20b-012f-464a-001f5b3b7a48"/>
             <code nullFlavor="UNK" ><originalText>Diastolic Blood Pressure</originalText><translation code="271650006" codeSystem="2.16.840.1.113883.6.96"/>
 </code>
             <text>
@@ -988,7 +988,7 @@
             <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.13.2" assigningAuthorityName="IHE PCC"/>
             <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.13" assigningAuthorityName="IHE PCC"/>
             <!-- Result observation template -->
-            <id root="6af3c6a0-a205-012f-4648-001f5b3b7a48"/>
+            <id root="fd3222f0-a20b-012f-464a-001f5b3b7a48"/>
             <code nullFlavor="UNK" ><originalText>Systolic Blood Pressure</originalText><translation code="271649006" codeSystem="2.16.840.1.113883.6.96"/>
 </code>
             <text>
@@ -1006,7 +1006,7 @@
             <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.13.2" assigningAuthorityName="IHE PCC"/>
             <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.13" assigningAuthorityName="IHE PCC"/>
             <!-- Result observation template -->
-            <id root="6af3cb00-a205-012f-4648-001f5b3b7a48"/>
+            <id root="fd322730-a20b-012f-464a-001f5b3b7a48"/>
             <code nullFlavor="UNK" ><originalText>Diastolic Blood Pressure</originalText><translation code="271650006" codeSystem="2.16.840.1.113883.6.96"/>
 </code>
             <text>
@@ -1024,7 +1024,7 @@
             <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.13.2" assigningAuthorityName="IHE PCC"/>
             <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.13" assigningAuthorityName="IHE PCC"/>
             <!-- Result observation template -->
-            <id root="6af3cf30-a205-012f-4648-001f5b3b7a48"/>
+            <id root="fd322b70-a20b-012f-464a-001f5b3b7a48"/>
             <code nullFlavor="UNK" ><originalText>Systolic Blood Pressure</originalText><translation code="271649006" codeSystem="2.16.840.1.113883.6.96"/>
 </code>
             <text>
@@ -1042,7 +1042,7 @@
             <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.13.2" assigningAuthorityName="IHE PCC"/>
             <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.13" assigningAuthorityName="IHE PCC"/>
             <!-- Result observation template -->
-            <id root="6af3d340-a205-012f-4648-001f5b3b7a48"/>
+            <id root="fd323000-a20b-012f-464a-001f5b3b7a48"/>
             <code nullFlavor="UNK" ><originalText>Diastolic Blood Pressure</originalText><translation code="271650006" codeSystem="2.16.840.1.113883.6.96"/>
 </code>
             <text>
@@ -1060,7 +1060,7 @@
             <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.13.2" assigningAuthorityName="IHE PCC"/>
             <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.13" assigningAuthorityName="IHE PCC"/>
             <!-- Result observation template -->
-            <id root="6af3d770-a205-012f-4648-001f5b3b7a48"/>
+            <id root="fd323440-a20b-012f-464a-001f5b3b7a48"/>
             <code nullFlavor="UNK" ><originalText>Systolic Blood Pressure</originalText><translation code="271649006" codeSystem="2.16.840.1.113883.6.96"/>
 </code>
             <text>
@@ -1078,7 +1078,7 @@
             <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.13.2" assigningAuthorityName="IHE PCC"/>
             <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.13" assigningAuthorityName="IHE PCC"/>
             <!-- Result observation template -->
-            <id root="6af3db90-a205-012f-4648-001f5b3b7a48"/>
+            <id root="fd323870-a20b-012f-464a-001f5b3b7a48"/>
             <code nullFlavor="UNK" ><originalText>Diastolic Blood Pressure</originalText><translation code="271650006" codeSystem="2.16.840.1.113883.6.96"/>
 </code>
             <text>
@@ -1096,7 +1096,7 @@
             <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.13.2" assigningAuthorityName="IHE PCC"/>
             <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.13" assigningAuthorityName="IHE PCC"/>
             <!-- Result observation template -->
-            <id root="6af3dfc0-a205-012f-4648-001f5b3b7a48"/>
+            <id root="fd323ca0-a20b-012f-464a-001f5b3b7a48"/>
             <code nullFlavor="UNK" ><originalText>Systolic Blood Pressure</originalText><translation code="271649006" codeSystem="2.16.840.1.113883.6.96"/>
 </code>
             <text>
@@ -1114,7 +1114,7 @@
             <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.13.2" assigningAuthorityName="IHE PCC"/>
             <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.13" assigningAuthorityName="IHE PCC"/>
             <!-- Result observation template -->
-            <id root="6af3e3f0-a205-012f-4648-001f5b3b7a48"/>
+            <id root="fd3240e0-a20b-012f-464a-001f5b3b7a48"/>
             <code nullFlavor="UNK" ><originalText>Diastolic Blood Pressure</originalText><translation code="271650006" codeSystem="2.16.840.1.113883.6.96"/>
 </code>
             <text>
@@ -1171,7 +1171,7 @@
         <templateId root="2.16.840.1.113883.10.20.1.29" assigningAuthorityName="CCD"/>
         <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.19" assigningAuthorityName="IHE PCC"/>
         <!-- Procedure activity template -->
-        <id root="6af40fc0-a205-012f-4648-001f5b3b7a48"/>
+        <id root="fd326db0-a20b-012f-464a-001f5b3b7a48"/>
         <code code="401011001" codeSystem="2.16.840.1.113883.6.96" displayName="Asthma Symptom Assessment Tool">
   <originalText><reference value="#procedures-desc-0"/></originalText>
 </code>
@@ -1189,7 +1189,7 @@
         <templateId root="2.16.840.1.113883.10.20.1.29" assigningAuthorityName="CCD"/>
         <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.19" assigningAuthorityName="IHE PCC"/>
         <!-- Procedure activity template -->
-        <id root="6af42370-a205-012f-4648-001f5b3b7a48"/>
+        <id root="fd328170-a20b-012f-464a-001f5b3b7a48"/>
         <code code="59410" codeSystem="2.16.840.1.113883.6.12" displayName="Delivery Live Births-Procedure">
   <originalText><reference value="#procedures-desc-1"/></originalText>
   <translation code="169961004" codeSystem="2.16.840.1.113883.6.96" />
@@ -1266,16 +1266,16 @@
       <organizer classCode="BATTERY" moodCode="EVN">
         <templateId root="2.16.840.1.113883.10.20.1.32"/>
         <!--Result organizer template -->
-        <id root="6af46de0-a205-012f-4648-001f5b3b7a48"/>
+        <id root="fd32ce10-a20b-012f-464a-001f5b3b7a48"/>
         <code nullFlavor="NA"/>
         <statusCode code="completed"/>
-        <effectiveTime value="20120626214005"/>
+        <effectiveTime value="20120626222708"/>
           <component>
             <procedure classCode="PROC" moodCode="EVN">
               <templateId root="2.16.840.1.113883.3.88.11.83.17" assigningAuthorityName="HITSP C83"/>
               <templateId root="2.16.840.1.113883.10.20.1.29" assigningAuthorityName="CCD"/>
               <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.19" assigningAuthorityName="IHE PCC"/>
-              <id root="6af46f20-a205-012f-4648-001f5b3b7a48"/>
+              <id root="fd32cf50-a20b-012f-464a-001f5b3b7a48"/>
               <code nullFlavor="UNK">
                 <originalText><reference value="Unknown"/></originalText>
               </code>
@@ -1292,7 +1292,7 @@
             <templateId root="2.16.840.1.113883.10.20.1.31" assigningAuthorityName="CCD"/>
             <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.13" assigningAuthorityName="IHE PCC"/>
             <!-- Result observation template -->
-            <id root="6af46ff0-a205-012f-4648-001f5b3b7a48"/>
+            <id root="fd32d030-a20b-012f-464a-001f5b3b7a48"/>
             <code code="9665-1" codeSystem="2.16.840.1.113883.6.1" ><originalText>HIV Screening</originalText><translation code="87536" codeSystem="2.16.840.1.113883.6.12"/>
 <translation code="104332002" codeSystem="2.16.840.1.113883.6.96"/>
 </code>
@@ -1310,7 +1310,7 @@
             <templateId root="2.16.840.1.113883.10.20.1.31" assigningAuthorityName="CCD"/>
             <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.13" assigningAuthorityName="IHE PCC"/>
             <!-- Result observation template -->
-            <id root="6af47570-a205-012f-4648-001f5b3b7a48"/>
+            <id root="fd32d620-a20b-012f-464a-001f5b3b7a48"/>
             <code code="1314-4" codeSystem="2.16.840.1.113883.6.1" ><originalText>Rh Status Mother</originalText></code>
             <text>
               <reference value="#results-desc-1"/>
@@ -1326,7 +1326,7 @@
             <templateId root="2.16.840.1.113883.10.20.1.31" assigningAuthorityName="CCD"/>
             <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.13" assigningAuthorityName="IHE PCC"/>
             <!-- Result observation template -->
-            <id root="6af479b0-a205-012f-4648-001f5b3b7a48"/>
+            <id root="fd32da80-a20b-012f-464a-001f5b3b7a48"/>
             <code code="2119-6" codeSystem="2.16.840.1.113883.6.1" ><originalText>Pregnancy Test</originalText><translation code="84702" codeSystem="2.16.840.1.113883.6.12"/>
 </code>
             <text>
@@ -1343,7 +1343,7 @@
             <templateId root="2.16.840.1.113883.10.20.1.31" assigningAuthorityName="CCD"/>
             <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.13" assigningAuthorityName="IHE PCC"/>
             <!-- Result observation template -->
-            <id root="6af47e80-a205-012f-4648-001f5b3b7a48"/>
+            <id root="fd32df50-a20b-012f-464a-001f5b3b7a48"/>
             <code code="10524-7" codeSystem="2.16.840.1.113883.6.1" ><originalText>Pap Test</originalText><translation code="V72.32" codeSystem="2.16.840.1.113883.6.104"/>
 <translation code="Z12.4" codeSystem="2.16.840.1.113883.6.90"/>
 <translation code="88174" codeSystem="2.16.840.1.113883.6.12"/>
@@ -1364,7 +1364,7 @@
             <templateId root="2.16.840.1.113883.10.20.1.31" assigningAuthorityName="CCD"/>
             <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.13" assigningAuthorityName="IHE PCC"/>
             <!-- Result observation template -->
-            <id root="6af48490-a205-012f-4648-001f5b3b7a48"/>
+            <id root="fd32e560-a20b-012f-464a-001f5b3b7a48"/>
             <code code="31777-6" codeSystem="2.16.840.1.113883.6.1" ><originalText>Chlamydia Screening</originalText><translation code="87110" codeSystem="2.16.840.1.113883.6.12"/>
 <translation code="121953005" codeSystem="2.16.840.1.113883.6.96"/>
 </code>
@@ -1415,7 +1415,7 @@
         <templateId root="2.16.840.1.113883.10.20.1.33" assigningAuthorityName="CCD"/>
         <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.13.4" assigningAuthorityName="IHE PCC"/>
         <!-- Social history observation template -->
-        <id root="6af4adb0-a205-012f-4648-001f5b3b7a48"/>
+        <id root="fd330ee0-a20b-012f-464a-001f5b3b7a48"/>
         <code nullFlavor="UNK" ><originalText>Tobacco Non-User</originalText><translation code="160618006" codeSystem="2.16.840.1.113883.6.96"/>
 </code>
         <statusCode code="completed"/>
