@@ -1,14 +1,14 @@
 <ContinuityOfCareRecord xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:astm-org:CCR CCR_20051109.xsd http://www.w3.org/2001/XMLSchema xmldsig-core-schema.xsd" xmlns="urn:astm-org:CCR">
-  <CCRDocumentObjectID>4fe1ece0a9ffcc03cd000e8a</CCRDocumentObjectID>
+  <CCRDocumentObjectID>4fe9f8a8a9ffcc35f8000e8a</CCRDocumentObjectID>
   <Language>
     <Text>English</Text>
   </Language>
   <Version>V1.0</Version>
   <DateTime>
-    <ExactDateTime>2012-06-20T11:31:44-04:00</ExactDateTime>
+    <ExactDateTime>2012-06-26T14:00:08-04:00</ExactDateTime>
   </DateTime>
   <Patient>
-    <ActorID>4fe1ece0a9ffcc03cd000e8a</ActorID>
+    <ActorID>4fe9f8a8a9ffcc35f8000e8a</ActorID>
   </Patient>
   <From>
     <ActorLink>
@@ -68,7 +68,7 @@
         </Status>
         <Source>
           <Actor>
-            <ActorID>4fe1ece0a9ffcc03cd000e8a</ActorID>
+            <ActorID>4fe9f8a8a9ffcc35f8000e8a</ActorID>
           </Actor>
         </Source>
       </Problem>
@@ -78,7 +78,7 @@
           <Type>
             <Text>Start date</Text>
           </Type>
-          <ExactDateTime>2010-04-20T04:00:00Z</ExactDateTime>
+          <ExactDateTime>2010-03-20T04:00:00Z</ExactDateTime>
         </DateTime>
         <Type>
           <Text>Diagnosis</Text>
@@ -106,7 +106,83 @@
         </Status>
         <Source>
           <Actor>
-            <ActorID>4fe1ece0a9ffcc03cd000e8a</ActorID>
+            <ActorID>4fe9f8a8a9ffcc35f8000e8a</ActorID>
+          </Actor>
+        </Source>
+      </Problem>
+      <Problem>
+        <CCRDataObjectID>PR0003</CCRDataObjectID>
+        <DateTime>
+          <Type>
+            <Text>Start date</Text>
+          </Type>
+          <ExactDateTime>2010-03-30T04:00:00Z</ExactDateTime>
+        </DateTime>
+        <Type>
+          <Text>Diagnosis</Text>
+        </Type>
+        <Description>
+          <Text>alcohol or drug dependence</Text>
+          <Code>
+            <Value>F10</Value>
+            <CodingSystem>ICD-10-CM</CodingSystem>
+            <Version>2005</Version>
+          </Code>
+          <Code>
+            <Value>305</Value>
+            <CodingSystem>ICD-9-CM</CodingSystem>
+            <Version>2005</Version>
+          </Code>
+          <Code>
+            <Value>66590003</Value>
+            <CodingSystem>SNOMED-CT</CodingSystem>
+            <Version>2005</Version>
+          </Code>
+        </Description>
+        <Status>
+          <Text>Active</Text>
+        </Status>
+        <Source>
+          <Actor>
+            <ActorID>4fe9f8a8a9ffcc35f8000e8a</ActorID>
+          </Actor>
+        </Source>
+      </Problem>
+      <Problem>
+        <CCRDataObjectID>PR0004</CCRDataObjectID>
+        <DateTime>
+          <Type>
+            <Text>Start date</Text>
+          </Type>
+          <ExactDateTime>2010-04-10T04:00:00Z</ExactDateTime>
+        </DateTime>
+        <Type>
+          <Text>Diagnosis</Text>
+        </Type>
+        <Description>
+          <Text>alcohol or drug dependence</Text>
+          <Code>
+            <Value>F10</Value>
+            <CodingSystem>ICD-10-CM</CodingSystem>
+            <Version>2005</Version>
+          </Code>
+          <Code>
+            <Value>305</Value>
+            <CodingSystem>ICD-9-CM</CodingSystem>
+            <Version>2005</Version>
+          </Code>
+          <Code>
+            <Value>66590003</Value>
+            <CodingSystem>SNOMED-CT</CodingSystem>
+            <Version>2005</Version>
+          </Code>
+        </Description>
+        <Status>
+          <Text>Active</Text>
+        </Status>
+        <Source>
+          <Actor>
+            <ActorID>4fe9f8a8a9ffcc35f8000e8a</ActorID>
           </Actor>
         </Source>
       </Problem>
@@ -323,7 +399,59 @@
           <Type>
             <Text>Service date</Text>
           </Type>
-          <ExactDateTime>2010-04-20T04:00:00Z</ExactDateTime>
+          <ExactDateTime>2010-04-07T04:00:00Z</ExactDateTime>
+        </DateTime>
+        <Description>
+          <Text>alcohol, drug rehab and detox interventions</Text>
+          <Code>
+            <Value>94.61</Value>
+            <CodingSystem>ICD-9-CM</CodingSystem>
+            <Version>2005</Version>
+          </Code>
+          <Code>
+            <Value>35637008</Value>
+            <CodingSystem>SNOMED-CT</CodingSystem>
+            <Version>2005</Version>
+          </Code>
+        </Description>
+        <Status>
+          <Text>Active</Text>
+        </Status>
+        <Source/>
+      </Procedure>
+      <Procedure>
+        <CCRDataObjectID>PR0005</CCRDataObjectID>
+        <DateTime>
+          <Type>
+            <Text>Service date</Text>
+          </Type>
+          <ExactDateTime>2010-03-30T04:00:00Z</ExactDateTime>
+        </DateTime>
+        <Description>
+          <Text>alcohol, drug rehab and detox interventions</Text>
+          <Code>
+            <Value>94.61</Value>
+            <CodingSystem>ICD-9-CM</CodingSystem>
+            <Version>2005</Version>
+          </Code>
+          <Code>
+            <Value>35637008</Value>
+            <CodingSystem>SNOMED-CT</CodingSystem>
+            <Version>2005</Version>
+          </Code>
+        </Description>
+        <Status>
+          <Text>Active</Text>
+        </Status>
+        <Source/>
+      </Procedure>
+      <Procedure>
+        <CCRDataObjectID>PR0006</CCRDataObjectID>
+        <DateTime>
+          <Type>
+            <Text>Service date</Text>
+          </Type>
+          <ExactDateTime>2010-03-20T04:00:00Z</ExactDateTime>
         </DateTime>
         <Description>
           <Text>alcohol, drug rehab and detox interventions</Text>
@@ -371,7 +499,7 @@
         </Status>
         <Source>
           <Actor>
-            <ActorID>4fe1ece0a9ffcc03cd000e8a</ActorID>
+            <ActorID>4fe9f8a8a9ffcc35f8000e8a</ActorID>
           </Actor>
         </Source>
       </Encounter>
@@ -381,32 +509,7 @@
           <Type>
             <Text>Encounter Date</Text>
           </Type>
-          <ExactDateTime>2010-07-03T04:00:00Z</ExactDateTime>
-        </DateTime>
-        <Description>
-          <Text>Encounter Inpatient Discharge</Text>
-          <Code>
-            <Value>99238</Value>
-            <CodingSystem>CPT</CodingSystem>
-            <Version>2005</Version>
-          </Code>
-        </Description>
-        <Status>
-          <Text>Active</Text>
-        </Status>
-        <Source>
-          <Actor>
-            <ActorID>4fe1ece0a9ffcc03cd000e8a</ActorID>
-          </Actor>
-        </Source>
-      </Encounter>
-      <Encounter>
-        <CCRDataObjectID>EN0003</CCRDataObjectID>
-        <DateTime>
-          <Type>
-            <Text>Encounter Date</Text>
-          </Type>
-          <ExactDateTime>2010-04-20T04:00:00Z</ExactDateTime>
+          <ExactDateTime>2010-04-07T04:00:00Z</ExactDateTime>
         </DateTime>
         <Description>
           <Text>encounter acute inpt</Text>
@@ -421,22 +524,22 @@
         </Status>
         <Source>
           <Actor>
-            <ActorID>4fe1ece0a9ffcc03cd000e8a</ActorID>
+            <ActorID>4fe9f8a8a9ffcc35f8000e8a</ActorID>
           </Actor>
         </Source>
       </Encounter>
       <Encounter>
-        <CCRDataObjectID>EN0004</CCRDataObjectID>
+        <CCRDataObjectID>EN0003</CCRDataObjectID>
         <DateTime>
           <Type>
             <Text>Encounter Date</Text>
           </Type>
-          <ExactDateTime>2010-04-01T04:00:00Z</ExactDateTime>
+          <ExactDateTime>2010-03-30T04:00:00Z</ExactDateTime>
         </DateTime>
         <Description>
-          <Text>encounter ED</Text>
+          <Text>encounter outpatient BH</Text>
           <Code>
-            <Value>99281</Value>
+            <Value>99241</Value>
             <CodingSystem>CPT</CodingSystem>
             <Version>2005</Version>
           </Code>
@@ -446,7 +549,32 @@
         </Status>
         <Source>
           <Actor>
-            <ActorID>4fe1ece0a9ffcc03cd000e8a</ActorID>
+            <ActorID>4fe9f8a8a9ffcc35f8000e8a</ActorID>
+          </Actor>
+        </Source>
+      </Encounter>
+      <Encounter>
+        <CCRDataObjectID>EN0004</CCRDataObjectID>
+        <DateTime>
+          <Type>
+            <Text>Encounter Date</Text>
+          </Type>
+          <ExactDateTime>2010-03-20T04:00:00Z</ExactDateTime>
+        </DateTime>
+        <Description>
+          <Text>encounter acute inpt</Text>
+          <Code>
+            <Value>99251</Value>
+            <CodingSystem>CPT</CodingSystem>
+            <Version>2005</Version>
+          </Code>
+        </Description>
+        <Status>
+          <Text>Active</Text>
+        </Status>
+        <Source>
+          <Actor>
+            <ActorID>4fe9f8a8a9ffcc35f8000e8a</ActorID>
           </Actor>
         </Source>
       </Encounter>
@@ -454,7 +582,7 @@
   </Body>
   <Actors>
     <Actor>
-      <ActorObjectID>4fe1ece0a9ffcc03cd000e8a</ActorObjectID>
+      <ActorObjectID>4fe9f8a8a9ffcc35f8000e8a</ActorObjectID>
       <Person>
         <Name>
           <CurrentName>
