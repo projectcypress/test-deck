@@ -1,8 +1,8 @@
 {
-  "_id": "4fe9fe3ca9ffcc425100082a",
+  "_id": "4fea2c4aa9ffcc9b5b00082a",
   "allergies": [
     {
-      "_id": "4fe9fe3ca9ffcc425100082b",
+      "_id": "4fea2c4aa9ffcc9b5b00082b",
       "codes": {
         "RxNorm": [
           "C2729553"
@@ -27,7 +27,7 @@
   "birthdate": -529959600,
   "conditions": [
     {
-      "_id": "4fe9fe3ca9ffcc4251000841",
+      "_id": "4fea2c4aa9ffcc9b5b000841",
       "causeOfDeath": null,
       "codes": {
         "SNOMED-CT": [
@@ -61,7 +61,7 @@
   "effective_time": null,
   "encounters": [
     {
-      "_id": "4fe9fe3ca9ffcc425100082c",
+      "_id": "4fea2c4aa9ffcc9b5b00082c",
       "admitType": null,
       "codes": {
         "CPT": [
@@ -86,7 +86,7 @@
       }
     },
     {
-      "_id": "4fe9fe3ca9ffcc425100082d",
+      "_id": "4fea2c4aa9ffcc9b5b00082d",
       "admitType": null,
       "codes": {
         "CPT": [
@@ -108,7 +108,7 @@
       }
     },
     {
-      "_id": "4fe9fe3ca9ffcc425100082e",
+      "_id": "4fea2c4aa9ffcc9b5b00082e",
       "admitType": null,
       "codes": {
         "CPT": [
@@ -133,7 +133,7 @@
       }
     },
     {
-      "_id": "4fe9fe3ca9ffcc425100082f",
+      "_id": "4fea2c4aa9ffcc9b5b00082f",
       "admitType": null,
       "codes": {
         "CPT": [
@@ -163,7 +163,7 @@
   "gender": "M",
   "immunizations": [
     {
-      "_id": "4fe9fe3ca9ffcc4251000848",
+      "_id": "4fea2c4aa9ffcc9b5b000848",
       "codes": {
         "RxNorm": [
           "857942"
@@ -186,7 +186,7 @@
       }
     },
     {
-      "_id": "4fe9fe3ca9ffcc4251000849",
+      "_id": "4fea2c4aa9ffcc9b5b000849",
       "codes": {
         "CVX": [
           "100"
@@ -245,6 +245,16 @@
         1239854400
       ]
     },
+    "0027": {
+      "encounter_outpatient_encounter": [
+        1286769600,
+        1277006400,
+        1274846400,
+        1239854400
+      ]
+    },
+    "0012": {
+    },
     "0013": {
       "diastolic_blood_pressure_physical_exam_finding": [
         1286769600,
@@ -264,8 +274,6 @@
         1274846400,
         1239854400
       ]
-    },
-    "0012": {
     },
     "0014": {
     },
@@ -327,14 +335,6 @@
         1239854400
       ]
     },
-    "0027": {
-      "encounter_outpatient_encounter": [
-        1286769600,
-        1277006400,
-        1274846400,
-        1239854400
-      ]
-    },
     "0028": {
       "encounter_office_visit_encounter": [
         1286769600,
@@ -362,7 +362,10 @@
         1239854400
       ]
     },
-    "0033": {
+    "0034": {
+      "colonoscopy_procedure_performed": [
+        1274846400
+      ],
       "encounter_outpatient_encounter": [
         1286769600,
         1277006400,
@@ -370,10 +373,24 @@
         1239854400
       ]
     },
-    "0034": {
-      "colonoscopy_procedure_performed": [
-        1274846400
+    "0041": {
+      "encounter_influenza_encounter": [
+        1286769600,
+        1277006400,
+        1274846400,
+        1239854400
       ],
+      "encounter_outpatient_encounter": [
+        1286769600,
+        1277006400,
+        1274846400,
+        1239854400
+      ],
+      "influenza_vaccine_medication_administered": [
+        1286769600
+      ]
+    },
+    "0033": {
       "encounter_outpatient_encounter": [
         1286769600,
         1277006400,
@@ -402,23 +419,6 @@
       ],
       "polymyxin_medication_allergy": [
         1239854400
-      ]
-    },
-    "0041": {
-      "encounter_influenza_encounter": [
-        1286769600,
-        1277006400,
-        1274846400,
-        1239854400
-      ],
-      "encounter_outpatient_encounter": [
-        1286769600,
-        1277006400,
-        1274846400,
-        1239854400
-      ],
-      "influenza_vaccine_medication_administered": [
-        1286769600
       ]
     },
     "0043": {
@@ -782,6 +782,8 @@
         1239854400
       ]
     },
+    "0389": {
+    },
     "0387": {
       "encounter_office_visit_encounter": [
         1286769600,
@@ -789,8 +791,6 @@
         1274846400,
         1239854400
       ]
-    },
-    "0389": {
     },
     "0421": {
       "encounter_outpatient_encounter": [
@@ -831,7 +831,7 @@
   "patient_id": "56",
   "procedures": [
     {
-      "_id": "4fe9fe3ca9ffcc4251000846",
+      "_id": "4fea2c4aa9ffcc9b5b000846",
       "codes": {
         "CPT": [
           "45378"
@@ -864,7 +864,7 @@
       }
     },
     {
-      "_id": "4fe9fe3ca9ffcc4251000847",
+      "_id": "4fea2c4aa9ffcc9b5b000847",
       "codes": {
         "SNOMED-CT": [
           "23852006"
@@ -891,7 +891,7 @@
   },
   "results": [
     {
-      "_id": "4fe9fe3ca9ffcc4251000842",
+      "_id": "4fea2c4aa9ffcc9b5b000842",
       "codes": {
         "CPT": [
           "83721"
@@ -920,7 +920,7 @@
       }
     },
     {
-      "_id": "4fe9fe3ca9ffcc4251000843",
+      "_id": "4fea2c4aa9ffcc9b5b000843",
       "codes": {
         "CPT": [
           "83701"
@@ -949,7 +949,7 @@
       }
     },
     {
-      "_id": "4fe9fe3ca9ffcc4251000844",
+      "_id": "4fea2c4aa9ffcc9b5b000844",
       "codes": {
         "CPT": [
           "82465"
@@ -978,7 +978,7 @@
       }
     },
     {
-      "_id": "4fe9fe3ca9ffcc4251000845",
+      "_id": "4fea2c4aa9ffcc9b5b000845",
       "codes": {
         "CPT": [
           "84478"
@@ -1009,7 +1009,7 @@
   ],
   "social_history": [
     {
-      "_id": "4fe9fe3ca9ffcc4251000830",
+      "_id": "4fea2c4aa9ffcc9b5b000830",
       "codes": {
         "SNOMED-CT": [
           "160618006"
@@ -1033,7 +1033,7 @@
   "test_id": null,
   "vital_signs": [
     {
-      "_id": "4fe9fe3ca9ffcc4251000831",
+      "_id": "4fea2c4aa9ffcc9b5b000831",
       "codes": {
         "SNOMED-CT": [
           "271649006"
@@ -1056,7 +1056,7 @@
       }
     },
     {
-      "_id": "4fe9fe3ca9ffcc4251000832",
+      "_id": "4fea2c4aa9ffcc9b5b000832",
       "codes": {
         "SNOMED-CT": [
           "271650006"
@@ -1079,7 +1079,7 @@
       }
     },
     {
-      "_id": "4fe9fe3ca9ffcc4251000833",
+      "_id": "4fea2c4aa9ffcc9b5b000833",
       "codes": {
         "SNOMED-CT": [
           "364075005"
@@ -1102,7 +1102,7 @@
       }
     },
     {
-      "_id": "4fe9fe3ca9ffcc4251000834",
+      "_id": "4fea2c4aa9ffcc9b5b000834",
       "codes": {
         "SNOMED-CT": [
           "271649006"
@@ -1125,7 +1125,7 @@
       }
     },
     {
-      "_id": "4fe9fe3ca9ffcc4251000835",
+      "_id": "4fea2c4aa9ffcc9b5b000835",
       "codes": {
         "SNOMED-CT": [
           "271650006"
@@ -1148,7 +1148,7 @@
       }
     },
     {
-      "_id": "4fe9fe3ca9ffcc4251000836",
+      "_id": "4fea2c4aa9ffcc9b5b000836",
       "codes": {
         "SNOMED-CT": [
           "364075005"
@@ -1171,7 +1171,7 @@
       }
     },
     {
-      "_id": "4fe9fe3ca9ffcc4251000837",
+      "_id": "4fea2c4aa9ffcc9b5b000837",
       "codes": {
         "SNOMED-CT": [
           "271649006"
@@ -1194,7 +1194,7 @@
       }
     },
     {
-      "_id": "4fe9fe3ca9ffcc4251000838",
+      "_id": "4fea2c4aa9ffcc9b5b000838",
       "codes": {
         "SNOMED-CT": [
           "271650006"
@@ -1217,7 +1217,7 @@
       }
     },
     {
-      "_id": "4fe9fe3ca9ffcc4251000839",
+      "_id": "4fea2c4aa9ffcc9b5b000839",
       "codes": {
         "SNOMED-CT": [
           "364075005"
@@ -1240,7 +1240,7 @@
       }
     },
     {
-      "_id": "4fe9fe3ca9ffcc425100083a",
+      "_id": "4fea2c4aa9ffcc9b5b00083a",
       "codes": {
         "SNOMED-CT": [
           "271649006"
@@ -1263,7 +1263,7 @@
       }
     },
     {
-      "_id": "4fe9fe3ca9ffcc425100083b",
+      "_id": "4fea2c4aa9ffcc9b5b00083b",
       "codes": {
         "SNOMED-CT": [
           "271650006"
@@ -1286,7 +1286,7 @@
       }
     },
     {
-      "_id": "4fe9fe3ca9ffcc425100083c",
+      "_id": "4fea2c4aa9ffcc9b5b00083c",
       "codes": {
         "SNOMED-CT": [
           "364075005"
@@ -1309,7 +1309,7 @@
       }
     },
     {
-      "_id": "4fe9fe3ca9ffcc425100083d",
+      "_id": "4fea2c4aa9ffcc9b5b00083d",
       "codes": {
         "SNOMED-CT": [
           "60621009"
@@ -1335,7 +1335,7 @@
       }
     },
     {
-      "_id": "4fe9fe3ca9ffcc425100083e",
+      "_id": "4fea2c4aa9ffcc9b5b00083e",
       "codes": {
         "SNOMED-CT": [
           "60621009"
@@ -1361,7 +1361,7 @@
       }
     },
     {
-      "_id": "4fe9fe3ca9ffcc425100083f",
+      "_id": "4fea2c4aa9ffcc9b5b00083f",
       "codes": {
         "SNOMED-CT": [
           "60621009"
@@ -1387,7 +1387,7 @@
       }
     },
     {
-      "_id": "4fe9fe3ca9ffcc4251000840",
+      "_id": "4fea2c4aa9ffcc9b5b000840",
       "codes": {
         "SNOMED-CT": [
           "60621009"
