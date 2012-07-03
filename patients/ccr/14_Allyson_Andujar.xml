@@ -1,14 +1,14 @@
 <ContinuityOfCareRecord xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:astm-org:CCR CCR_20051109.xsd http://www.w3.org/2001/XMLSchema xmldsig-core-schema.xsd" xmlns="urn:astm-org:CCR">
-  <CCRDocumentObjectID>4fedb31ba9ffcce0df001c31</CCRDocumentObjectID>
+  <CCRDocumentObjectID>4ff34ab01d41c86b72000475</CCRDocumentObjectID>
   <Language>
     <Text>English</Text>
   </Language>
   <Version>V1.0</Version>
   <DateTime>
-    <ExactDateTime>2012-06-29T09:52:27-04:00</ExactDateTime>
+    <ExactDateTime>2012-07-03T15:40:32-04:00</ExactDateTime>
   </DateTime>
   <Patient>
-    <ActorID>4fedb31ba9ffcce0df001c31</ActorID>
+    <ActorID>4ff34ab01d41c86b72000475</ActorID>
   </Patient>
   <From>
     <ActorLink>
@@ -68,7 +68,7 @@
         </Status>
         <Source>
           <Actor>
-            <ActorID>4fedb31ba9ffcce0df001c31</ActorID>
+            <ActorID>4ff34ab01d41c86b72000475</ActorID>
           </Actor>
         </Source>
       </Problem>
@@ -106,7 +106,7 @@
         </Status>
         <Source>
           <Actor>
-            <ActorID>4fedb31ba9ffcce0df001c31</ActorID>
+            <ActorID>4ff34ab01d41c86b72000475</ActorID>
           </Actor>
         </Source>
       </Problem>
@@ -144,7 +144,7 @@
         </Status>
         <Source>
           <Actor>
-            <ActorID>4fedb31ba9ffcce0df001c31</ActorID>
+            <ActorID>4ff34ab01d41c86b72000475</ActorID>
           </Actor>
         </Source>
       </Problem>
@@ -234,7 +234,7 @@
         </Status>
         <Source>
           <Actor>
-            <ActorID>4fedb31ba9ffcce0df001c31</ActorID>
+            <ActorID>4ff34ab01d41c86b72000475</ActorID>
           </Actor>
         </Source>
         <Product>
@@ -267,7 +267,7 @@
         </Status>
         <Source>
           <Actor>
-            <ActorID>4fedb31ba9ffcce0df001c31</ActorID>
+            <ActorID>4ff34ab01d41c86b72000475</ActorID>
           </Actor>
         </Source>
         <Product>
@@ -300,7 +300,7 @@
         </Status>
         <Source>
           <Actor>
-            <ActorID>4fedb31ba9ffcce0df001c31</ActorID>
+            <ActorID>4ff34ab01d41c86b72000475</ActorID>
           </Actor>
         </Source>
         <Product>
@@ -333,7 +333,7 @@
         </Status>
         <Source>
           <Actor>
-            <ActorID>4fedb31ba9ffcce0df001c31</ActorID>
+            <ActorID>4ff34ab01d41c86b72000475</ActorID>
           </Actor>
         </Source>
         <Product>
@@ -366,7 +366,7 @@
         </Status>
         <Source>
           <Actor>
-            <ActorID>4fedb31ba9ffcce0df001c31</ActorID>
+            <ActorID>4ff34ab01d41c86b72000475</ActorID>
           </Actor>
         </Source>
         <Product>
@@ -403,6 +403,11 @@
               <CodingSystem>SNOMED-CT</CodingSystem>
               <Version>2005</Version>
             </Code>
+            <Code>
+              <Value>8480-6</Value>
+              <CodingSystem>LOINC</CodingSystem>
+              <Version>2005</Version>
+            </Code>
           </Description>
           <Source/>
           <TestResult>
@@ -429,6 +434,11 @@
             <Code>
               <Value>271650006</Value>
               <CodingSystem>SNOMED-CT</CodingSystem>
+              <Version>2005</Version>
+            </Code>
+            <Code>
+              <Value>8462-4</Value>
+              <CodingSystem>LOINC</CodingSystem>
               <Version>2005</Version>
             </Code>
           </Description>
@@ -459,6 +469,11 @@
               <CodingSystem>SNOMED-CT</CodingSystem>
               <Version>2005</Version>
             </Code>
+            <Code>
+              <Value>8480-6</Value>
+              <CodingSystem>LOINC</CodingSystem>
+              <Version>2005</Version>
+            </Code>
           </Description>
           <Source/>
           <TestResult>
@@ -485,6 +500,11 @@
             <Code>
               <Value>271650006</Value>
               <CodingSystem>SNOMED-CT</CodingSystem>
+              <Version>2005</Version>
+            </Code>
+            <Code>
+              <Value>8462-4</Value>
+              <CodingSystem>LOINC</CodingSystem>
               <Version>2005</Version>
             </Code>
           </Description>
@@ -515,6 +535,11 @@
               <CodingSystem>SNOMED-CT</CodingSystem>
               <Version>2005</Version>
             </Code>
+            <Code>
+              <Value>8480-6</Value>
+              <CodingSystem>LOINC</CodingSystem>
+              <Version>2005</Version>
+            </Code>
           </Description>
           <Source/>
           <TestResult>
@@ -543,6 +568,11 @@
               <CodingSystem>SNOMED-CT</CodingSystem>
               <Version>2005</Version>
             </Code>
+            <Code>
+              <Value>8462-4</Value>
+              <CodingSystem>LOINC</CodingSystem>
+              <Version>2005</Version>
+            </Code>
           </Description>
           <Source/>
           <TestResult>
@@ -559,16 +589,21 @@
           <Type>
             <Text>Start date</Text>
           </Type>
-          <ExactDateTime>2010-04-01T04:00:00Z</ExactDateTime>
+          <ExactDateTime>2010-09-19T04:00:00Z</ExactDateTime>
         </DateTime>
         <Source/>
         <Test>
           <CCRDataObjectID>VT0007TestResult</CCRDataObjectID>
           <Description>
-            <Text>Macular Edema Findings</Text>
+            <Text>BMI</Text>
             <Code>
-              <Value>37231002</Value>
+              <Value>60621009</Value>
               <CodingSystem>SNOMED-CT</CodingSystem>
+              <Version>2005</Version>
+            </Code>
+            <Code>
+              <Value>39156-5</Value>
+              <CodingSystem>LOINC</CodingSystem>
               <Version>2005</Version>
             </Code>
           </Description>
@@ -587,16 +622,21 @@
           <Type>
             <Text>Start date</Text>
           </Type>
-          <ExactDateTime>2010-04-01T04:00:00Z</ExactDateTime>
+          <ExactDateTime>2010-06-17T04:00:00Z</ExactDateTime>
         </DateTime>
         <Source/>
         <Test>
           <CCRDataObjectID>VT0008TestResult</CCRDataObjectID>
           <Description>
-            <Text>Level of Severity of Retinopathy Findings</Text>
+            <Text>BMI</Text>
             <Code>
-              <Value>312905005</Value>
+              <Value>60621009</Value>
               <CodingSystem>SNOMED-CT</CodingSystem>
+              <Version>2005</Version>
+            </Code>
+            <Code>
+              <Value>39156-5</Value>
+              <CodingSystem>LOINC</CodingSystem>
               <Version>2005</Version>
             </Code>
           </Description>
@@ -615,77 +655,11 @@
           <Type>
             <Text>Start date</Text>
           </Type>
-          <ExactDateTime>2010-09-19T04:00:00Z</ExactDateTime>
-        </DateTime>
-        <Source/>
-        <Test>
-          <CCRDataObjectID>VT0009TestResult</CCRDataObjectID>
-          <Description>
-            <Text>BMI</Text>
-            <Code>
-              <Value>60621009</Value>
-              <CodingSystem>SNOMED-CT</CodingSystem>
-              <Version>2005</Version>
-            </Code>
-            <Code>
-              <Value>39156-5</Value>
-              <CodingSystem>LOINC</CodingSystem>
-              <Version>2005</Version>
-            </Code>
-          </Description>
-          <Source/>
-          <TestResult>
-            <Value></Value>
-            <Units>
-              <Unit></Unit>
-            </Units>
-          </TestResult>
-        </Test>
-      </Result>
-      <Result>
-        <CCRDataObjectID>VT00010</CCRDataObjectID>
-        <DateTime>
-          <Type>
-            <Text>Start date</Text>
-          </Type>
-          <ExactDateTime>2010-06-17T04:00:00Z</ExactDateTime>
-        </DateTime>
-        <Source/>
-        <Test>
-          <CCRDataObjectID>VT00010TestResult</CCRDataObjectID>
-          <Description>
-            <Text>BMI</Text>
-            <Code>
-              <Value>60621009</Value>
-              <CodingSystem>SNOMED-CT</CodingSystem>
-              <Version>2005</Version>
-            </Code>
-            <Code>
-              <Value>39156-5</Value>
-              <CodingSystem>LOINC</CodingSystem>
-              <Version>2005</Version>
-            </Code>
-          </Description>
-          <Source/>
-          <TestResult>
-            <Value></Value>
-            <Units>
-              <Unit></Unit>
-            </Units>
-          </TestResult>
-        </Test>
-      </Result>
-      <Result>
-        <CCRDataObjectID>VT00011</CCRDataObjectID>
-        <DateTime>
-          <Type>
-            <Text>Start date</Text>
-          </Type>
           <ExactDateTime>2010-03-31T04:00:00Z</ExactDateTime>
         </DateTime>
         <Source/>
         <Test>
-          <CCRDataObjectID>VT00011TestResult</CCRDataObjectID>
+          <CCRDataObjectID>VT0009TestResult</CCRDataObjectID>
           <Description>
             <Text>BMI</Text>
             <Code>
@@ -716,11 +690,67 @@
           <Type>
             <Text>Start date</Text>
           </Type>
-          <ExactDateTime>2010-09-19T04:00:00Z</ExactDateTime>
+          <ExactDateTime>2010-04-01T04:00:00Z</ExactDateTime>
         </DateTime>
         <Source/>
         <Test>
           <CCRDataObjectID>LB0001TestResult</CCRDataObjectID>
+          <Description>
+            <Text>Macular Edema Findings</Text>
+            <Code>
+              <Value>37231002</Value>
+              <CodingSystem>SNOMED-CT</CodingSystem>
+              <Version>2005</Version>
+            </Code>
+          </Description>
+          <Source/>
+          <TestResult>
+            <Value></Value>
+            <Units>
+              <Unit></Unit>
+            </Units>
+          </TestResult>
+        </Test>
+      </Result>
+      <Result>
+        <CCRDataObjectID>LB0002</CCRDataObjectID>
+        <DateTime>
+          <Type>
+            <Text>Start date</Text>
+          </Type>
+          <ExactDateTime>2010-04-01T04:00:00Z</ExactDateTime>
+        </DateTime>
+        <Source/>
+        <Test>
+          <CCRDataObjectID>LB0002TestResult</CCRDataObjectID>
+          <Description>
+            <Text>Level of Severity of Retinopathy Findings</Text>
+            <Code>
+              <Value>312905005</Value>
+              <CodingSystem>SNOMED-CT</CodingSystem>
+              <Version>2005</Version>
+            </Code>
+          </Description>
+          <Source/>
+          <TestResult>
+            <Value></Value>
+            <Units>
+              <Unit></Unit>
+            </Units>
+          </TestResult>
+        </Test>
+      </Result>
+      <Result>
+        <CCRDataObjectID>LB0003</CCRDataObjectID>
+        <DateTime>
+          <Type>
+            <Text>Start date</Text>
+          </Type>
+          <ExactDateTime>2010-09-19T04:00:00Z</ExactDateTime>
+        </DateTime>
+        <Source/>
+        <Test>
+          <CCRDataObjectID>LB0003TestResult</CCRDataObjectID>
           <Description>
             <Text>Urine Macroalbumin</Text>
             <Code>
@@ -749,7 +779,7 @@
         </Test>
       </Result>
       <Result>
-        <CCRDataObjectID>LB0002</CCRDataObjectID>
+        <CCRDataObjectID>LB0004</CCRDataObjectID>
         <DateTime>
           <Type>
             <Text>Start date</Text>
@@ -758,97 +788,21 @@
         </DateTime>
         <Source/>
         <Test>
-          <CCRDataObjectID>LB0002TestResult</CCRDataObjectID>
-          <Description>
-            <Text>LDL</Text>
-            <Code>
-              <Value>83721</Value>
-              <CodingSystem>CPT</CodingSystem>
-              <Version>2005</Version>
-            </Code>
-            <Code>
-              <Value>2089-1</Value>
-              <CodingSystem>LOINC</CodingSystem>
-              <Version>2005</Version>
-            </Code>
-            <Code>
-              <Value>113079009</Value>
-              <CodingSystem>SNOMED-CT</CodingSystem>
-              <Version>2005</Version>
-            </Code>
-          </Description>
-          <Source/>
-          <TestResult>
-            <Value></Value>
-            <Units>
-              <Unit></Unit>
-            </Units>
-          </TestResult>
-        </Test>
-      </Result>
-      <Result>
-        <CCRDataObjectID>LB0003</CCRDataObjectID>
-        <DateTime>
-          <Type>
-            <Text>Start date</Text>
-          </Type>
-          <ExactDateTime>2010-03-31T04:00:00Z</ExactDateTime>
-        </DateTime>
-        <Source/>
-        <Test>
-          <CCRDataObjectID>LB0003TestResult</CCRDataObjectID>
-          <Description>
-            <Text>LDL</Text>
-            <Code>
-              <Value>83721</Value>
-              <CodingSystem>CPT</CodingSystem>
-              <Version>2005</Version>
-            </Code>
-            <Code>
-              <Value>2089-1</Value>
-              <CodingSystem>LOINC</CodingSystem>
-              <Version>2005</Version>
-            </Code>
-            <Code>
-              <Value>113079009</Value>
-              <CodingSystem>SNOMED-CT</CodingSystem>
-              <Version>2005</Version>
-            </Code>
-          </Description>
-          <Source/>
-          <TestResult>
-            <Value></Value>
-            <Units>
-              <Unit></Unit>
-            </Units>
-          </TestResult>
-        </Test>
-      </Result>
-      <Result>
-        <CCRDataObjectID>LB0004</CCRDataObjectID>
-        <DateTime>
-          <Type>
-            <Text>Start date</Text>
-          </Type>
-          <ExactDateTime>2010-10-19T04:00:00Z</ExactDateTime>
-        </DateTime>
-        <Source/>
-        <Test>
           <CCRDataObjectID>LB0004TestResult</CCRDataObjectID>
           <Description>
-            <Text>HbA1c test</Text>
+            <Text>LDL</Text>
             <Code>
-              <Value>83036</Value>
+              <Value>83721</Value>
               <CodingSystem>CPT</CodingSystem>
               <Version>2005</Version>
             </Code>
             <Code>
-              <Value>4548-4</Value>
+              <Value>2089-1</Value>
               <CodingSystem>LOINC</CodingSystem>
               <Version>2005</Version>
             </Code>
             <Code>
-              <Value>43396009</Value>
+              <Value>113079009</Value>
               <CodingSystem>SNOMED-CT</CodingSystem>
               <Version>2005</Version>
             </Code>
@@ -868,11 +822,49 @@
           <Type>
             <Text>Start date</Text>
           </Type>
-          <ExactDateTime>2010-07-05T04:00:00Z</ExactDateTime>
+          <ExactDateTime>2010-03-31T04:00:00Z</ExactDateTime>
         </DateTime>
         <Source/>
         <Test>
           <CCRDataObjectID>LB0005TestResult</CCRDataObjectID>
+          <Description>
+            <Text>LDL</Text>
+            <Code>
+              <Value>83721</Value>
+              <CodingSystem>CPT</CodingSystem>
+              <Version>2005</Version>
+            </Code>
+            <Code>
+              <Value>2089-1</Value>
+              <CodingSystem>LOINC</CodingSystem>
+              <Version>2005</Version>
+            </Code>
+            <Code>
+              <Value>113079009</Value>
+              <CodingSystem>SNOMED-CT</CodingSystem>
+              <Version>2005</Version>
+            </Code>
+          </Description>
+          <Source/>
+          <TestResult>
+            <Value></Value>
+            <Units>
+              <Unit></Unit>
+            </Units>
+          </TestResult>
+        </Test>
+      </Result>
+      <Result>
+        <CCRDataObjectID>LB0006</CCRDataObjectID>
+        <DateTime>
+          <Type>
+            <Text>Start date</Text>
+          </Type>
+          <ExactDateTime>2010-10-19T04:00:00Z</ExactDateTime>
+        </DateTime>
+        <Source/>
+        <Test>
+          <CCRDataObjectID>LB0006TestResult</CCRDataObjectID>
           <Description>
             <Text>HbA1c test</Text>
             <Code>
@@ -901,7 +893,45 @@
         </Test>
       </Result>
       <Result>
-        <CCRDataObjectID>LB0006</CCRDataObjectID>
+        <CCRDataObjectID>LB0007</CCRDataObjectID>
+        <DateTime>
+          <Type>
+            <Text>Start date</Text>
+          </Type>
+          <ExactDateTime>2010-07-05T04:00:00Z</ExactDateTime>
+        </DateTime>
+        <Source/>
+        <Test>
+          <CCRDataObjectID>LB0007TestResult</CCRDataObjectID>
+          <Description>
+            <Text>HbA1c test</Text>
+            <Code>
+              <Value>83036</Value>
+              <CodingSystem>CPT</CodingSystem>
+              <Version>2005</Version>
+            </Code>
+            <Code>
+              <Value>4548-4</Value>
+              <CodingSystem>LOINC</CodingSystem>
+              <Version>2005</Version>
+            </Code>
+            <Code>
+              <Value>43396009</Value>
+              <CodingSystem>SNOMED-CT</CodingSystem>
+              <Version>2005</Version>
+            </Code>
+          </Description>
+          <Source/>
+          <TestResult>
+            <Value></Value>
+            <Units>
+              <Unit></Unit>
+            </Units>
+          </TestResult>
+        </Test>
+      </Result>
+      <Result>
+        <CCRDataObjectID>LB0008</CCRDataObjectID>
         <DateTime>
           <Type>
             <Text>Start date</Text>
@@ -910,7 +940,7 @@
         </DateTime>
         <Source/>
         <Test>
-          <CCRDataObjectID>LB0006TestResult</CCRDataObjectID>
+          <CCRDataObjectID>LB0008TestResult</CCRDataObjectID>
           <Description>
             <Text>HbA1c test</Text>
             <Code>
@@ -1088,7 +1118,7 @@
         </Status>
         <Source>
           <Actor>
-            <ActorID>4fedb31ba9ffcce0df001c31</ActorID>
+            <ActorID>4ff34ab01d41c86b72000475</ActorID>
           </Actor>
         </Source>
       </Encounter>
@@ -1113,7 +1143,7 @@
         </Status>
         <Source>
           <Actor>
-            <ActorID>4fedb31ba9ffcce0df001c31</ActorID>
+            <ActorID>4ff34ab01d41c86b72000475</ActorID>
           </Actor>
         </Source>
       </Encounter>
@@ -1138,7 +1168,7 @@
         </Status>
         <Source>
           <Actor>
-            <ActorID>4fedb31ba9ffcce0df001c31</ActorID>
+            <ActorID>4ff34ab01d41c86b72000475</ActorID>
           </Actor>
         </Source>
       </Encounter>
@@ -1168,7 +1198,7 @@
         </Status>
         <Source>
           <Actor>
-            <ActorID>4fedb31ba9ffcce0df001c31</ActorID>
+            <ActorID>4ff34ab01d41c86b72000475</ActorID>
           </Actor>
         </Source>
       </Encounter>
@@ -1176,7 +1206,7 @@
   </Body>
   <Actors>
     <Actor>
-      <ActorObjectID>4fedb31ba9ffcce0df001c31</ActorObjectID>
+      <ActorObjectID>4ff34ab01d41c86b72000475</ActorObjectID>
       <Person>
         <Name>
           <CurrentName>
